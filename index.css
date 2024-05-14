@@ -1,46 +1,54 @@
-body {
-    font-family: 'General Sans', sans-serif;
-    font-weight: 400;
-    font-size: 15.96px !important; /* Approx. 12pt */
+body,
+.text-xs {
+  font-family: 'General Sans', sans-serif;
+  font-weight: 400;
+  font-size: 17px !important;
+  line-height: 1.35rem !important;
+  /* Approx. 12pt */
 }
 
 h1 {
-    font-size: 30.55px !important; /* Approx. 35pt */
-    line-height: 1.1em;
+  font-size: 35px !important;
+  /* Approx. 35pt */
+  line-height: 1.1em;
 }
 
 h2 {
-    font-size: 20.25px !important; /* Approx. 25pt */
+  font-size: 25px !important;
+  /* Approx. 25pt */
 }
 
-h3, .h3 {
-    font-size: 15.61px !important; /* Approx. 17pt */
+h3,
+.h3 {
+  font-size: 19px !important;
+  /* Approx. 17pt */
 }
 
 
 
 
 .anton {
-    font-family: "Anton", sans-serif;    
+  font-family: "Anton", sans-serif;
 }
 
 .uppercase {
-      align-self: stretch;
-      margin: auto 0;
-    text-transform: uppercase;
-  }
-  .div {
-    color: #000;
-    text-align: center;
-    align-self: stretch;
-    margin: auto 0;
-    font: 400 45px/47px Anton, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div {
-      margin-top: 40px;
-      font-size: 40px;
-      line-height: 46px;
-    }
-  }
+  align-self: stretch;
+  margin: auto 0;
+  text-transform: uppercase;
+}
 
+.div {
+  color: #000;
+  text-align: center;
+  align-self: stretch;
+  margin: auto 0;
+  font: 400 45px/47px Anton, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .div {
+    margin-top: 40px;
+    font-size: 40px;
+    line-height: 46px;
+  }
+}
