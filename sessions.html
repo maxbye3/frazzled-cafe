@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Frazzled</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/general-sans" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+
+</head>
+
+<body>
+    <div class="flex overflow-hidden flex-col items-center pt-9 bg-orange-50">
+        <div
+            class="flex flex-wrap gap-5 justify-between self-center w-full text-base tracking-wide text-center text-black max-md:max-w-full max-md:max-w-full px-14 max-md:px-4">
+            <img loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/1efb2fe7e781ff98fcba494d68362ad5491f3b31b47dffe41e47d085c171f50a?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                class="object-contain shrink-0 max-w-full aspect-[2.22] w-[215px]" />
+            <!-- Burger Menu -->
+            <div class="xl:hidden relative">
+                <button class="p-2" id="dropdown-button">
+                    <svg class="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+                <div id="dropdown-menu"
+                    class="z-20 hidden origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+                    role="menu" aria-orientation="vertical" aria-labelledby="dropdown-button">
+                    <div class="py-1" role="none">
+                        <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                            role="menuitem">ABOUT
+                            FRAZZLED</a>
+                        <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                            role="menuitem">Sessions</a>
+                        <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                            role="menuitem">Contact US</a>
+                        <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                            role="menuitem">need
+                            help right now</a>
+                        <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                            role="menuitem">volunteer with us</a>
+                        <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                            role="menuitem">PARTNER with us</a>
+                        <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                            role="menuitem">support us</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Navigation -->
+            <div class="flex flex-wrap gap-7 my-auto max-md:max-w-full max-xl:hidden">
+                <div class="flex flex-auto gap-4 items-start">
+                    <div
+                        class="uppercase grow anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+                        ABOUT FRAZZLED</div>
+                    <div
+                        class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+                        Sessions</div>
+                    <div
+                        class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+                        Contact US</div>
+                    <div
+                        class="self-stretch p-3 uppercase bg-[#FF4F19] rounded-xl anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+                        need help now?
+                    </div>
+                    <div
+                        class="uppercase basis-auto anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+                        volunteer WITH US</div>
+                </div>
+                <div class="flex flex-wrap gap-7 my-auto max-md:max-w-full">
+                    <div
+                        class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">
+                        PARTNER with us</div>
+                    <div
+                        class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">
+                        SUPPORT US</div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-20 text-7xl leading-none text-center text-black max-md:mt-10 anton">
+            Our sessions
+        </div>
+        <div
+            class="anton px-14 py-16 mt-16 w-full text-5xl text-center text-black bg-green-200 rounded-xl leading-[60px] max-w-[1149px] max-md:px-5 max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[53px]">
+            The power of Frazzled can be seen in our feedback. On average, 85% of people
+            feel less frazzled after a single meeting and over 99% want to attend again.
+        </div>
+        <div class="mt-24 text-2xl font-medium leading-7 text-center text-black max-md:mt-10 max-w-[1000px]">
+            <p>
+                We provide a seven-day a week online community that offers
+                <span class="font-bold">three types of sessions.</span>
+            </p>
+            <p>
+                <span class="">All of our sessions</span>
+                provide the same safe space to share, talk and listen. We suggest trying
+                each type, so you can find the one that’s right for you.
+            </p>
+
+        </div>
+        <div class="mt-28 w-full max-w-[1323px] max-md:mt-10 max-md:max-w-full">
+            <div class="flex gap-5 max-md:flex-col">
+                <div class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+                    <div
+                        class="relative flex flex-col grow items-center px-12 py-8 w-full text-2xl text-center text-black bg-[#FAE160] rounded-3xl max-md:px-5 max-md:mt-6 max-md:max-w-full">
+                        <img loading="lazy" src="img/FRAZZLED_RUBY_EMOJI.png"
+                            class="object-contain max-w-full aspect-[1.26] w-[217px]" />
+                        <div class="mt-6 text-4xl leading-none anton">Ruby-led sessions</div>
+                        <div class="self-stretch mt-7 font-medium leading-7">
+                            A large, one-hour Frazzled session with Ruby Wax held once every two
+                            weeks on Tuesday for around 100 people.
+                        </div>
+                        <button
+                            class="absolute max-md:relative md:bottom-10 bottom-0 anton px-8 py-4 mt-12 max-w-full tracking-wider bg-[#FF4F19] rounded-xl w-[205px] max-md:px-5 max-md:mt-10">
+                            BOOK HERE
+                        </button>
+                    </div>
+                </div>
+                <div class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+                    <div
+                        class="relative flex flex-col grow items-center px-12 py-8 w-full text-2xl text-center text-black bg-[#FAE160] rounded-3xl max-md:px-5 max-md:mt-6 max-md:max-w-full">
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/b7220aaa94bbdc8e8c6ebbe6cfda53b71ebfe480b6307e00b41a4868a130197e?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                            class="object-contain max-w-full aspect-[1.26] w-[217px]" />
+                        <div class="mt-6 text-4xl leading-none anton">Facilitator sessions</div>
+                        <div class="self-stretch mt-7 font-medium leading-7">
+                            Smaller, one-hour Frazzled session for approximately 15-20 people,
+                            run by a specially trained Frazzled Facilitator.
+                        </div>
+                        <button
+                            class="absolute max-md:relative md:bottom-10 bottom-0 anton px-8 py-4 mt-12 max-w-full tracking-wider bg-[#FF4F19] rounded-xl w-[205px] max-md:px-5 max-md:mt-10">
+                            BOOK HERE
+                        </button>
+                    </div>
+                </div>
+                <div class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+                    <div
+                        class="relative flex flex-col grow items-center px-11 py-7 w-full text-2xl text-center text-black bg-[#FAE160] rounded-3xl max-md:px-5 max-md:mt-6 max-md:max-w-full md:pb-32">
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/f606649d5458e226cde3c1def13f239a2fc256ee780148ab39d4fac735c8feb4?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                            class="object-contain max-w-full aspect-[1.05] w-[177px]" />
+                        <div class="mt-9 text-4xl leading-none anton">Mindfulness sessions</div>
+                        <div class="self-stretch mt-7 font-medium leading-7">
+                            These 30-minute weekly sessions bring you back to yourself. One of
+                            our mindfulness experts will help your breathing, your mind, your
+                            body, and bringing you to the present moment.
+                        </div>
+                        <button
+                            class="absolute max-md:relative md:bottom-10 bottom-0 anton px-8 py-4 mt-12 max-w-full tracking-wider bg-[#FF4F19] rounded-xl w-[205px] max-md:px-5 max-md:mt-10">
+                            BOOK HERE
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="flex flex-wrap gap-5 justify-between px-20 py-9 mt-12 w-full text-4xl leading-10 text-black bg-[#FAE160] rounded-xl max-w-[1145px] max-md:px-5 max-md:mt-10 max-md:max-w-full">
+            <div class="max-md:max-w-full">
+                <h3 class="anton text-4xl">
+                    Interested in attending Frazzled in-person?
+                </h3>
+                <p class="text-2xl leading-9">
+                    We run friendly sessions in Harpenden and Merseyside
+                </p>
+            </div>
+            <img loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/f125042bbd6ec657b1c42b73c12d010c612b6fda5b9ed63e9ee9835f43c496e4?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                class="object-contain shrink-0 self-start aspect-[1.41] w-[89px]" />
+        </div>
+        <h3
+            class="anton mt-16 text-5xl text-center text-black leading-[58px] w-[672px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[52px]">
+            Wondering what to expect from a Frazzled session?
+        </h3>
+        <div class="mt-10 w-full max-w-[1326px] max-md:max-w-full">
+            <div class="flex gap-5 max-md:flex-col">
+                <div class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+                    <div class="text-2xl font-medium leading-7 text-black max-md:mt-10 max-md:max-w-full">
+                        <p>
+                            Frazzled sessions run for an hour, always beginning with a run-through
+                            of our guidelines to ensure a confidential, respectful and safe
+                            environment for all attendees.
+                        </p>
+                        </br>
+                        <p>
+                            Each meeting opens and closes with a
+                            short mindfulness exercise, as Ruby finds it helps to calm our systems
+                            and be fully present in the session. Don't worry if you've never tried
+                            mindfulness before, but remember your participation in these exercises
+                            is completely optional.
+                        </p>
+                        </br>
+                        <p> Then the floor is opened to whoever wants to
+                            share how they’re feeling, or as Ruby says 'explain the weather
+                            conditions in your head'. Again, speaking in this is optional and you
+                            are very welcome to just sit and listen if this feels more
+                            comfortable.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+                    <div class="text-2xl font-medium leading-7 text-black max-md:mt-10 max-md:max-w-full">
+                        <p>
+                            Attendees usually speak for 1-2 minutes to ensure there's time for
+                            everyone who wants to speak. In all meetings we expect some silences
+                            and those are perfectly normal.
+                        </p>
+                        </br>
+                        <p>
+                            The Facilitator's role is to ensure
+                            everyone that wants to speak has a chance to, that topics are
+                            appropriate and attendees are both present and respectful of the space
+                            and one another. Questions to one another are avoided, the Facilitator
+                            will manage this.
+                        </p>
+                        </br>
+                        <p>
+                            After the closing mindfulness exercise, we
+                            recommend attendees take a few minutes to reflect and decompress
+                            before returning to the rest of their day.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bg-[#79C2F2] w-full mt-36">
+            <div
+                class="relative px-5 pb-32 w-full max-md:mt-10 max-md:max-w-full items-center mx-auto flex justify-center">
+                <div class="max-w-[800px]">
+                    <img class="mt-[-120px] md:mt-[-80px] md:mb-[-65px]"
+                        src="img/_REV1262_FRAZZLED_EMOJI_MASTER_NO_TEXT_JG_0609014-59.png" alt="signpost">
+                    <div>
+                        <p class="anton text-5xl w-full text-center">Session guidelines</p>
+                    </div>
+                    <div class="grid grid-cols-2 gap-10 max-md:grid-cols-1">
+                        <div>
+                            <div class="mt-[40px]">
+                                <p class="anton text-[40px] float-left mt-[10px]">01</p>
+                                <p class="ml-[70px]">To act with integrity. Please respect one another’s confidentiality
+                                    and anonymity. Please do not name anyone or discuss anything you may
+                                    hear in a meeting with others who have not attended.</p>
+                            </div>
+                            <div class="mt-[40px]">
+                                <p class="anton text-[40px] float-left mt-[10px]">02</p>
+                                <p class="ml-[70px]">To act with integrity. Please respect one another’s confidentiality
+                                    and anonymity. Please do not name anyone or discuss anything you may
+                                    hear in a meeting with others who have not attended.</p>
+                            </div>
+                            <div class="mt-[40px]">
+                                <p class="anton text-[40px] float-left mt-[10px]">03</p>
+                                <p class="ml-[70px]"> To let everyone have a voice. Please respect one another by giving
+                                    everybody the chance to contribute without interruption and by not
+                                    dominating or disrupting the conversation. The facilitator may show
+                                    a white card after 3 minutes to signal the end of a speaker’s turn.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="mt-[40px]">
+                                <p class="anton text-[40px] float-left mt-[10px]">04</p>
+                                <p class="ml-[70px]"> To listen without offering solutions. Please focus your
+                                    contribution
+                                    on personal experiences and not political/thematic concepts. When
+                                    speaking please focus on what resonates with you personally, not on
+                                    providing answers or solutions to others.</p>
+                            </div>
+                            <div class="mt-[40px]">
+                                <p class="anton text-[40px] float-left mt-[10px]">05</p>
+                                <p class="ml-[70px]"> To be kind to ourselves and each other. This is NOT group therapy
+                                    and no-one should feel under pressure to say anything. We do hope
+                                    that in hearing others’ experiences you will feel encouraged to
+                                    share your own. Whether you speak or not, please treat each other in
+                                    a supportive and considerate way.</p>
+                            </div>
+                            <div class="mt-[40px]">
+                                <p class="anton text-[40px] float-left mt-[10px]">06</p>
+                                <p class="ml-[70px]">To be present. To benefit fully from the session and stay present
+                                    in
+                                    the room, please try to avoid distractions from phones or other
+                                    devices.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-16 text-5xl leading-none text-center text-black max-md:mt-10 max-md:text-4xl anton">
+            FAQs
+        </div>
+        <div
+            class="flex flex-wrap gap-5 justify-between py-5 pr-14 pl-6 mt-11 max-w-full text-4xl leading-none text-black bg-orange-500 rounded-xl w-[1015px] max-md:px-5 max-md:mt-10">
+            <div class="my-auto max-md:max-w-full anton">
+                How do I join the online Frazzled meetings?
+            </div>
+            <img loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/20046bdd1d4cb64c2181b471216c76e1115a0531d68b9ad9a7e788e26962c380?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                class="object-contain shrink-0 aspect-[0.71] w-[34px]" />
+        </div>
+        <div
+            class="flex flex-wrap gap-5 justify-between py-5 pr-14 pl-6 mt-5 max-w-full text-4xl leading-none text-black bg-orange-500 rounded-xl w-[1015px] max-md:px-5">
+            <div class="self-start anton">Frazzled x Harpenden</div>
+            <img loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/b36d68c5b6ad22a711d37c2348a68099cefe3c96a46e205f921bc9a416ff4328?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                class="object-contain shrink-0 aspect-[0.71] w-[34px]" />
+        </div>
+        <div
+            class="flex flex-col px-7 pt-6 pb-12 mt-5 w-full text-black bg-orange-500 rounded-xl max-w-[1015px] max-md:px-5 max-md:max-w-full">
+            <div class="self-start text-4xl leading-none max-md:max-w-full anton">
+                What can I expect from an online meeting?
+            </div>
+            <div class="mt-9 text-2xl font-medium leading-7 max-md:max-w-full">
+                <p>
+                    Frazzled Facilitated meetings run for 45 minutes to an hour and  start
+                    with a run-through of our guidelines. This is to ensure confidentiality is
+                    respected and that there is safe environment for those that would like to
+                    share.
+                    <br />
+                    <br />
+                    Each meeting opens and closes with a short mindfulness exercise. You don’t
+                    need to ever have tried mindfulness before, and your participation in
+                    these exercises is completely optional.
+                    <br />
+                    <br />
+                    After the mindfulness exercise, if you would like to speak, all attendees
+                    can unmute themselves and talk about how they are feeling, or to borrow
+                    one of Ruby’s expressions, ‘explain what the weather conditions are like
+                    in your head’.
+                    <br />
+                    <br />
+                    Attendees usually speak for 1-2 minutes to ensure everyone that would like
+                    to has the opportunity to speak. You can of course speak more than once.
+                    Speaking is optional. If you would just like to listen, that is perfectly
+                    OK. In all meetings, and in between people speaking, we expect some
+                    silences and those are normal.
+                    <br />
+                    <br />
+                    The Facilitator’s role is to ensure everyone that would like to speak gets
+                    a chance to, that the topics of conversation are appropriate for the space
+                    and that attendees are both present and respectful of the space and one
+                    another.
+                    <br />
+                    <br />
+                    After the closing mindfulness exercise and the end of the meeting, we
+                    recommend attendees take a few minutes to reflect and decompress before
+                    returning to their usual routine.
+                </p>
+            </div>
+        </div>
+        <div
+            class="flex flex-wrap gap-5 justify-between py-5 pr-14 pl-6 mt-5 max-w-full text-4xl leading-none text-black bg-orange-500 rounded-xl w-[1015px] max-md:px-5">
+            <div class="my-auto max-md:max-w-full anton">Are Ruby’s meetings different?</div>
+            <img loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/9ee7b5cd43f45ad97257f42b92fb5dfc510ebbed88660ac24b3f02448a1f1d4b?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                class="object-contain shrink-0 aspect-[0.71] w-[34px]" />
+        </div>
+        <div
+            class="flex flex-wrap gap-5 justify-between py-5 pr-14 pl-6 mt-5 max-w-full text-4xl leading-none text-black bg-orange-500 rounded-xl w-[1015px] max-md:px-5">
+            <div class="my-auto max-md:max-w-full anton">
+                How many meetings can I book into?
+            </div>
+            <img loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/12c788659ca85c2b7c550976182647f5bb17f89455e1461e7643608a455edf5b?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                class="object-contain shrink-0 aspect-[0.71] w-[34px]" />
+        </div>
+        <!-- FOOTER -->
+        <div class="bg-black w-full mt-32">
+            <div
+                class="hidden xl:flex gap-10 items-center justify-center self-stretch px-14 py-24 w-full max-w-7xl mx-auto max-md:px-5 max-md:mt-10 max-md:max-w-full">
+                <img loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/a9a7f32971d0c19758ec291eb9e3c49154c3d28b63a61e71577a9b84670e66d4?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                    class="object-contain shrink-0 mt-1.5 max-w-full aspect-[2.23] w-[154px] mt-[-30px]" />
+                <div class="flex flex-col">
+                    <img loading="lazy" src="img/_REV1262_FRAZZLED_EMOJI_MASTER_WITH_TEXT_Battery.png"
+                        class="mt-[-188px] w-[204px] mb-[40px] ml-[-20px]" />
+                    <div class="self-start text-2xl tracking-wider text-white uppercase anton">
+                        SIGN UP TO OUR NEWSLETTER
+                    </div>
+                    <div
+                        class="flex gap-5 justify-between items-center px-4 py-2.5 mt-9 text-lg bg-orange-50 rounded-2xl text-black text-opacity-50 flex-nowrap">
+                        <div class="anton">ENTER YOUR EMAIL ADDRESS HERE...</div>
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/470b23cbeed3486c4bb7f705292b8322b4f060ccc66e4a5486aa070f78418b07?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                            class="object-contain shrink-0 aspect-[1.45] w-[26px]" />
+                    </div>
+                </div>
+                <div class="flex flex-col items-center mt-2 text-lg text-white whitespace-nowrap">
+                    <div class="tracking-wider uppercase anton">Facebook</div>
+                    <div class="mt-5 uppercase anton">X</div>
+                    <div class="self-stretch mt-5 tracking-wider anton">INSTAGRAM</div>
+                </div>
+                <div class="grow shrink self-stretch w-80 text-xs text-white">
+                    © 2023 Frazzled Cafe. All Rights Reserved. Frazzled Cafe is a registered charity in England and
+                    Wales (#1173064) and Scotland (#SC048841).
+                    <br />
+                    <br />
+                    <a href="https://www.frazzledcafe.org/?page_id=260" class="underline" target="_blank">Guidelines</a>
+                      
+                    <a href="https://www.frazzledcafe.org/?page_id=256" class="underline" target="_blank">Terms and
+                        Conditions</a>
+                     
+                    <a href="https://www.frazzledcafe.org/?page_id=264" class="underline" target="_blank">Privacy
+                        Policy</a>
+                </div>
+            </div>
+        </div>
+        <!-- SMALL FOOTER -->
+        <div class="max-md:mt-16 w-full">
+            <div
+                class="xl:hidden flex flex-wrap gap-10 items-start self-stretch px-14 py-24 mt-36 w-full bg-black max-md:px-5 max-md:mt-10 max-md:max-w-full max-md:flex-col">
+                <img loading="lazy" src="img/_REV1262_FRAZZLED_EMOJI_MASTER_WITH_TEXT_Battery.png"
+                    class="absolute mt-[-200px]" />
+                <img loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/a9a7f32971d0c19758ec291eb9e3c49154c3d28b63a61e71577a9b84670e66d4?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                    class="object-contain shrink-0 mt-1.5 max-w-full aspect-[2.23] w-[154px] max-md:w-full" />
+                <div class="flex flex-col w-full max-md:w-full">
+                    <div class="self-start text-2xl tracking-wider text-white uppercase anton">
+                        SIGN UP TO OUR NEWSLETTER
+                    </div>
+                    <div
+                        class="flex gap-5 justify-between items-center px-4 py-2.5 mt-9 text-lg bg-orange-50 rounded-2xl text-black text-opacity-50 flex-nowrap">
+                        <div class="anton">ENTER YOUR EMAIL ADDRESS HERE...</div>
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/470b23cbeed3486c4bb7f705292b8322b4f060ccc66e4a5486aa070f78418b07?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                            class="object-contain shrink-0 aspect-[1.45] w-[26px]" />
+                    </div>
+                </div>
+                <div class="flex flex-col items-start mt-2 text-lg text-white whitespace-nowrap w-full max-md:w-full">
+                    <div class="tracking-wider uppercase anton">Facebook</div>
+                    <div class="mt-5 uppercase anton">X</div>
+                    <div class="self-stretch mt-5 tracking-wider anton">INSTAGRAM</div>
+                </div>
+                <div class="grow shrink self-stretch w-80 text-xs text-white max-md:w-full">
+                    © 2023 Frazzled Cafe. All Rights Reserved. Frazzled Cafe is a registered charity in England and
+                    Wales
+                    (#1173064) and Scotland (#SC048841).
+                    <br />
+                    <br />
+                    <a href="https://www.frazzledcafe.org/?page_id=260" class="underline" target="_blank">Guidelines</a>
+                      
+                    <a href="https://www.frazzledcafe.org/?page_id=256" class="underline" target="_blank">Terms and
+                        Conditions</a>
+                     
+                    <a href="https://www.frazzledcafe.org/?page_id=264" class="underline" target="_blank">Privacy
+                        Policy</a>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER -->
+    </div>
+
+</body>
+<script src="js/index.js"></script>
+<script src="js/video.js"></script>
+<script src="js/dropdown.js"></script>
+
+</html>
