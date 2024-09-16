@@ -2,259 +2,267 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Frazzled</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-    <link href="https://fonts.cdnfonts.com/css/general-sans" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="./favicon/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
-    <link rel="manifest" href="./favicon/site.webmanifest">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Frazzled</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/general-sans" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="./favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/site.webmanifest">
 
 </head>
 
 <body>
-    <div class="flex overflow-hidden flex-col pt-9 bg-orange-50">
-        <div
-          class="flex flex-wrap gap-5 justify-between self-center w-full text-base tracking-wide text-center text-black max-md:max-w-full max-md:max-w-full px-14 max-md:px-4"
-        >
-          <img
-            loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/1efb2fe7e781ff98fcba494d68362ad5491f3b31b47dffe41e47d085c171f50a?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
-            class="object-contain shrink-0 max-w-full aspect-[2.22] w-[215px]"
-          />
-           <!-- Burger Menu -->
-           <div class="xl:hidden relative">
-            <button class="p-2" id="dropdown-button">
-              <svg class="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-              </svg>
-            </button>
-            <div id="dropdown-menu" class="z-20 hidden origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="dropdown-button">
-              <div class="py-1" role="none">
-                <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100" role="menuitem">ABOUT FRAZZLED</a>
-                <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100" role="menuitem">Sessions</a>
-                <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100" role="menuitem">Contact US</a>
-                <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100" role="menuitem">need help right now</a>
-                <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100" role="menuitem">volunteer with us</a>
-                <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100" role="menuitem">PARTNER with us</a>
-                <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100" role="menuitem">support us</a>
-              </div>
-            </div>
-          </div>
-    <!-- Navigation -->
-          <div class="flex flex-wrap gap-7 my-auto max-md:max-w-full max-xl:hidden">
-            <div class="flex flex-auto gap-4 items-start">
-              <div class="uppercase grow anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">ABOUT FRAZZLED</div>
-              <div class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">Sessions</div>
-              <div class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">Contact US</div>
-              <div class="self-stretch p-3 uppercase bg-orange-600 rounded-xl anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
-                need help now?
-              </div>
-              <div class="uppercase basis-auto anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">volunteer WITH US</div>
-            </div>
-            <div class="flex flex-wrap gap-7 my-auto max-md:max-w-full">
-              <div class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">PARTNER with us</div>
-              <div class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">SUPPORT US</div>
-            </div>
+  <div class="flex overflow-hidden flex-col pt-9 bg-orange-50">
+    <div
+      class="flex flex-wrap gap-5 justify-between self-center w-full text-base tracking-wide text-center text-black max-md:max-w-full max-md:max-w-full px-14 max-md:px-4">
+      <img loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/1efb2fe7e781ff98fcba494d68362ad5491f3b31b47dffe41e47d085c171f50a?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+        class="object-contain shrink-0 max-w-full aspect-[2.22] w-[215px]" />
+      <!-- Burger Menu -->
+      <div class="xl:hidden relative">
+        <button class="p-2" id="dropdown-button">
+          <svg class="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+        <div id="dropdown-menu"
+          class="z-20 hidden origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+          role="menu" aria-orientation="vertical" aria-labelledby="dropdown-button">
+          <div class="py-1" role="none">
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100" role="menuitem">ABOUT
+              FRAZZLED</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+              role="menuitem">Sessions</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+              role="menuitem">Contact US</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100" role="menuitem">need
+              help right now</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+              role="menuitem">volunteer with us</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+              role="menuitem">PARTNER with us</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+              role="menuitem">support us</a>
           </div>
         </div>
-        <div
-          class="anton self-center mt-20 text-7xl leading-none text-center text-black max-md:mt-10 max-md:max-w-full"
-        >
-          About Frazzled
-        </div>
-        <div
-          class="flex flex-col px-14 mt-20 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full"
-        >
-          <div
-            class="flex relative flex-col justify-center items-center px-20 py-80 min-h-[739px] max-md:px-5 max-md:py-24 max-md:max-w-full"
-          >
-          <video id="video-element" class="object-cover absolute inset-0 size-full" poster="https://cdn.builder.io/api/v1/image/assets/TEMP/ae0244cf6fde725252e0ee223cbfb97903394e9d2dfb0ada46b44cf6abdbaa78?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=2000">
-            <source src="video/video.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <img
-            id="play-button"
-            loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/f7d88cd954fcd341bb1999c2aeabf7b23823aa643ec071af5908890b9fc0f273?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
-            class="z-20 object-contain mb-0 max-w-full aspect-square w-[121px] max-md:mb-2.5"
-          />
-          </div>
-          <div class="mt-24 w-full max-w-[1235px] max-md:mt-10 max-md:max-w-full">
-            <div class="flex gap-5 max-md:flex-col">
-              <div class="flex flex-col w-[59%] max-md:ml-0 max-md:w-full">
-                <div
-                  class="flex flex-col grow text-black max-md:mt-10 max-md:max-w-full"
-                >
-                  <div class="self-start text-5xl max-md:text-4xl anton">Our story</div>
-                  <div class="mt-8 text-2xl font-medium leading-7 max-md:max-w-full">
-                    The inspiration for Frazzled came from founder and patron Ruby
-                    Wax’s experiences during her best-selling book and theatre tours. 
-                    Ruby met thousands of people looking to connect and share their
-                    stories, and when she asked her audience members if they wanted a
-                    chance to talk about what was going on for them, they always
-                    did. Ruby sensed the need for a place where people could come
-                    together and connect with others in a safe, supportive space. A
-                    place where people could talk about the overwhelming stresses of
-                    modern life, free from judgement. This is what motivated her to
-                    create Frazzled in 2017, and today, this free service is available
-                    to anyone 365 days a year.
-                  </div>
-                </div>
-              </div>
-              <div class="flex flex-col ml-5 w-[41%] max-md:ml-0 max-md:w-full max-md:mt-20">
-                <div
-                  class="flex flex-col grow items-center px-16 pt-32 pb-8 mt-6 w-full text-center text-black bg-[#FAE160] rounded-3xl max-md:px-5 max-md:pt-24 max-md:mt-10 max-md:max-w-full"
-                >
-                <div class="anton self-stretch text-5xl leading-[55px] max-md:text-4xl max-md:leading-[54px] flex flex-col items-center">
-                  <img src="img/FRAZZLED_RUBY_EMOJI.png" alt="ruby face" class="mt-[-235px] max-w-[350px]">
-                  “Feeling heard, to me, has always been half the cure”
-                </div>
-                  <div
-                    class="anton mt-12 text-3xl tracking-wide leading-loose max-md:mt-10"
-                  >
-                    Ruby Wax OBE
-                  </div>
-                  <div class="anton text-xl tracking-wide leading-3">
-                    FRAZZLED FOUNDER
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="relative flex flex-col justify-center items-center px-20 py-24 mt-28 text-2xl text-center text-black bg-[#7DCB7F] max-md:px-5 max-md:pb-24 max-md:mt-20 max-md:max-w-full"
-        >
-        <img src="img/FRAZZLED_EMOJI_0609014-21.png" alt="umbrella emoji" class="ml-[600px] mb-[-100px] mt-[-195px] max-md:ml-[400px] max-sm:hidden">
-        <img src="img/FRAZZLED_EMOJI_0609014-21.png" alt="umbrella emoji" class="absolute top-[-130px] left-1/2 -translate-x-1/2 sm:hidden">
-          <div
-            class="flex flex-col items-center mb-0 max-w-full w-[965px] max-md:mb-2.5"
-          >
-            <div class="text-5xl max-md:text-4xl anton">Our vision</div>
-            <div
-              class="self-stretch mt-10 ml-4 font-medium leading-7 max-md:mr-2 max-md:max-w-full"
-            >
-              ‘1 in 4 of us have a mental illness, but 4 in 4 of us are frazzled.’
-              <br />
-              <br />
-              The definition of frazzled is to be stressed about stress - not
-              worrying about overload or over-work but the pressure of trying to keep
-              up with those we think are handling everything perfectly. The reality
-              is, people don’t admit how hard life can be, so we don’t share how we
-              really feel and let the frazzle build up until we eventually burn out.
-            </div>
-            <div class="mt-12 text-4xl leading-10 max-md:mt-10 max-md:max-w-full anton">
-              Why are we more likely to moan about the weather than the storm that’s
-              happening inside our heads?
-            </div>
-            <div
-              class="self-stretch mt-14 font-medium leading-7 max-md:mt-10 max-md:max-w-full"
-            >
-              Community has always been an important release, but there are less
-              spaces in today’s world to share the burden of living. Even back in the
-              Savannah after a hard day’s hunt everyone sat around the fire, knowing
-              they had each other’s backs. While we can’t offer a fire, we can offer a
-              space to feel safe to let it out.Frazzled is a community based on the
-              power of emotional openness and vulnerability. A space where anyone can
-              come and be listened to, or simply listen, without judgment or
-              solutions. The simple act of opening up has the power to help not just
-              the person sharing, but those they share with. This is a place for them
-              to simply exhale and feel less alone in their feelings.Since 2017,
-              we’ve provided a space where people feel heard and held, and we’ve
-              challenged what connection looks like in a modern world that demands so
-              much of us emotionally. We think of Frazzled as a human safety net,
-              where we can catch people before they fall.
-              <br />
-              <br />
-              To us, feeling heard is half the cure.
-            </div>
-            <div
-              class="px-5 py-4 mt-14 max-w-full tracking-wider bg-amber-300 rounded-xl w-[271px] max-md:mt-10 anton"
-            >
-              MORE ABOUT OUR SESSIONS
-            </div>
-          </div>
-        </div>  </div>
-        
-        <div class="flex justify-center items-center self-stretch px-16 w-full bg-black max-md:px-5 max-md:max-w-full">
-          <div class="flex flex-col w-full max-w-[1076px] max-md:max-w-full mt-20 pb-4">
-              <div class="flex gap-5 w-full max-md:flex-wrap max-md:max-w-full">
-                  <div class="flex gap-20 justify-between self-start mt-1 max-md:flex-wrap max-md:max-w-full">
-                      <div class="flex flex-col flex-grow min-w-[400px] pr-2">
-                          <img class="absolute mt-[-180px]" src="img/vent.png" alt="need to vent image">
-                          <div class="anton tracking-wider text-white uppercase">
-                              SIGN UP TO OUR NEWSLETTER
-                          </div>
-                          <div
-                              class="flex gap-5 px-4 py-3 mt-7 text-lg bg-orange-50 rounded-2xl text-black text-opacity-50">
-                              <div class="flex-auto">
-                                  <input type="text" class="anton w-full bg-orange-50"
-                                      placeholder="ENTER YOUR EMAIL ADRESS HERE...">
-                              </div>
-                              <img loading="lazy"
-                                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/7362d36a5ea8753671222195a07266ad4ce6e689ba754b31017f119db1664bc8?apiKey=f2493124652b497ab521fbc809f44def&"
-                                  class="shrink-0 aspect-square w-[15px]" />
-                          </div>
-                      </div>
-                      <div class="flex flex-col self-start mt-1 text-lg text-white whitespace-nowrap min-w-[200px]">
-                          <button class="tracking-wider uppercase anton text-left">Facebook</button>
-                          <button class="mt-5 uppercase anton text-left">X</button>
-                          <button class="mt-5 tracking-wider anton text-left">INSTAGRAM</button>
-                      </div>
-                  </div>
-                  <div class="flex-auto text-xs text-white">
-                      © 2023 Frazzled Cafe. All Rights Reserved. Frazzled Cafe is a registered
-                      charity in England and Wales (#1173064) and Scotland (#SC048841).
-                      <br />
-                      <br />
-                      <a
-                        href="https://www.frazzledcafe.org/?page_id=260"
-                        class="underline"
-                        target="_blank"
-                      >
-                        Guidelines
-                      </a>
-                        
-                      <a
-                        href="https://www.frazzledcafe.org/?page_id=256"
-                        class="underline"
-                        target="_blank"
-                      >
-                        Terms and Conditions
-                      </a>
-                       
-                      <a
-                        href="https://www.frazzledcafe.org/?page_id=264"
-                        class="underline"
-                        target="_blank"
-                      >
-                        Privacy Policy
-                      </a>
-                  </div>
-              </div>
-              <div
-                  class="flex gap-5 items-start mt-14 text-xs text-white max-md:flex-wrap max-md:pr-5 max-md:mt-10 max-md:max-w-full">
-                  <div class="flex-auto self-end mt-7">
-                      Frazzled Cafe. 2024 All Rights Reserved ©
-                  </div>
-                  
-                  <img loading="lazy"
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/ba095cd98a71713a5635ad7ab64aeea73e5a357e86cf398663d09e9441ab9cbf?apiKey=f2493124652b497ab521fbc809f44def&"
-                      class="self-end shrink-0 self-start aspect-[2.22] w-[75px]" />
-              </div>
-          </div>
       </div>
-   
+      <!-- Navigation -->
+      <div class="flex flex-wrap gap-7 my-auto max-md:max-w-full max-xl:hidden">
+        <div class="flex flex-auto gap-4 items-start">
+          <div
+            class="uppercase grow anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            ABOUT FRAZZLED</div>
+          <div
+            class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            Sessions</div>
+          <div
+            class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            Contact US</div>
+          <div
+            class="self-stretch p-3 uppercase bg-orange-600 rounded-xl anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            need help now?
+          </div>
+          <div
+            class="uppercase basis-auto anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            volunteer WITH US</div>
+        </div>
+        <div class="flex flex-wrap gap-7 my-auto max-md:max-w-full">
+          <div
+            class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">
+            PARTNER with us</div>
+          <div
+            class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">
+            SUPPORT US</div>
+        </div>
+      </div>
+    </div>
+    <div class="anton self-center mt-20 text-7xl leading-none text-center text-black max-md:mt-10 max-md:max-w-full">
+      About Frazzled
+    </div>
+    <div class="flex flex-col px-14 mt-20 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full">
+      <div
+        class="flex relative flex-col justify-center items-center px-20 py-80 min-h-[739px] max-md:px-5 max-md:py-24 max-md:max-w-full">
+        <video id="video-element" class="object-cover absolute inset-0 size-full"
+          poster="https://cdn.builder.io/api/v1/image/assets/TEMP/ae0244cf6fde725252e0ee223cbfb97903394e9d2dfb0ada46b44cf6abdbaa78?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=2000">
+          <source src="video/video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <img id="play-button" loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/f7d88cd954fcd341bb1999c2aeabf7b23823aa643ec071af5908890b9fc0f273?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+          class="z-20 object-contain mb-0 max-w-full aspect-square w-[121px] max-md:mb-2.5" />
+      </div>
+      <div class="mt-24 w-full max-w-full max-md:mt-10 max-md:max-w-full">
+        <div class="flex gap-5 max-md:flex-col">
+          <div class="flex flex-col w-[59%] max-md:ml-0 max-md:w-full">
+            <div class="flex flex-col grow text-black max-md:mt-10 max-md:max-w-full">
+              <div class="self-start text-5xl max-md:text-4xl anton">Our story</div>
+              <div class="mt-8 text-2xl font-medium leading-7 max-md:max-w-full">
+                <p>
+
+                  The inspiration for Frazzled came from founder and patron Ruby
+                  Wax’s experiences during her best-selling book and theatre tours.
+                  Ruby met thousands of people looking to connect and share their
+                  stories, and when she asked her audience members if they wanted a
+                  chance to talk about what was going on for them, they always
+                  did.
+                </p>
+                </br>
+                <p>
+                  Ruby sensed the need for a place where people could come
+                  together and connect with others in a safe, supportive space. A
+                  place where people could talk about the overwhelming stresses of
+                  modern life, free from judgement. This is what motivated her to
+                  create Frazzled in 2017, and today, this free service is available
+                  to anyone 365 days a year.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col ml-5 w-[41%] max-md:ml-0 max-md:w-full max-md:mt-20">
+            <div
+              class="flex flex-col grow items-center px-16 pt-32 pb-8 mt-6 max-w-[600px] text-center text-black bg-[#FAE160] rounded-3xl max-md:px-5 max-md:pt-24 max-md:mt-10 max-md:max-w-full mx-auto">
+              <div
+                class="anton self-stretch text-5xl leading-[55px] max-md:text-4xl max-md:leading-[54px] flex flex-col items-center">
+                <img src="img/FRAZZLED_RUBY_EMOJI.png" alt="ruby face" class="mt-[-235px] max-w-[350px]">
+                “Feeling heard, to me, has always been half the cure”
+              </div>
+              <div class="anton mt-12 text-3xl tracking-wide leading-loose max-md:mt-10">
+                Ruby Wax OBE
+              </div>
+              <div class="anton text-xl tracking-wide leading-3">
+                FRAZZLED FOUNDER
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="relative flex flex-col justify-center items-center px-20 py-24 mt-28 text-2xl text-center text-black bg-[#7DCB7F] max-md:px-5 max-md:pb-24 max-md:mt-20 max-md:max-w-full">
+      <img src="img/FRAZZLED_EMOJI_0609014-21.png" alt="umbrella emoji"
+        class="ml-[600px] mb-[-100px] mt-[-195px] max-md:ml-[400px] max-sm:hidden">
+      <img src="img/FRAZZLED_EMOJI_0609014-21.png" alt="umbrella emoji"
+        class="absolute top-[-130px] left-1/2 -translate-x-1/2 sm:hidden">
+      <div class="flex flex-col items-center mb-0 max-w-full w-[965px] max-md:mb-2.5">
+        <div class="text-5xl max-md:text-4xl anton">Our vision</div>
+        <div class="self-stretch mt-10 ml-4 font-medium leading-7 max-md:mr-2 max-md:max-w-full">
+          ‘1 in 4 of us have a mental illness, but 4 in 4 of us are frazzled.’
+          <br />
+          <br />
+          The definition of frazzled is to be stressed about stress - not
+          worrying about overload or over-work but the pressure of trying to keep
+          up with those we think are handling everything perfectly. The reality
+          is, people don’t admit how hard life can be, so we don’t share how we
+          really feel and let the frazzle build up until we eventually burn out.
+        </div>
+        <div class="mt-12 text-4xl leading-10 max-md:mt-10 max-md:max-w-full anton">
+          Why are we more likely to moan about the weather than the storm that’s
+          happening inside our heads?
+        </div>
+        <div class="self-stretch mt-14 font-medium leading-7 max-md:mt-10 max-md:max-w-full">
+          <p>
+            Community has always been an important release, but there are less
+            spaces in today’s world to share the burden of living. Even back in the
+            Savannah after a hard day’s hunt everyone sat around the fire, knowing
+            they had each other’s backs. While we can’t offer a fire, we can offer a
+            space to feel safe to let it out.
+          </p>
+          <br>
+          <p>
+            Frazzled is a community based on the
+            power of emotional openness and vulnerability. A space where anyone can
+            come and be listened to, or simply listen, without judgment or
+            solutions. The simple act of opening up has the power to help not just
+            the person sharing, but those they share with. This is a place for them
+            to simply exhale and feel less alone in their feelings.
+          </p>
+          <br />
+          <p>
+            Since 2017,
+            we’ve provided a space where people feel heard and held, and we’ve
+            challenged what connection looks like in a modern world that demands so
+            much of us emotionally. We think of Frazzled as a human safety net,
+            where we can catch people before they fall.
+          </p>
+          <br />
+          <br />
+          To us, feeling heard is half the cure.
+        </div>
+        <div class="px-5 py-4 mt-14 max-w-full tracking-wider bg-amber-300 rounded-xl w-[321px] max-md:mt-10 anton">
+          MORE ABOUT OUR SESSIONS
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex justify-center items-center self-stretch px-16 w-full bg-black max-md:px-5 max-md:max-w-full">
+    <div class="flex flex-col w-full max-w-[1076px] max-md:max-w-full mt-20 pb-4">
+      <div class="flex gap-5 w-full max-md:flex-wrap max-md:max-w-full">
+        <div class="flex gap-20 justify-between self-start mt-1 max-md:flex-wrap max-md:max-w-full">
+          <div class="flex flex-col flex-grow min-w-[400px] pr-2">
+            <img class="absolute ml-[-100px] mt-[-300px]" src="img/_REV1262_FRAZZLED_EMOJI_MASTER_WITH_TEXT_Battery.png"
+              alt="need to vent image">
+            <div class="anton tracking-wider text-white uppercase">
+              SIGN UP TO OUR NEWSLETTER
+            </div>
+            <div class="flex gap-5 px-4 py-3 mt-7 text-lg bg-orange-50 rounded-2xl text-black text-opacity-50">
+              <div class="flex-auto">
+                <input type="text" class="anton w-full bg-orange-50" placeholder="ENTER YOUR EMAIL ADRESS HERE...">
+              </div>
+              <img loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/7362d36a5ea8753671222195a07266ad4ce6e689ba754b31017f119db1664bc8?apiKey=f2493124652b497ab521fbc809f44def&"
+                class="shrink-0 aspect-square w-[15px]" />
+            </div>
+          </div>
+          <div class="flex flex-col self-start mt-1 text-lg text-white whitespace-nowrap min-w-[200px]">
+            <button class="tracking-wider uppercase anton text-left">Facebook</button>
+            <button class="mt-5 uppercase anton text-left">X</button>
+            <button class="mt-5 tracking-wider anton text-left">INSTAGRAM</button>
+          </div>
+        </div>
+        <div class="flex-auto text-xs text-white">
+          © 2023 Frazzled Cafe. All Rights Reserved. Frazzled Cafe is a registered
+          charity in England and Wales (#1173064) and Scotland (#SC048841).
+          <br />
+          <br />
+          <a href="https://www.frazzledcafe.org/?page_id=260" class="underline" target="_blank">
+            Guidelines
+          </a>
+            
+          <a href="https://www.frazzledcafe.org/?page_id=256" class="underline" target="_blank">
+            Terms and Conditions
+          </a>
+           
+          <a href="https://www.frazzledcafe.org/?page_id=264" class="underline" target="_blank">
+            Privacy Policy
+          </a>
+        </div>
+      </div>
+      <div
+        class="flex gap-5 items-start mt-14 text-xs text-white max-md:flex-wrap max-md:pr-5 max-md:mt-10 max-md:max-w-full">
+        <div class="flex-auto self-end mt-7">
+          Frazzled Cafe. 2024 All Rights Reserved ©
+        </div>
+
+        <img loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/ba095cd98a71713a5635ad7ab64aeea73e5a357e86cf398663d09e9441ab9cbf?apiKey=f2493124652b497ab521fbc809f44def&"
+          class="self-end shrink-0 self-start aspect-[2.22] w-[75px]" />
+      </div>
+    </div>
+  </div>
+
 </body>
 <script src="js/index.js"></script>
 <script src="js/video.js"></script>
 <script src="js/dropdown.js"></script>
+
 </html>
