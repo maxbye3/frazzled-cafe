@@ -92,7 +92,7 @@
             Our sessions
         </div>
         <div
-            class="anton px-14 py-16 mt-16 w-full text-5xl text-center text-black bg-green-200 rounded-xl leading-[60px] max-w-[1149px] max-md:px-5 max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[53px]">
+            class="anton px-14 py-16 mt-16 w-full text-5xl text-center text-black bg-[#C3EBB7] rounded-xl leading-[60px] max-w-[1149px] max-md:px-5 max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[53px]">
             The power of Frazzled can be seen in our feedback. On average, 85% of people
             feel less frazzled after a single meeting and over 99% want to attend again.
         </div>
@@ -298,28 +298,67 @@
         <div class="mt-16 text-5xl leading-none text-center text-black max-md:mt-10 max-md:text-4xl anton">
             FAQs
         </div>
-        <div
-            class="flex flex-wrap gap-5 justify-between py-5 pr-14 pl-6 mt-11 max-w-full text-4xl leading-none text-black bg-orange-500 rounded-xl w-[1015px] max-md:px-5 max-md:mt-10">
+        <div class="flex flex-wrap gap-5 justify-between py-5 pr-14 pl-6 mt-11 max-w-full text-4xl leading-none text-black bg-orange-500 rounded-xl w-[1015px] max-md:px-5 max-md:mt-10"
+            onclick="toggleFaq(1)">
             <div class="my-auto max-md:max-w-full anton">
                 How do I join the online Frazzled meetings?
             </div>
-            <img loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/20046bdd1d4cb64c2181b471216c76e1115a0531d68b9ad9a7e788e26962c380?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+            <img id="toggle-icon-1" loading="lazy" src="img/arrow-down.png"
                 class="object-contain shrink-0 aspect-[0.71] w-[34px]" />
-        </div>
-        <div
-            class="flex flex-wrap gap-5 justify-between py-5 pr-14 pl-6 mt-5 max-w-full text-4xl leading-none text-black bg-orange-500 rounded-xl w-[1015px] max-md:px-5">
-            <div class="self-start anton">Frazzled x Harpenden</div>
-            <img loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/b36d68c5b6ad22a711d37c2348a68099cefe3c96a46e205f921bc9a416ff4328?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
-                class="object-contain shrink-0 aspect-[0.71] w-[34px]" />
-        </div>
-        <div
-            class="flex flex-col px-7 pt-6 pb-12 mt-5 w-full text-black bg-orange-500 rounded-xl max-w-[1015px] max-md:px-5 max-md:max-w-full">
-            <div class="self-start text-4xl leading-none max-md:max-w-full anton">
-                What can I expect from an online meeting?
+            <div id="faq-content-1" class="text-2xl font-medium leading-7 max-md:max-w-full" hidden>
+                <p>
+                    You can register for a meeting via <a
+                        href="https://bookwhen.com/frazzledcafeonline/#__focus=ev-sfk1-20200430110000" target="_blank"
+                        class="underline">this link</a> or via the ‘book a Frazzled Cafe meeting’ button on our
+                    homepage.
+                </p>
             </div>
-            <div class="mt-9 text-2xl font-medium leading-7 max-md:max-w-full">
+        </div>
+        <div class="flex flex-wrap gap-5 justify-between py-5 pr-14 pl-6 mt-5 max-w-full text-4xl leading-none text-black bg-orange-500 rounded-xl w-[1015px] max-md:px-5 max-md:mt-10"
+            onclick="toggleFaq(2)">
+            <div class="my-auto max-md:max-w-full anton">
+                Frazzled Cafe x Harpenden
+            </div>
+            <img id="toggle-icon-2" loading="lazy" src="img/arrow-down.png"
+                class="object-contain shrink-0 aspect-[0.71] w-[34px]" />
+            <div id="faq-content-2" class="text-2xl font-medium leading-7 max-md:max-w-full" hidden>
+                <p>
+                    We are very excited to confirm our partnership with Harpenden Trust to provide face-to-face Frazzled
+                    Cafe sessions for residents of <strong>Harpenden / AL5 postcode only </strong> commencing from
+                    January 31st, 2022.
+                </p>
+                <br>
+                <h3 class="anton">About The Wellbeing Hub</h3>
+                <br>
+                <p>
+                    The Trust has partnered with MIND in Mid Herts and the local PCN (the Primary Care Network of our 3
+                    GP surgeries) to create a Wellbeing Hub. Its aim is to support Harpenden residents who have concerns
+                    about their mental wellbeing at an early stage before they become unwell and need counselling or
+                    cognitive behavioural therapy.&nbsp;
+                </p>
+                <br>
+                <p>
+                    The Trust is contributing funding and volunteers to the Hub, helping to connect people with existing
+                    groups and activities; funding a MIND outreach project in Harpenden and researching ‘gold standard’
+                    initiatives that might be of benefit to our town’s wellbeing. An in-person Frazzled cafe will be a
+                    fantastic addition to our town and will run at Thompson’s Cafe in the center of town.
+                </p>
+                <br>
+                <p>
+                    We have fully trained local facilitators to the high Frazzled Cafe standards of our online meetings.
+                    There is limited availability for spaces which can be booked following the booking page link below.
+                </p>
+                <a href="https://bookwhen.com/harpendentrustxfrazzledcafe" target="_blank"
+                    class="underline">https://bookwhen.com/harpendentrustxfrazzledcafe</a>
+
+            </div>
+        </div>
+        <div class="flex flex-wrap gap-5 justify-between py-5 pr-14 pl-6 mt-5 max-w-full text-4xl leading-none text-black bg-orange-500 rounded-xl w-[1015px] max-md:px-5"
+            onclick="toggleFaq(3)">
+            <div class="self-start anton">What can I expect from an online meeting?</div>
+            <img id="toggle-icon-3" loading="lazy" src="img/arrow-down.png"
+                class="object-contain shrink-0 aspect-[0.71] w-[34px]" />
+            <div id="faq-content-3" class="text-2xl font-medium leading-7 max-md:max-w-full" hidden>
                 <p>
                     Frazzled Facilitated meetings run for 45 minutes to an hour and  start
                     with a run-through of our guidelines. This is to ensure confidentiality is
@@ -357,21 +396,52 @@
                 </p>
             </div>
         </div>
-        <div
-            class="flex flex-wrap gap-5 justify-between py-5 pr-14 pl-6 mt-5 max-w-full text-4xl leading-none text-black bg-orange-500 rounded-xl w-[1015px] max-md:px-5">
-            <div class="my-auto max-md:max-w-full anton">Are Ruby’s meetings different?</div>
-            <img loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/9ee7b5cd43f45ad97257f42b92fb5dfc510ebbed88660ac24b3f02448a1f1d4b?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+        <div class="flex flex-wrap gap-5 justify-between py-5 pr-14 pl-6 mt-5 max-w-full text-4xl leading-none text-black bg-orange-500 rounded-xl w-[1015px] max-md:px-5"
+            onclick="toggleFaq(4)">
+            <div class="self-start anton">Are Ruby’s meetings different?</div>
+            <img id="toggle-icon-4" loading="lazy" src="img/arrow-down.png"
                 class="object-contain shrink-0 aspect-[0.71] w-[34px]" />
-        </div>
-        <div
-            class="flex flex-wrap gap-5 justify-between py-5 pr-14 pl-6 mt-5 max-w-full text-4xl leading-none text-black bg-orange-500 rounded-xl w-[1015px] max-md:px-5">
-            <div class="my-auto max-md:max-w-full anton">
-                How many meetings can I book into?
+            <div id="faq-content-4" class="text-2xl font-medium leading-7 max-md:max-w-full" hidden>
+                <p>
+                    Yes – but not too much!
+                    <br>
+                    <br>
+                    We open in the same way with the host welcoming everyone, running through the meeting settings and
+                    guidelines, popping a short poll onto your screen and introducing Ruby who leads the mindfulness
+                    exercise, bringing everyone together.
+                    <br>
+                    <br>
+                    Ruby then opens the floor to anyone who would like to share – letting the group know about the
+                    ‘weather conditions in their head’. The host will call upon those with their virtual hands up that
+                    would like to speak (we cannot guarantee everyone will be called upon, but we do our best to get
+                    through as many as we can in the time we have).
+                    <br>
+                    <br>
+                    After a few people have shared, we then breakout into smaller groups, still in Zoom. Here you’ll
+                    have the opportunity to talk in a smaller group with up to 8 people.
+                    <br>
+                    <br>
+                    After around 15 minutes we re-group into the main room and reopen the floor for anyone that would
+                    like to share. To end, we close the meeting with Ruby leading her mindfulness exercise and a second
+                    poll to get some feedback and helpful information.
+                </p>
             </div>
-            <img loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/12c788659ca85c2b7c550976182647f5bb17f89455e1461e7643608a455edf5b?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+        </div>
+
+        <div class="flex flex-wrap gap-5 justify-between py-5 pr-14 pl-6 mt-5 max-w-full text-4xl leading-none text-black bg-orange-500 rounded-xl w-[1015px] max-md:px-5"
+            onclick="toggleFaq(5)">
+            <div class="self-start anton">How many meetings can I book into?</div>
+            <img id="toggle-icon-5" loading="lazy" src="img/arrow-down.png"
                 class="object-contain shrink-0 aspect-[0.71] w-[34px]" />
+            <div id="faq-content-5" class="text-2xl font-medium leading-7 max-md:max-w-full" hidden>
+                <p>
+                    You are welcome to book one Host or Facilitator meeting per day, plus the Frazzled Cafe meeting with
+                    Ruby Wax on days that she runs them. Please do not try to book into more than one meeting a day
+                    (aside from the Ruby meeting). This is to make sure that as many people as possible can access our
+                    meetings as and when they need them. It is also so that you have time to properly decompress after
+                    each meeting.
+                </p>
+            </div>
         </div>
         <!-- FOOTER -->
         <div class="bg-black w-full mt-32">
@@ -463,5 +533,6 @@
 <script src="js/index.js"></script>
 <script src="js/video.js"></script>
 <script src="js/dropdown.js"></script>
+<script src="js/faq.js"></script>
 
 </html>
