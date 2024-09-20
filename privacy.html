@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Frazzled</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/general-sans" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="./favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/site.webmanifest">
+
+</head>
+
+<body>
+  <div class="flex overflow-hidden flex-col pt-9 bg-orange-50">
+    <div
+      class="flex flex-wrap gap-5 justify-between self-center w-full text-base tracking-wide text-center text-black max-md:max-w-full max-w-full px-14 max-md:px-4">
+      <img loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/1efb2fe7e781ff98fcba494d68362ad5491f3b31b47dffe41e47d085c171f50a?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+        class="object-contain shrink-0 max-w-full aspect-[2.22] w-[215px]" />
+      <!-- Burger Menu -->
+      <div class="xl:hidden relative">
+        <button class="p-2" id="dropdown-button">
+          <svg class="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+        <div id="dropdown-menu"
+          class="z-20 hidden origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+          role="menu" aria-orientation="vertical" aria-labelledby="dropdown-button">
+          <div class="py-1" role="none">
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100" role="menuitem">ABOUT
+              FRAZZLED</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+              role="menuitem">Sessions</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+              role="menuitem">Contact US</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100" role="menuitem">need
+              help right now</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+              role="menuitem">volunteer with us</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+              role="menuitem">PARTNER with us</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+              role="menuitem">support us</a>
+          </div>
+        </div>
+      </div>
+      <!-- Navigation -->
+      <div class="flex flex-wrap gap-7 my-auto max-md:max-w-full max-xl:hidden">
+        <div class="flex flex-auto gap-4 items-start">
+          <div
+            class="uppercase grow anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            ABOUT FRAZZLED</div>
+          <div
+            class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            Sessions</div>
+          <div
+            class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            Contact US</div>
+          <div
+            class="self-stretch p-3 uppercase bg-orange-600 rounded-xl anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            need help now?
+          </div>
+          <div
+            class="uppercase basis-auto anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            volunteer WITH US</div>
+        </div>
+        <div class="flex flex-wrap gap-7 my-auto max-md:max-w-full">
+          <div
+            class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">
+            PARTNER with us</div>
+          <div
+            class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">
+            SUPPORT US</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col">
+
+      <div
+        class="anton self-center mt-20 mb-12 text-7xl leading-none text-center text-black max-md:mt-10 max-md:max-w-full">
+        Privacy
+      </div>
+
+      <div class="pt-0 px-4 md:px-14 w-full text-2xl font-medium leading-7 text-black max-md:max-w-full">
+        <span class="font-semibold">How this policy applies</span>
+        <br />
+        Protecting your privacy is important to us. At all times, we aim to respect
+        and safeguard any personal information that you may share with us and to
+        process this data fairly and lawfully in accordance with the Data Protection
+        Act 2018 and the General Data Protection Regulations (GDPR) which came into
+        force at the end of May 2018.
+        <br />
+        <br />
+        This Privacy Notice (Notice) explains what information we collect from you,
+        how we use that information and our legal basis for doing so. It also covers
+        whether and how that information may be shared and your rights and choices
+        regarding the information you provide to us. By choosing to share your
+        personal data with us and using the services offered by Frazzled Cafe, you are
+        acknowledging that you have understood and agreed to the terms of this Notice.
+        <br />
+        <br />
+        If you have any questions about this Notice, please contact us via the
+        “Contact us” section on our website (
+        <a href="http://www.frazzledcafe.org/contact)" class="underline" target="_blank">
+          www.frazzledcafe.org/contact)
+        </a>
+        <br />
+        <br />
+        <span class="font-semibold">When and how we collect your data</span>
+        <br />
+        In order to fulfil our charitable objectives, and provide the best experience
+        that we can when you interact with us we may collect information from you in
+        various ways including:
+        <br />
+        <br />
+        When you interact with us directly:
+        <br />
+        <br />
+        This could be if you sign up to our mailing list, register to attend a
+        Frazzled Cafe meeting, make a donation to us, apply for a job or volunteering
+        opportunity or otherwise provide us with your personal information.
+        <br />
+        <br />
+        When you interact with us via online platforms that we use to fulfil our
+        charitable objectives; including our website and a small number of trusted and
+        secure third-party services that we use for managing event bookings and
+        capturing data via online forms and surveys:
+        <br />
+        <br />
+        We gather general information which might include which pages on our website
+        you visit most often, and which pages you visit when you click on links in
+        emails from us. Some platforms may also collect technical information such as
+        the internet protocol (IP) address used to connect your computer to the
+        internet and time zone setting. There are more details below – see ‘Cookies &
+        usage tracking’.
+        <br />
+        <br />
+        When you interact with us via third parties:
+        <br />
+        <br />
+        This could be if you provide a donation through a third party such as KindLink
+        or interact with us through social media and provide your consent for your
+        personal information to be shared with us.
+        <br />
+        <br />
+        When it is available publicly: 
+        <br />
+        <br />
+        Your personal information may be available to us from external publicly
+        available sources. For example, listed directorships, information from the
+        electoral roll and press reports – we may obtain this personal information,
+        for example, when undertaking due diligence on potential donors or fundraising
+        partners to ensure they align with our mission and values.
+        <br />
+        <br />
+        We may combine your personal information from one or more of these sources for
+        the purposes set out in this Notice.
+        <br />
+        We endeavour to ensure that the information we hold is accurate and, where
+        necessary, kept up to date. If you wish to access, update or request deletion
+        of your personal information we will ensure that such requests are always
+        acted on in a timely and appropriate way.
+        <br />
+        <br />
+        <span class="font-semibold">Personal data that we process</span>
+        <br />
+        Personal data that we collect includes details such as your name, email
+        address, payment information (if you are making a donation or purchase) and
+        information that you provide in any communications between us.
+        <br />
+        <br />
+        Our processing of your data is based on one or several of the following legal
+        bases:
+        <br />
+        <br />
+        Legal: Where it is necessary so that we can comply with a legal obligation to
+        which we are subject – For example where we are obliged to share your personal
+        information with HMRC to process a Gift Aid declaration;
+        <br />
+        <br />
+        Consent: For example, to send you email invitations to Frazzled Cafe meetings
+        in your area. Your consent is given to us when you choose to share your
+        information with us in accordance with this Notice;
+        <br />
+        <br />
+        Legitimate Interest: in some cases, we may process your data to pursue our
+        legitimate interests in a way that might reasonably be expected as part of
+        running our charity and that does not materially impact your rights, freedom
+        or interests. These include the following:
+        <br />
+        <ul>
+          <li>
+            Charity Governance, including delivery of our charitable purposes,
+            statutory and financial reporting and other regulatory compliance
+            purposes;
+          </li>
+          <li>
+            Administration and operational management, including responding to
+            solicited enquires, providing information, research, donor due diligence,
+            employment and recruitment requirements and events management;
+          </li>
+          <li>
+            Fundraising and Campaigning, including administering campaigns and
+            donations, analysis, targeting and segmentation to develop communication
+            strategies and maintaining communication suppressions;
+          </li>
+          <li>
+            Where it is necessary for the performance of a contract to which you are a
+            party, or to take steps at your request prior to entering a contract, for
+            example if you are partnering with or otherwise involved in supporting
+            Frazzled Cafe under a contract.
+          </li>
+        </ul>
+        <br />
+        Your data will be held and processed in a limited number of carefully
+        controlled systems that we use to fulfil our charitable objectives, including
+        the trusted third-party platforms we use for email communications,
+        relationships management and secure data storage and backup.
+        <br />
+        <br />
+        <span class="font-semibold">How we use your data</span>
+        <br />
+        We will only use your data in a manner that is appropriate considering the
+        basis on which that data was collected, as set out in the section ‘Personal
+        data that we process’. This may include:
+        <br />
+        <ul>
+          <li>
+            Sending you invitations to and details of our meetings and/or bespoke
+            events;
+          </li>
+          <li>
+            Processing payments from you such as donations (including Gift Aid) or
+            other transactions that you initiate;
+          </li>
+          <li>Providing you with services or information which you request;</li>
+          <li>
+            Communicating with you to share information relating to our work which we
+            think may be of interest to you;
+          </li>
+          <li>
+            Administering our websites and for internal operations, including
+            troubleshooting, data analysis, testing, research, statistical and survey
+            purposes;
+          </li>
+          <li>
+            To improve your interactions with our websites, for example by ensuring
+            that content is presented in the most relevant and effective manner for
+            you and for your computer;
+          </li>
+          <li>
+            As part of our efforts to keep our websites and our internal operations
+            safe and secure;
+          </li>
+          <li>
+            To measure or understand the effectiveness of our communications with you;
+          </li>
+          <li>
+            To undertake donor due diligence (see ‘Donor due diligence’ for more
+            details);
+          </li>
+          <li>Administering your employment or volunteer application;</li>
+          <li>Dealing with enquiries and/or complaints made by or about you;</li>
+          <li>To audit and/or administer our accounts;</li>
+          <li>
+            To satisfy legal obligations which are binding on us, for example arising
+            from contracts entered into between you and us or in relation to
+            regulatory, government and/or law enforcement bodies with whom we may
+            work;
+          </li>
+          <li>Prevention of fraud, misuse of services or money laundering;</li>
+          <li>Enforcement of legal claims</li>
+        </ul>
+        <br />
+        <span class="font-semibold">When and how we may share your data</span>
+        <br />
+        We will only pass your data to third parties in the following circumstances:
+        <br />
+        <ul>
+          <li>
+            Where we are required by law to do so, for example to law enforcement or
+            regulatory bodies where this is required or allowed under the relevant
+            legislation;
+          </li>
+          <li>
+            In order to carry out our charitable aims, your data may be processed on
+            our behalf by one or more trusted service providers which we use to
+            operate elements of our service (such as an event booking system). Where
+            such data is provided to third parties it will always be on a limited and
+            controlled basis and they will not have permission to contact you for any
+            other purposes;
+          </li>
+          <li>Where we have your explicit consent to do so;</li>
+          <li>
+            Where it is necessary to protect your vital interests, or ensure support
+            for individuals with a particular medical condition, or to safeguard
+            children or individuals at risk;
+          </li>
+          <li>
+            With our Patron: Ruby Wax, OBE is the Founder and Patron of Frazzled Cafe.
+            We sometimes share limited personal information with her for the purposes
+            set out in this Notice, and she will sometimes share personal information
+            with us where it is lawful and appropriate to do so. For example, we may
+            share limited information about our supporters who are attending an event
+            at which Ruby may be present, or Ruby may share the details of individuals
+            with Frazzled Cafe who have expressed an interest in being involved in our
+            work.
+          </li>
+        </ul>
+        <br />
+        Information you provide to us will not be shared with any other entity or
+        organisation without your explicit consent.
+        <br />
+        <br />
+        <span class="font-semibold">How long we keep your data for</span>
+        <br />
+        We will only hold your information on our systems for the period necessary to
+        fulfil the purposes outlined in this Notice or until you request that it is
+        deleted.
+        <br />
+        <br />
+        <span class="font-semibold">Rights you have over your data</span>
+        <br />
+        You have a range of rights over your data, which include but are not limited
+        to the following:
+        <br />
+        <ul>
+          <li>
+            Where data processing is based on consent, you may revoke this consent at
+            any time and we will make it as easy as possible for you to do this (for
+            example by putting ‘unsubscribe’ links at the bottom of all our marketing
+            emails);
+          </li>
+          <li>
+            You have the right to ask for rectification and/or deletion of your
+            information;
+          </li>
+          <li>
+            You have the right to request copies of your personal information within
+            our custody and control, and details of how we use that information;
+          </li>
+          <li>
+            You have the right to lodge a complaint with the Information Commissioner
+            if you feel your rights have been infringed.
+          </li>
+        </ul>
+        <br />
+        A full summary of your legal rights over your data can be found on the
+        Information Commissioner’s website here: 
+        <a href="https://ico.org.uk/" class="underline" target="_blank">
+          https://ico.org.uk/
+        </a>
+        <br />
+        <br />
+        Please note that we may, where permitted under applicable law, charge a small
+        administrative fee and/or request proof of identity. We will respond to your
+        requests within all applicable timeframes (in accordance with the Information
+        Commissioner’s Office guidelines).
+        <br />
+        <br />
+        Relying on some of these rights, such as the right to deleting your data, may
+        make it impossible for us to continue to deliver some services to you.
+        <br />
+        <br />
+        If you would like to exercise any of the rights listed above, or any other
+        legal rights you have over your data under current legislation, you can do so
+        by contacting us via the “
+        <a href="https://www.frazzledcafe.org/contact" class="underline" target="_blank">
+          Contact Us
+        </a>
+        ” section of our website.
+        <br />
+        <br />
+        <span class="font-semibold">How we keep your data secure</span>
+        <br />
+        We take your privacy very seriously and we are committed to ensuring that your
+        information is secure. To prevent unauthorised access or disclosure, we have
+        put in place suitable procedures to safeguard and secure the information we
+        collect.  This includes protection against unauthorised or unlawful processing
+        and against accidental loss, destruction or damage. The transmission of
+        information via the internet (including e-mail) is never completely secure
+        however, and although we do our best to protect it, we cannot guarantee the
+        security of personal information transmitted via the internet.
+        <br />
+        <br />
+        <span class="font-semibold">Cookies & usage tracking</span>
+        <br />
+        A cookie is a small file of letters and numbers that is downloaded on to your
+        device when you visit a website. Cookies are used by many websites to
+        recognise your device, so they can work more effectively. Cookies can do a
+        number of things, e.g. remembering your preferences, recording what you have
+        put in your shopping basket, and measure how a website is used so it can be
+        updated and improved. Where cookies are used to collect personal data, we list
+        these purposes above (see ‘Personal data that we process’). However, we also
+        use some cookies that do not collect personal information but that do help us
+        collect anonymous information about how people use our website. We use Google
+        Analytics for this purpose. Google Analytics generates statistical and other
+        information about website usage by means of cookies, which are stored on
+        users’ devices. The information collected by Google Analytics about usage of
+        our website is not personally identifiable. The data is collected anonymously,
+        stored by Google and used by us to create reports about website usage.
+        Google’s privacy policy is available at 
+        <a href="http://www.google.com/privacypolicy.html" class="underline" target="_blank">
+          http://www.google.com/privacypolicy.html
+        </a>
+        .
+        <br />
+        <br />
+        By using our website, you consent to our use of cookies as updated and the
+        cookies we use will be stored on your device (unless rejected or disabled by
+        your browser). If you choose to reject our use of cookies as set out in this
+        Notice, this may impair your ability to use our website.
+        <br />
+        <br />
+        <span class="font-semibold">Donor due diligence</span>
+        <br />
+        Like many charities, we need to undertake checks on individuals who give or
+        propose to give large donations to us, so that we are complying with our
+        duties to protect charity funds, assets, and reputation, and to comply with
+        the “know your donor” principles further to Charity Commission guidance, to
+        prevent fraud. We may use third party suppliers to assist us with these
+        checks, and we may obtain information from publicly available sources in order
+        to do so. Donor due diligence may also include information which is considered
+        “sensitive personal data”. This may include personal information regarding
+        racial or ethnic origins, political opinions, religious beliefs, health and
+        also information concerning criminal offences.
+        <br />
+        <br />
+        <span class="font-semibold">
+          Do we collect/share sensitive personal information?
+        </span>
+        <br />
+        Data privacy law identifies certain categories of personal information as
+        sensitive and therefore requiring more protection, for example information
+        about your health or ethnicity. In limited cases, we may collect and/or use
+        your sensitive personal information (also known as special category data).
+        Normally we will only do so where we have your explicit consent, but there may
+        be other circumstances permitted under data privacy law. For example, we may
+        record that a person is in a vulnerable circumstance in order to comply with
+        requirements under charity law and fundraising regulation to ensure that we do
+        not send fundraising communications to them.
+        <br />
+        <br />
+        <span class="font-semibold">Links to other websites and resources</span>
+        <br />
+        Our website contains links to other websites and resources of interest. Once
+        you have used these links to leave our site, you should note that we do not
+        have any control over these other websites. Therefore, we cannot be
+        responsible for the protection and privacy of any information which you
+        provide whilst visiting such sites and such sites are not governed by this
+        Notice. We encourage you to read the privacy policies of any external websites
+        you visit via links on ours so that you can understand how they collect, use
+        and share your personal information.
+        <br />
+        <br />
+        <span class="font-semibold">Changes to this Notice</span>
+        <br />
+        We keep this Notice under regular review and may update it from time to time,
+        so we recommend that you check it regularly. Where necessary we may also
+        notify you of changes to this Notice by email. This Notice was last updated on
+        the 1st November, 2018.
+        <br />
+        <br />
+        <span class="font-semibold">Contact us (including complaints)</span>
+        <br />
+        If you have any questions or concerns (including complaints) about this Notice
+        or about the way in which your personal information is being used, please let
+        us know by contacting us via the “Contact us” section on our website (
+        <a href="http://www.frazzledcafe.org/contact)" class="underline" target="_blank">
+          www.frazzledcafe.org/contact)
+        </a>
+        .
+        <br />
+        <br />
+        We take your privacy very seriously and aim to respond quickly and flexibly to
+        any queries or complaints that are raised. You also have the right to raise
+        concerns with the Information Commissioner’s Office the UK regulatory
+        authority for data privacy 
+        <a href="https://ico.org.uk/concerns" class="underline" target="_blank">
+          https://ico.org.uk/concerns
+        </a>
+        .
+        <br />
+        <br />
+        We would be grateful for the opportunity to resolve any concerns before you
+        approach the ICO and request that you contact us in the first instance.
+      </div>
+
+      <!-- FOOTER -->
+      <div class="bg-black w-full md:mt-32">
+        <div
+          class="hidden xl:flex gap-10 items-center justify-center self-stretch py-24 w-full px-14 mx-auto max-md:px-5 max-md:mt-10 max-md:max-w-full">
+          <img loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/a9a7f32971d0c19758ec291eb9e3c49154c3d28b63a61e71577a9b84670e66d4?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+            class="object-contain shrink-0 mt-1.5 max-w-full aspect-[2.23] w-[154px] mt-[-30px]" />
+          <div class="flex flex-col">
+            <img loading="lazy" src="img/_REV1262_FRAZZLED_EMOJI_MASTER_WITH_TEXT_Battery.png"
+              class="mt-[-188px] w-[204px] mb-[40px] ml-[-20px] z-20 absolute" />
+            <div class="self-start text-2xl tracking-wider text-white uppercase anton">
+              SIGN UP TO OUR NEWSLETTER
+            </div>
+            <div
+              class="flex gap-5 justify-between items-center px-4 py-2.5 mt-9 text-lg bg-orange-50 rounded-2xl text-black text-opacity-50 flex-nowrap">
+              <div class="anton">ENTER YOUR EMAIL ADDRESS HERE...</div>
+              <img loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/470b23cbeed3486c4bb7f705292b8322b4f060ccc66e4a5486aa070f78418b07?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                class="object-contain shrink-0 aspect-[1.45] w-[26px]" />
+            </div>
+          </div>
+          <div class="flex flex-col items-center mt-2 text-lg text-white whitespace-nowrap">
+            <div class="tracking-wider uppercase anton">Facebook</div>
+            <div class="mt-5 uppercase anton">X</div>
+            <div class="self-stretch mt-5 tracking-wider anton">INSTAGRAM</div>
+          </div>
+          <div class="grow shrink self-stretch w-80 text-xs text-white">
+            © 2023 Frazzled Cafe. All Rights Reserved. Frazzled Cafe is a registered charity in England and
+            Wales (#1173064) and Scotland (#SC048841).
+            <br />
+            <br />
+            <a href="https://www.frazzledcafe.org/?page_id=260" class="underline" target="_blank">Guidelines</a>
+              
+            <a href="https://www.frazzledcafe.org/?page_id=256" class="underline" target="_blank">Terms and
+              Conditions</a>
+             
+            <a href="https://www.frazzledcafe.org/?page_id=264" class="underline" target="_blank">Privacy
+              Policy</a>
+          </div>
+        </div>
+      </div>
+      <!-- SMALL FOOTER -->
+      <div class="max-md:mt-16 w-full">
+        <div
+          class="xl:hidden flex flex-wrap gap-10 items-start self-stretch px-14 py-24 w-full bg-black max-md:px-5 max-md:mt-10 max-md:max-w-full max-md:flex-col">
+          <img loading="lazy" src="img/_REV1262_FRAZZLED_EMOJI_MASTER_WITH_TEXT_Battery.png"
+            class="absolute mt-[-200px]" />
+          <img loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/a9a7f32971d0c19758ec291eb9e3c49154c3d28b63a61e71577a9b84670e66d4?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+            class="object-contain shrink-0 mt-1.5 max-w-full aspect-[2.23] w-[154px] max-md:w-full" />
+          <div class="flex flex-col w-full max-md:w-full">
+            <div class="self-start text-2xl tracking-wider text-white uppercase anton">
+              SIGN UP TO OUR NEWSLETTER
+            </div>
+            <div
+              class="flex gap-5 justify-between items-center px-4 py-2.5 mt-9 text-lg bg-orange-50 rounded-2xl text-black text-opacity-50 flex-nowrap">
+              <div class="anton">ENTER YOUR EMAIL ADDRESS HERE...</div>
+              <img loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/470b23cbeed3486c4bb7f705292b8322b4f060ccc66e4a5486aa070f78418b07?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                class="object-contain shrink-0 aspect-[1.45] w-[26px]" />
+            </div>
+          </div>
+          <div class="flex flex-col items-start mt-2 text-lg text-white whitespace-nowrap w-full max-md:w-full">
+            <div class="tracking-wider uppercase anton">Facebook</div>
+            <div class="mt-5 uppercase anton">X</div>
+            <div class="self-stretch mt-5 tracking-wider anton">INSTAGRAM</div>
+          </div>
+          <div class="grow shrink self-stretch w-80 text-xs text-white max-md:w-full">
+            © 2023 Frazzled Cafe. All Rights Reserved. Frazzled Cafe is a registered charity in England and
+            Wales
+            (#1173064) and Scotland (#SC048841).
+            <br />
+            <br />
+            <a href="https://www.frazzledcafe.org/?page_id=260" class="underline" target="_blank">Guidelines</a>
+              
+            <a href="https://www.frazzledcafe.org/?page_id=256" class="underline" target="_blank">Terms and
+              Conditions</a>
+             
+            <a href="https://www.frazzledcafe.org/?page_id=264" class="underline" target="_blank">Privacy
+              Policy</a>
+          </div>
+        </div>
+        <!-- FOOTER -->
+      </div>
+
+</body>
+<script src="js/index.js"></script>
+<script src="js/video.js"></script>
+<script src="js/dropdown.js"></script>
+
+</html>
