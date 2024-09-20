@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Frazzled</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/general-sans" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="./favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/site.webmanifest">
+
+</head>
+
+<body>
+  <div class="flex overflow-hidden flex-col pt-9 bg-orange-50">
+    <div
+      class="flex flex-wrap gap-5 justify-between self-center w-full text-base tracking-wide text-center text-black max-md:max-w-full max-w-full px-14 max-md:px-4">
+      <img loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/1efb2fe7e781ff98fcba494d68362ad5491f3b31b47dffe41e47d085c171f50a?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+        class="object-contain shrink-0 max-w-full aspect-[2.22] w-[215px]" />
+      <!-- Burger Menu -->
+      <div class="xl:hidden relative">
+        <button class="p-2" id="dropdown-button">
+          <svg class="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+        <div id="dropdown-menu"
+          class="z-20 hidden origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+          role="menu" aria-orientation="vertical" aria-labelledby="dropdown-button">
+          <div class="py-1" role="none">
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100" role="menuitem">ABOUT
+              FRAZZLED</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+              role="menuitem">Sessions</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+              role="menuitem">Contact US</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100" role="menuitem">need
+              help right now</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+              role="menuitem">volunteer with us</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+              role="menuitem">PARTNER with us</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+              role="menuitem">support us</a>
+          </div>
+        </div>
+      </div>
+      <!-- Navigation -->
+      <div class="flex flex-wrap gap-7 my-auto max-md:max-w-full max-xl:hidden">
+        <div class="flex flex-auto gap-4 items-start">
+          <div
+            class="uppercase grow anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            ABOUT FRAZZLED</div>
+          <div
+            class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            Sessions</div>
+          <div
+            class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            Contact US</div>
+          <div
+            class="self-stretch p-3 uppercase bg-orange-600 rounded-xl anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            need help now?
+          </div>
+          <div
+            class="uppercase basis-auto anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            volunteer WITH US</div>
+        </div>
+        <div class="flex flex-wrap gap-7 my-auto max-md:max-w-full">
+          <div
+            class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">
+            PARTNER with us</div>
+          <div
+            class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">
+            SUPPORT US</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col">
+
+      <div
+        class="anton self-center mt-20 mb-12 text-7xl leading-none text-center text-black max-md:mt-10 max-md:max-w-full max-md:text-4xl">
+        <img src="img/_REV1262_FRAZZLED_EMOJI_MASTER_NO_TEXT_JG_CLOUDS.png" alt="clouds" class="ml-[-111px] mb-[-50px]">
+        Need help now?
+      </div>
+      <div
+        class="px-16 py-16 mt-16 text-2xl font-medium leading-7 text-center text-black bg-purple-400 max-md:px-5 max-md:mt-10 max-md:max-w-full">
+        Frazzled is designed to provide a safe, confidential and non-judgemental
+        environment for people who are feeling frazzled and overwhelmed by the
+        stresses of modern life. Please bear in mind that these meetings are not
+        therapy sessions and are not designed for those who are in crisis or who are
+        experiencing a serious mental ill health episode.
+        <br />
+        <br />
+        If you are currently suffering from serious mental illness, are being
+        provided with significant secondary care, or are in crisis, please be
+        advised that our meetings are not suitable for you.  Below is a list of
+        organisations with excellent resources that may be more equipped to support
+        you than Frazzled at this time.
+      </div>
+      <div class="flex flex-col items-start">
+        <div class="w-full max-w-full max-md:max-w-full mr-11">
+          <div class="flex gap-5 max-md:flex-col px-5 mt-16">
+            <div class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+              <div class="flex flex-col grow text-4xl text-black max-md:mt-10 max-md:max-w-full">
+                <div class="flex flex-col items-start pr-2.5 pl-11 leading-7 max-md:pl-5 max-md:max-w-full">
+                  <img loading="lazy"
+                    srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/66acb78f8716107a924a1906bbb4ecb72ad32f7279e4927d6c4dcd5f1ca9da1c?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/66acb78f8716107a924a1906bbb4ecb72ad32f7279e4927d6c4dcd5f1ca9da1c?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/66acb78f8716107a924a1906bbb4ecb72ad32f7279e4927d6c4dcd5f1ca9da1c?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/66acb78f8716107a924a1906bbb4ecb72ad32f7279e4927d6c4dcd5f1ca9da1c?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/66acb78f8716107a924a1906bbb4ecb72ad32f7279e4927d6c4dcd5f1ca9da1c?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/66acb78f8716107a924a1906bbb4ecb72ad32f7279e4927d6c4dcd5f1ca9da1c?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/66acb78f8716107a924a1906bbb4ecb72ad32f7279e4927d6c4dcd5f1ca9da1c?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/66acb78f8716107a924a1906bbb4ecb72ad32f7279e4927d6c4dcd5f1ca9da1c?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                    class="object-contain max-w-full aspect-[1.34] w-[335px]" />
+                  <div class="mt-12 leading-none max-md:mt-10 anton">Mind</div>
+                  <div class="self-stretch mt-10 text-2xl font-medium max-md:mr-2.5 max-md:max-w-full">
+                    Mental health charity, Mind, has a number of services available:
+                    <br />
+                    Call: 0300 123 3393 or text 86463
+                    <br />
+                    Visit: 
+                    <a href="https://www.mind.org.uk/" class="underline" target="_blank">
+                      mind.org.uk
+                    </a>
+                    <br />
+                    <br />
+                    Or 
+                    <a href="https://www.mind.org.uk/about-us/local-minds/" class="underline" target="_blank">
+                      mind.org.uk/about-us/local-minds/
+                    </a>
+                     to find your local Mind group (in England and Wales) who may
+                    provide face-to-face services, such as talking therapies, peer
+                    support and advocacy.
+                    <br />
+                    <br />
+                    Or 
+                    <a href="https://sidebyside.mind.org.uk/" class="underline" target="_blank">
+                      sidebyside.mind.org.uk
+                    </a>
+                     (previously Elefriends), Mind’s supportive online community for
+                    anyone experiencing a mental health problem.
+                  </div>
+                  <img loading="lazy"
+                    srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/7d5e234479c14698785863dc884da53c865314280f5484c49a9de16e5abcaf7b?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/7d5e234479c14698785863dc884da53c865314280f5484c49a9de16e5abcaf7b?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7d5e234479c14698785863dc884da53c865314280f5484c49a9de16e5abcaf7b?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/7d5e234479c14698785863dc884da53c865314280f5484c49a9de16e5abcaf7b?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/7d5e234479c14698785863dc884da53c865314280f5484c49a9de16e5abcaf7b?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7d5e234479c14698785863dc884da53c865314280f5484c49a9de16e5abcaf7b?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/7d5e234479c14698785863dc884da53c865314280f5484c49a9de16e5abcaf7b?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/7d5e234479c14698785863dc884da53c865314280f5484c49a9de16e5abcaf7b?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                    class="object-contain mt-24 max-w-full aspect-[0.94] w-[245px] max-md:mt-10" />
+                  <div class="mt-12 leading-none max-md:mt-10 anton">MindOut</div>
+                  <div class="self-stretch mt-10 text-2xl font-medium max-md:max-w-full">
+                    A mental health service run by and for lesbians, gay, bisexual,
+                    trans and queer people with experience of mental health issues –
+                    open online most evenings from 5:30-7:30pm, and on Sundays from
+                    2-4pm, with additional hours on most days as shown on their
+                    website.
+                    <br />
+                    <br />
+                    Visit: 
+                    <a href="https://mindout.org.uk/" class="underline" target="_blank">
+                      mindout.org.uk
+                    </a>
+                  </div>
+                  <img loading="lazy"
+                    srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/e31c784bc994d7f6139f9366657b472501a9cdfcdc47194589f68653a1f8e79c?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/e31c784bc994d7f6139f9366657b472501a9cdfcdc47194589f68653a1f8e79c?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e31c784bc994d7f6139f9366657b472501a9cdfcdc47194589f68653a1f8e79c?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/e31c784bc994d7f6139f9366657b472501a9cdfcdc47194589f68653a1f8e79c?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/e31c784bc994d7f6139f9366657b472501a9cdfcdc47194589f68653a1f8e79c?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e31c784bc994d7f6139f9366657b472501a9cdfcdc47194589f68653a1f8e79c?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/e31c784bc994d7f6139f9366657b472501a9cdfcdc47194589f68653a1f8e79c?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/e31c784bc994d7f6139f9366657b472501a9cdfcdc47194589f68653a1f8e79c?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                    class="object-contain mt-24 max-w-full aspect-[2.53] w-[423px] max-md:mt-10" />
+                  <div class="mt-12 leading-none max-md:mt-10 anton">
+                    Change, Grow, Live
+                  </div>
+                  <div class="self-stretch mt-9 text-2xl font-medium max-md:mr-2.5 max-md:max-w-full">
+                    A free support hub for finding support with challenges including
+                    drugs or alcohol, trouble with housing, domestic abuse, or your
+                    mental and physical wellbeing.
+                    <br />
+                    <br />
+                    Visit: 
+                    <a href="https://www.changegrowlive.org/" class="underline" target="_blank">
+                      changegrowlive.org
+                    </a>
+                  </div>
+                  <img loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3a17784c58900802c74e06f1baea3091f3ee6f5370a49844e8e592d65d9fb4ed?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                    class="object-contain mt-24 max-w-full aspect-[1.53] w-[254px] max-md:mt-10" />
+                  <div class="self-stretch mt-14 leading-10 max-md:mt-10 max-md:mr-1 max-md:max-w-full anton">
+                    Campaign Against Living Miserably (CALM)
+                    <br />
+                  </div>
+                  <div class="self-stretch mt-9 mr-8 text-2xl font-medium max-md:mr-2.5 max-md:max-w-full">
+                    Provides listening services, information and support for men at
+                    risk of suicide, including a web chat:
+                    <br />
+                    <br />
+                    Call: 0800 58 58 58 (UK helpline)
+                    <br />
+                    Call: 0808 802 58 58 (London helpline)
+                    <br />
+                    Visit: 
+                    <a href="https://thecalmzone.net/" class="underline" target="_blank">
+                      thecalmzone.net
+                    </a>
+                  </div>
+                </div>
+                <img loading="lazy"
+                  srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/1b566855323f6a669bc5fa48d9db38eb473cd604e823c9ced3b81ed20172c73f?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/1b566855323f6a669bc5fa48d9db38eb473cd604e823c9ced3b81ed20172c73f?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/1b566855323f6a669bc5fa48d9db38eb473cd604e823c9ced3b81ed20172c73f?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/1b566855323f6a669bc5fa48d9db38eb473cd604e823c9ced3b81ed20172c73f?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/1b566855323f6a669bc5fa48d9db38eb473cd604e823c9ced3b81ed20172c73f?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/1b566855323f6a669bc5fa48d9db38eb473cd604e823c9ced3b81ed20172c73f?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/1b566855323f6a669bc5fa48d9db38eb473cd604e823c9ced3b81ed20172c73f?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/1b566855323f6a669bc5fa48d9db38eb473cd604e823c9ced3b81ed20172c73f?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                  class="object-contain mt-16 max-w-full aspect-[1.2] w-[327px] max-md:mt-10" />
+                <div class="flex flex-col pl-11 mt-3.5 leading-10 max-md:pl-5 max-md:max-w-full">
+                  <div class="max-md:mr-2.5 max-md:max-w-full">
+                    Shout
+                    <br />
+                  </div>
+                  <div class="mt-9 mr-11 text-2xl font-medium leading-7 max-md:mr-2.5 max-md:max-w-full">
+                    24/7 text service, free on all major mobile networks, for anyone in crisis to reach out to for
+                    immediate support:
+                    <br />
+                    <br />
+                    Text: 85258
+                    <br />
+                    Visit: 
+                    <a href="https://giveusashout.org/" class="underline" target="_blank">
+                      giveusashout.org
+                    </a>
+                  </div>
+                  <img loading="lazy"
+                    srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/d0917dcea56d0484327ece1a4e438f742ca7e9ad66024dbf8968680cc052f6a4?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/d0917dcea56d0484327ece1a4e438f742ca7e9ad66024dbf8968680cc052f6a4?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d0917dcea56d0484327ece1a4e438f742ca7e9ad66024dbf8968680cc052f6a4?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/d0917dcea56d0484327ece1a4e438f742ca7e9ad66024dbf8968680cc052f6a4?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/d0917dcea56d0484327ece1a4e438f742ca7e9ad66024dbf8968680cc052f6a4?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d0917dcea56d0484327ece1a4e438f742ca7e9ad66024dbf8968680cc052f6a4?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/d0917dcea56d0484327ece1a4e438f742ca7e9ad66024dbf8968680cc052f6a4?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/d0917dcea56d0484327ece1a4e438f742ca7e9ad66024dbf8968680cc052f6a4?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                    class="object-contain mt-24 max-w-full aspect-square w-[204px] max-md:mt-10" />
+                  <div class="mt-12 w-[335px] max-md:mt-10">
+                    No Panic Helpline
+                    <br />
+                  </div>
+                  <div class="mt-9 text-2xl font-medium leading-7 max-md:max-w-full">
+                    Helpline operates between 10am and 10pm every day of the year and
+                    is staffed by trained volunteers to help people through panic
+                    attacks. This service has a charge dependent on network provider,
+                    but there is also a free email support service:
+                    <br />
+                    <br />
+                    Call: 0300 77 29 844
+                    <br />
+                    Email: sarah@nopanic.org.uk
+                    <br />
+                    Visit: 
+                    <a href="https://nopanic.org.uk/" class="underline" target="_blank">
+                      nopanic.org.uk
+                    </a>
+                  </div>
+                  <img loading="lazy"
+                    srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/bbe25c705dc90aacf5469e4bde8d2430850383e94b07c7a8c039498735daac49?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/bbe25c705dc90aacf5469e4bde8d2430850383e94b07c7a8c039498735daac49?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/bbe25c705dc90aacf5469e4bde8d2430850383e94b07c7a8c039498735daac49?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/bbe25c705dc90aacf5469e4bde8d2430850383e94b07c7a8c039498735daac49?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/bbe25c705dc90aacf5469e4bde8d2430850383e94b07c7a8c039498735daac49?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/bbe25c705dc90aacf5469e4bde8d2430850383e94b07c7a8c039498735daac49?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/bbe25c705dc90aacf5469e4bde8d2430850383e94b07c7a8c039498735daac49?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/bbe25c705dc90aacf5469e4bde8d2430850383e94b07c7a8c039498735daac49?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                    class="object-contain mt-24 max-w-full aspect-[2.5] w-[355px] max-md:mt-10" />
+                  <div class="text-4xl leading-10 w-[335px]">
+                    My Black Dog
+                    <br />
+                  </div>
+                  <div class="mt-9 text-2xl font-medium leading-7 max-md:max-w-full">
+
+                    My Black Dog is a community-focused platform offering peer-to-peer
+                    conversations for people who are struggling with mental health challenges
+                    and trauma. Their service is open most evenings, and can be accessed
+                    through the website link below.
+                    <br />
+                     
+                    <br />
+                    Visit: 
+                    <a href="https://linkprotect.cudasvc.com/url?a=https%3a%2f%2fwww.myblackdog.co%2f&c=E,1,0o2j6nDeRdlpvaFQ2mk5EsVvGDYpu_M_8-m2QkE-axcyhbN-8chkUqkMXFweB3U8pJl2pCrgPgQbVUd7AxPcRaVKG-htmWggzgCc7VWm4JK9LKWN0KPlHRW5df-L&typo=1"
+                      class="underline" target="_blank">
+                      https://www.myblackdog.co/
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+              <div
+                class="flex flex-col grow items-start py-px mt-1 text-4xl leading-7 text-black max-md:mt-10 max-md:max-w-full mr-11">
+                <img loading="lazy"
+                  srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/36ccfabede3dc24574b8f6732b056bb8b4d39c5c0084536b8b315b046b7a172b?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/36ccfabede3dc24574b8f6732b056bb8b4d39c5c0084536b8b315b046b7a172b?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/36ccfabede3dc24574b8f6732b056bb8b4d39c5c0084536b8b315b046b7a172b?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/36ccfabede3dc24574b8f6732b056bb8b4d39c5c0084536b8b315b046b7a172b?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/36ccfabede3dc24574b8f6732b056bb8b4d39c5c0084536b8b315b046b7a172b?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/36ccfabede3dc24574b8f6732b056bb8b4d39c5c0084536b8b315b046b7a172b?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/36ccfabede3dc24574b8f6732b056bb8b4d39c5c0084536b8b315b046b7a172b?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/36ccfabede3dc24574b8f6732b056bb8b4d39c5c0084536b8b315b046b7a172b?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                  class="object-contain max-w-full aspect-square w-[246px]" />
+                <div class="mt-12 leading-none max-md:mt-10">
+                  Rethind Mental Illness
+                </div>
+                <div class="self-stretch mt-10 text-2xl font-medium max-md:mr-2.5 max-md:max-w-full">
+                  Provides support and information for anyone affected by mental
+                  health problems and also offers local support groups:
+                  <br />
+                  <br />
+                  Call: 0300 5000 927
+                  <br />
+                  Visit: 
+                  <a href="https://rethink.org/" class="underline" target="_blank">
+                    rethink.org
+                  </a>
+                </div>
+                <img loading="lazy"
+                  srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/0ed73972c75e355919aaaf26a99ec02a8e77071293e00a664cd6fd1837a60874?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/0ed73972c75e355919aaaf26a99ec02a8e77071293e00a664cd6fd1837a60874?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0ed73972c75e355919aaaf26a99ec02a8e77071293e00a664cd6fd1837a60874?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/0ed73972c75e355919aaaf26a99ec02a8e77071293e00a664cd6fd1837a60874?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/0ed73972c75e355919aaaf26a99ec02a8e77071293e00a664cd6fd1837a60874?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0ed73972c75e355919aaaf26a99ec02a8e77071293e00a664cd6fd1837a60874?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/0ed73972c75e355919aaaf26a99ec02a8e77071293e00a664cd6fd1837a60874?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/0ed73972c75e355919aaaf26a99ec02a8e77071293e00a664cd6fd1837a60874?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                  class="object-contain mt-24 max-w-full aspect-[3.8] w-[419px] max-md:mt-10" />
+                <div class="mt-12 leading-none max-md:mt-10">Samaritans</div>
+                <div class="self-stretch mt-10 text-2xl font-medium max-md:mr-2.5 max-md:max-w-full">
+                  24-hour emotional support for anyone who needs to talk:
+                  <br />
+                  <br />
+                  Call: 116 123
+                  <br />
+                  Email: jo@samaritans.org
+                  <br />
+                  Visit: 
+                  <a href="https://www.samaritans.org/" class="underline" target="_blank">
+                    samaritans.org
+                  </a>
+                </div>
+                <img loading="lazy"
+                  srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/fa9fed0c4b48292a4a9f81682e6015238e20e3d5805926ad296a87e6a337372a?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/fa9fed0c4b48292a4a9f81682e6015238e20e3d5805926ad296a87e6a337372a?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/fa9fed0c4b48292a4a9f81682e6015238e20e3d5805926ad296a87e6a337372a?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/fa9fed0c4b48292a4a9f81682e6015238e20e3d5805926ad296a87e6a337372a?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/fa9fed0c4b48292a4a9f81682e6015238e20e3d5805926ad296a87e6a337372a?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/fa9fed0c4b48292a4a9f81682e6015238e20e3d5805926ad296a87e6a337372a?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/fa9fed0c4b48292a4a9f81682e6015238e20e3d5805926ad296a87e6a337372a?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/fa9fed0c4b48292a4a9f81682e6015238e20e3d5805926ad296a87e6a337372a?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                  class="object-contain mt-24 max-w-full aspect-[3.8] w-[419px] max-md:mt-10" />
+                <div class="mt-12 leading-none max-md:mt-10">Supportline</div>
+                <div class="self-stretch mt-9 text-2xl font-medium max-md:mr-2.5 max-md:max-w-full">
+                  Confidential emotional support aimed at those who are isolated, at
+                  risk, vulnerable and victims of any form of abuse.
+                  <br />
+                  <br />
+                  Call: 01708 765200
+                  <br />
+                  Visit: 
+                  <a href="https://www.supportline.org.uk/" class="underline" target="_blank">
+                    supportline.org.uk
+                  </a>
+                  <br />
+                  Email: 
+                  <a href="mailto:info@supportline.org.uk" class="underline" target="_blank">
+                    info@supportline.org.uk
+                  </a>
+                </div>
+                <img loading="lazy"
+                  srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/7a96465664e5e7bd12833774f11b0a62b6f5de702b64e6b607b689fc1fb8382f?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/7a96465664e5e7bd12833774f11b0a62b6f5de702b64e6b607b689fc1fb8382f?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7a96465664e5e7bd12833774f11b0a62b6f5de702b64e6b607b689fc1fb8382f?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/7a96465664e5e7bd12833774f11b0a62b6f5de702b64e6b607b689fc1fb8382f?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/7a96465664e5e7bd12833774f11b0a62b6f5de702b64e6b607b689fc1fb8382f?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7a96465664e5e7bd12833774f11b0a62b6f5de702b64e6b607b689fc1fb8382f?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/7a96465664e5e7bd12833774f11b0a62b6f5de702b64e6b607b689fc1fb8382f?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/7a96465664e5e7bd12833774f11b0a62b6f5de702b64e6b607b689fc1fb8382f?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                  class="object-contain mt-32 max-w-full aspect-square w-[245px] max-md:mt-10" />
+                <div class="mt-12 leading-none max-md:mt-10">Hub of Hope</div>
+                <div class="mt-9 text-2xl font-medium max-md:max-w-full">
+                  An online database which searches for mental health services
+                  available in your area:
+                  <br />
+                  <br />
+                  Visit: 
+                  <a href="https://hubofhope.co.uk/" class="underline" target="_blank">
+                    hubofhope.co.uk
+                  </a>
+                </div>
+                <img loading="lazy"
+                  srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/c3abeb1a9832b1f0283f4167363aec08dd6e8290c0d51fda72b10d4dc0e494d3?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/c3abeb1a9832b1f0283f4167363aec08dd6e8290c0d51fda72b10d4dc0e494d3?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c3abeb1a9832b1f0283f4167363aec08dd6e8290c0d51fda72b10d4dc0e494d3?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/c3abeb1a9832b1f0283f4167363aec08dd6e8290c0d51fda72b10d4dc0e494d3?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/c3abeb1a9832b1f0283f4167363aec08dd6e8290c0d51fda72b10d4dc0e494d3?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c3abeb1a9832b1f0283f4167363aec08dd6e8290c0d51fda72b10d4dc0e494d3?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/c3abeb1a9832b1f0283f4167363aec08dd6e8290c0d51fda72b10d4dc0e494d3?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/c3abeb1a9832b1f0283f4167363aec08dd6e8290c0d51fda72b10d4dc0e494d3?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                  class="object-contain mt-24 max-w-full aspect-[0.81] w-[194px] max-md:mt-10" />
+                <div class="mt-12 leading-none max-md:mt-10">NHS 111</div>
+                <div class="self-stretch mt-10 text-2xl font-medium max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
+                  Mental health and medical help and advice for people in England and
+                  some areas of Wales:
+                  <br />
+                  <br />
+                  Call: 111
+                  <br />
+                  Visit: 
+                  <a href="https://111.nhs.uk/" class="underline" target="_blank">
+                    111.nhs.uk
+                  </a>
+                </div>
+                <img loading="lazy"
+                  srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/4fb018592f1b41caa17bd14a703315e2d1f3fc61d1348f3e8d2c5211a258c211?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/4fb018592f1b41caa17bd14a703315e2d1f3fc61d1348f3e8d2c5211a258c211?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/4fb018592f1b41caa17bd14a703315e2d1f3fc61d1348f3e8d2c5211a258c211?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/4fb018592f1b41caa17bd14a703315e2d1f3fc61d1348f3e8d2c5211a258c211?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/4fb018592f1b41caa17bd14a703315e2d1f3fc61d1348f3e8d2c5211a258c211?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/4fb018592f1b41caa17bd14a703315e2d1f3fc61d1348f3e8d2c5211a258c211?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/4fb018592f1b41caa17bd14a703315e2d1f3fc61d1348f3e8d2c5211a258c211?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/4fb018592f1b41caa17bd14a703315e2d1f3fc61d1348f3e8d2c5211a258c211?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                  class="object-contain mt-24 max-w-full aspect-[2.7] w-[335px] max-md:mt-10" />
+                <div class="mt-12 leading-10 max-md:mt-10">
+                  The Black, African and Asian Therapy Network
+                  <br />
+                </div>
+                <div class="self-stretch mt-9 text-2xl font-medium max-md:max-w-full">
+                  The UK’s largest independent organisation to specialise in working
+                  psychologically, informed by an understanding of intersectionality,
+                  with people who identify as Black, African, South Asian and
+                  Caribbean.
+                  <br />
+                  <br />
+                  Visit: 
+                  <a href="https://www.baatn.org.uk/" class="underline" target="_blank">
+                    BAATN.org
+                  </a>
+                  <br />
+                </div>
+                <img loading="lazy"
+                  srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/c4c7069375c39509a58a555676eba535c291891e73356ea4a25f164e89f33f95?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/c4c7069375c39509a58a555676eba535c291891e73356ea4a25f164e89f33f95?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c4c7069375c39509a58a555676eba535c291891e73356ea4a25f164e89f33f95?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/c4c7069375c39509a58a555676eba535c291891e73356ea4a25f164e89f33f95?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/c4c7069375c39509a58a555676eba535c291891e73356ea4a25f164e89f33f95?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c4c7069375c39509a58a555676eba535c291891e73356ea4a25f164e89f33f95?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/c4c7069375c39509a58a555676eba535c291891e73356ea4a25f164e89f33f95?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/c4c7069375c39509a58a555676eba535c291891e73356ea4a25f164e89f33f95?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                  class="object-contain mt-24 max-w-full aspect-[2.54] w-[335px] max-md:mt-10" />
+                <div class="mt-12 leading-none max-md:mt-10">
+                  StepChange Debt Charity
+                </div>
+                <div class="self-stretch mt-9 text-2xl font-medium max-md:max-w-full">
+                  We have more than 25 years’ experience providing free, expert debt
+                  advice. We’re the UK’s only full debt support service that gives you
+                  complete flexibility. You can complete the process entirely online
+                  or switch between our online and phone service as you choose.
+                  <br />
+                  <br />
+                  No matter how large or small your debt problem is, we can help. When
+                  you come to us for 
+                  <a href="https://www.stepchange.org/how-we-help/debt-advice.aspx" class="underline" target="_blank">
+                    debt help
+                  </a>
+                  , we’ll look at your financial situation, give you expert advice and
+                  recommend debt solutions to suit your situation.
+                  <br />
+                  <br />
+                  Visit: https://www.stepchange.org/
+                  <br />
+                  Call: 
+                  <a href="tel:+448001381111" class="underline" target="_blank">
+                    0800 138 1111
+                  </a>
+                  Monday to Friday 8am to 8pm and Saturday 8am to 4pm
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="bg-black w-full md:mt-32">
+          <div
+            class="hidden xl:flex gap-10 items-center justify-center self-stretch py-24 w-full px-14 mx-auto max-md:px-5 max-md:mt-10 max-md:max-w-full">
+            <img loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/a9a7f32971d0c19758ec291eb9e3c49154c3d28b63a61e71577a9b84670e66d4?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+              class="object-contain shrink-0 mt-1.5 max-w-full aspect-[2.23] w-[154px] mt-[-30px]" />
+            <div class="flex flex-col">
+              <img loading="lazy" src="img/_REV1262_FRAZZLED_EMOJI_MASTER_WITH_TEXT_Battery.png"
+                class="mt-[-188px] w-[204px] mb-[40px] ml-[-20px] z-20 absolute" />
+              <div class="self-start text-2xl tracking-wider text-white uppercase anton">
+                SIGN UP TO OUR NEWSLETTER
+              </div>
+              <div
+                class="flex gap-5 justify-between items-center px-4 py-2.5 mt-9 text-lg bg-orange-50 rounded-2xl text-black text-opacity-50 flex-nowrap">
+                <div class="anton">ENTER YOUR EMAIL ADDRESS HERE...</div>
+                <img loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/470b23cbeed3486c4bb7f705292b8322b4f060ccc66e4a5486aa070f78418b07?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                  class="object-contain shrink-0 aspect-[1.45] w-[26px]" />
+              </div>
+            </div>
+            <div class="flex flex-col items-center mt-2 text-lg text-white whitespace-nowrap">
+              <div class="tracking-wider uppercase anton">Facebook</div>
+              <div class="mt-5 uppercase anton">X</div>
+              <div class="self-stretch mt-5 tracking-wider anton">INSTAGRAM</div>
+            </div>
+            <div class="grow shrink self-stretch w-80 text-xs text-white">
+              © 2023 Frazzled Cafe. All Rights Reserved. Frazzled Cafe is a registered charity in England and
+              Wales (#1173064) and Scotland (#SC048841).
+              <br />
+              <br />
+              <a href="https://www.frazzledcafe.org/?page_id=260" class="underline" target="_blank">Guidelines</a>
+                
+              <a href="https://www.frazzledcafe.org/?page_id=256" class="underline" target="_blank">Terms and
+                Conditions</a>
+               
+              <a href="https://www.frazzledcafe.org/?page_id=264" class="underline" target="_blank">Privacy
+                Policy</a>
+            </div>
+          </div>
+        </div>
+        <!-- SMALL FOOTER -->
+        <div class="max-md:mt-16 w-full">
+          <div
+            class="xl:hidden flex flex-wrap gap-10 items-start self-stretch px-14 py-24 w-full bg-black max-md:px-5 max-md:mt-10 max-md:max-w-full max-md:flex-col">
+            <img loading="lazy" src="img/_REV1262_FRAZZLED_EMOJI_MASTER_WITH_TEXT_Battery.png"
+              class="absolute mt-[-200px]" />
+            <img loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/a9a7f32971d0c19758ec291eb9e3c49154c3d28b63a61e71577a9b84670e66d4?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+              class="object-contain shrink-0 mt-1.5 max-w-full aspect-[2.23] w-[154px] max-md:w-full" />
+            <div class="flex flex-col w-full max-md:w-full">
+              <div class="self-start text-2xl tracking-wider text-white uppercase anton">
+                SIGN UP TO OUR NEWSLETTER
+              </div>
+              <div
+                class="flex gap-5 justify-between items-center px-4 py-2.5 mt-9 text-lg bg-orange-50 rounded-2xl text-black text-opacity-50 flex-nowrap">
+                <div class="anton">ENTER YOUR EMAIL ADDRESS HERE...</div>
+                <img loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/470b23cbeed3486c4bb7f705292b8322b4f060ccc66e4a5486aa070f78418b07?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                  class="object-contain shrink-0 aspect-[1.45] w-[26px]" />
+              </div>
+            </div>
+            <div class="flex flex-col items-start mt-2 text-lg text-white whitespace-nowrap w-full max-md:w-full">
+              <div class="tracking-wider uppercase anton">Facebook</div>
+              <div class="mt-5 uppercase anton">X</div>
+              <div class="self-stretch mt-5 tracking-wider anton">INSTAGRAM</div>
+            </div>
+            <div class="grow shrink self-stretch w-80 text-xs text-white max-md:w-full">
+              © 2023 Frazzled Cafe. All Rights Reserved. Frazzled Cafe is a registered charity in England and
+              Wales
+              (#1173064) and Scotland (#SC048841).
+              <br />
+              <br />
+              <a href="https://www.frazzledcafe.org/?page_id=260" class="underline" target="_blank">Guidelines</a>
+                
+              <a href="https://www.frazzledcafe.org/?page_id=256" class="underline" target="_blank">Terms and
+                Conditions</a>
+               
+              <a href="https://www.frazzledcafe.org/?page_id=264" class="underline" target="_blank">Privacy
+                Policy</a>
+            </div>
+          </div>
+        </div>
+        <!-- FOOTER -->
+      </div>
+
+</body>
+<script src="js/index.js"></script>
+<script src="js/video.js"></script>
+<script src="js/dropdown.js"></script>
+
+</html>

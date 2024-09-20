@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Frazzled</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/general-sans" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="./favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/site.webmanifest">
+
+</head>
+
+<body>
+  <div class="flex overflow-hidden flex-col pt-9 bg-orange-50">
+    <div
+      class="flex flex-wrap gap-5 justify-between self-center w-full text-base tracking-wide text-center text-black max-md:max-w-full max-w-full px-14 max-md:px-4">
+      <img loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/1efb2fe7e781ff98fcba494d68362ad5491f3b31b47dffe41e47d085c171f50a?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+        class="object-contain shrink-0 max-w-full aspect-[2.22] w-[215px]" />
+      <!-- Burger Menu -->
+      <div class="xl:hidden relative">
+        <button class="p-2" id="dropdown-button">
+          <svg class="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+        <div id="dropdown-menu"
+          class="z-20 hidden origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+          role="menu" aria-orientation="vertical" aria-labelledby="dropdown-button">
+          <div class="py-1" role="none">
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100" role="menuitem">ABOUT
+              FRAZZLED</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+              role="menuitem">Sessions</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+              role="menuitem">Contact US</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100" role="menuitem">need
+              help right now</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+              role="menuitem">volunteer with us</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+              role="menuitem">PARTNER with us</a>
+            <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+              role="menuitem">support us</a>
+          </div>
+        </div>
+      </div>
+      <!-- Navigation -->
+      <div class="flex flex-wrap gap-7 my-auto max-md:max-w-full max-xl:hidden">
+        <div class="flex flex-auto gap-4 items-start">
+          <div
+            class="uppercase grow anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            ABOUT FRAZZLED</div>
+          <div
+            class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            Sessions</div>
+          <div
+            class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            Contact US</div>
+          <div
+            class="self-stretch p-3 uppercase bg-orange-600 rounded-xl anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            need help now?
+          </div>
+          <div
+            class="uppercase basis-auto anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            volunteer WITH US</div>
+        </div>
+        <div class="flex flex-wrap gap-7 my-auto max-md:max-w-full">
+          <div
+            class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">
+            PARTNER with us</div>
+          <div
+            class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">
+            SUPPORT US</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col">
+
+      <div
+        class="anton self-center mt-20 mb-12 text-7xl leading-none text-center text-black max-md:mt-10 max-md:max-w-full">
+        <img src="img/_REV1262_FRAZZLED_EMOJI_MASTER_NO_TEXT_JG_GREEN-SIGNPOST.png" alt="clouds"
+          class="ml-[340px] sm:ml-[411px] mb-[-120px]">
+        Contact
+      </div>
+
+      <div
+        class="mt-16 text-2xl font-medium leading-7 text-center text-black max-md:mt-10 max-w-[1000px] text-center mx-auto">
+        Want to reach out to us? Please fill in this form.
+        <br />
+        <br />
+        This contact form is for further information about our service, and not for
+        one-to-one advice. Should you need more support, please check our “Need Help
+        Now’ page.
+        <br />
+        <br />
+        Additionally, if you have a compliment or a complaint then please also use
+        this form and we will get back to you as soon as possible.
+      </div>
+
+
+      <div
+        class="text-center mx-auto flex flex-wrap gap-5 justify-between mt-20 max-w-full text-2xl leading-loose text-black w-[964px] max-md:mt-10">
+        <input
+          class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 min-w-[450px] text-left placeholder-bg-none"
+          placeholder="Your name" />
+
+        <input
+          class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 min-w-[450px] text-left placeholder-bg-none"
+          placeholder="Email address" />
+
+
+      </div>
+      <div
+        class="text-center mx-auto flex flex-wrap gap-5 justify-between mt-11 max-w-full text-2xl leading-loose text-black w-[964px] max-md:mt-10">
+        <input
+          class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 min-w-[450px] text-left placeholder-bg-none"
+          placeholder="Subject" />
+
+        <input
+          class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 min-w-[450px] text-left placeholder-bg-none"
+          placeholder="What is 10+10?" />
+      </div>
+      <textarea
+        class="anton text-left mx-auto px-5 pt-1 pb-56 mt-11 max-w-full text-2xl leading-loose text-black whitespace-nowrap rounded-md border-2 border-black border-solid w-[965px] max-md:pr-5 max-md:pb-28 max-md:mt-10"
+        placeholder="Message..."></textarea>
+
+      <button
+        class="text-center mx-auto md:bottom-10 bottom-0 anton px-8 py-4 mt-12 max-w-full tracking-wider bg-[#FF4F19] rounded-xl w-[205px] max-md:px-5 max-md:mt-10  focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl text-2xl">
+        SUBMIT
+      </button>
+
+
+      <!-- FOOTER -->
+      <div class="bg-black w-full md:mt-32">
+        <div
+          class="hidden xl:flex gap-10 items-center justify-center self-stretch py-24 w-full px-14 mx-auto max-md:px-5 max-md:mt-10 max-md:max-w-full">
+          <img loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/a9a7f32971d0c19758ec291eb9e3c49154c3d28b63a61e71577a9b84670e66d4?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+            class="object-contain shrink-0 mt-1.5 max-w-full aspect-[2.23] w-[154px] mt-[-30px]" />
+          <div class="flex flex-col">
+            <img loading="lazy" src="img/_REV1262_FRAZZLED_EMOJI_MASTER_WITH_TEXT_Battery.png"
+              class="mt-[-188px] w-[204px] mb-[40px] ml-[-20px] z-20 absolute" />
+            <div class="self-start text-2xl tracking-wider text-white uppercase anton">
+              SIGN UP TO OUR NEWSLETTER
+            </div>
+            <div
+              class="flex gap-5 justify-between items-center px-4 py-2.5 mt-9 text-lg bg-orange-50 rounded-2xl text-black text-opacity-50 flex-nowrap">
+              <div class="anton">ENTER YOUR EMAIL ADDRESS HERE...</div>
+              <img loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/470b23cbeed3486c4bb7f705292b8322b4f060ccc66e4a5486aa070f78418b07?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                class="object-contain shrink-0 aspect-[1.45] w-[26px]" />
+            </div>
+          </div>
+          <div class="flex flex-col items-center mt-2 text-lg text-white whitespace-nowrap">
+            <div class="tracking-wider uppercase anton">Facebook</div>
+            <div class="mt-5 uppercase anton">X</div>
+            <div class="self-stretch mt-5 tracking-wider anton">INSTAGRAM</div>
+          </div>
+          <div class="grow shrink self-stretch w-80 text-xs text-white">
+            © 2023 Frazzled Cafe. All Rights Reserved. Frazzled Cafe is a registered charity in England and
+            Wales (#1173064) and Scotland (#SC048841).
+            <br />
+            <br />
+            <a href="https://www.frazzledcafe.org/?page_id=260" class="underline" target="_blank">Guidelines</a>
+              
+            <a href="https://www.frazzledcafe.org/?page_id=256" class="underline" target="_blank">Terms and
+              Conditions</a>
+             
+            <a href="https://www.frazzledcafe.org/?page_id=264" class="underline" target="_blank">Privacy
+              Policy</a>
+          </div>
+        </div>
+      </div>
+      <!-- SMALL FOOTER -->
+      <div class="max-md:mt-16 w-full">
+        <div
+          class="xl:hidden flex flex-wrap gap-10 items-start self-stretch px-14 py-24 w-full bg-black max-md:px-5 max-md:mt-10 max-md:max-w-full max-md:flex-col">
+          <img loading="lazy" src="img/_REV1262_FRAZZLED_EMOJI_MASTER_WITH_TEXT_Battery.png"
+            class="absolute mt-[-200px]" />
+          <img loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/a9a7f32971d0c19758ec291eb9e3c49154c3d28b63a61e71577a9b84670e66d4?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+            class="object-contain shrink-0 mt-1.5 max-w-full aspect-[2.23] w-[154px] max-md:w-full" />
+          <div class="flex flex-col w-full max-md:w-full">
+            <div class="self-start text-2xl tracking-wider text-white uppercase anton">
+              SIGN UP TO OUR NEWSLETTER
+            </div>
+            <div
+              class="flex gap-5 justify-between items-center px-4 py-2.5 mt-9 text-lg bg-orange-50 rounded-2xl text-black text-opacity-50 flex-nowrap">
+              <div class="anton">ENTER YOUR EMAIL ADDRESS HERE...</div>
+              <img loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/470b23cbeed3486c4bb7f705292b8322b4f060ccc66e4a5486aa070f78418b07?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                class="object-contain shrink-0 aspect-[1.45] w-[26px]" />
+            </div>
+          </div>
+          <div class="flex flex-col items-start mt-2 text-lg text-white whitespace-nowrap w-full max-md:w-full">
+            <div class="tracking-wider uppercase anton">Facebook</div>
+            <div class="mt-5 uppercase anton">X</div>
+            <div class="self-stretch mt-5 tracking-wider anton">INSTAGRAM</div>
+          </div>
+          <div class="grow shrink self-stretch w-80 text-xs text-white max-md:w-full">
+            © 2023 Frazzled Cafe. All Rights Reserved. Frazzled Cafe is a registered charity in England and
+            Wales
+            (#1173064) and Scotland (#SC048841).
+            <br />
+            <br />
+            <a href="https://www.frazzledcafe.org/?page_id=260" class="underline" target="_blank">Guidelines</a>
+              
+            <a href="https://www.frazzledcafe.org/?page_id=256" class="underline" target="_blank">Terms and
+              Conditions</a>
+             
+            <a href="https://www.frazzledcafe.org/?page_id=264" class="underline" target="_blank">Privacy
+              Policy</a>
+          </div>
+        </div>
+      </div>
+      <!-- FOOTER -->
+    </div>
+
+</body>
+<script src="js/index.js"></script>
+<script src="js/video.js"></script>
+<script src="js/dropdown.js"></script>
+
+</html>
