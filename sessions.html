@@ -23,9 +23,10 @@
     <div class="flex overflow-hidden flex-col items-center pt-9 bg-orange-50">
         <div
             class="flex flex-wrap gap-5 justify-between self-center w-full text-base tracking-wide text-center text-black max-md:max-w-full max-md:max-w-full px-14 max-md:px-4">
-            <img loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/1efb2fe7e781ff98fcba494d68362ad5491f3b31b47dffe41e47d085c171f50a?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
-                class="object-contain shrink-0 max-w-full aspect-[2.22] w-[215px]" />
+            <a href="./index.html">
+                <img loading="lazy" id="logo" src="img/frazzled-logo.svg"
+                    class="object-contain shrink-0 max-w-full aspect-[2.22] w-[215px]" alt="frazzled logo" />
+            </a>
             <!-- Burger Menu -->
             <div class="xl:hidden relative">
                 <button class="p-2" id="dropdown-button">
@@ -36,24 +37,34 @@
                     </svg>
                 </button>
                 <div id="dropdown-menu"
-                    class="z-20 hidden origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+                    class="z-40 hidden origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
                     role="menu" aria-orientation="vertical" aria-labelledby="dropdown-button">
                     <div class="py-1" role="none">
-                        <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
-                            role="menuitem">ABOUT
-                            FRAZZLED</a>
-                        <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                        <a href="./about.html"
+                            class="pointer uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                            role="menuitem">
+                            <button>
+                                ABOUT
+                                FRAZZLED
+                            </button></a>
+                        <a href="./sessions.html"
+                            class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
                             role="menuitem">Sessions</a>
-                        <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                        <a href="./contact.html"
+                            class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
                             role="menuitem">Contact US</a>
-                        <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                        <a href="./help-now.html"
+                            class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
                             role="menuitem">need
                             help right now</a>
-                        <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                        <a href="./volunteer.html"
+                            class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
                             role="menuitem">volunteer with us</a>
-                        <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                        <a href="./partner.html"
+                            class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
                             role="menuitem">PARTNER with us</a>
-                        <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                        <a href="./support-us.html"
+                            class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
                             role="menuitem">support us</a>
                     </div>
                 </div>
@@ -61,30 +72,40 @@
             <!-- Navigation -->
             <div class="flex flex-wrap gap-7 my-auto max-md:max-w-full max-xl:hidden">
                 <div class="flex flex-auto gap-4 items-start">
-                    <div
-                        class="uppercase grow anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
-                        ABOUT FRAZZLED</div>
-                    <div
-                        class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
-                        Sessions</div>
-                    <div
-                        class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
-                        Contact US</div>
-                    <div
-                        class="self-stretch p-3 uppercase bg-[#FF4F19] rounded-xl anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
-                        need help now?
+                    <a href="./about.html">
+                        <button
+                            class="uppercase grow anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+                            ABOUT FRAZZLED</button>
+                    </a>
+                    <a href="./sessions.html">
+                        <button
+                            class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+                            Sessions</button>
+                    </a>
+                    <a href="./contact.html">
+                        <button class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF]
+                rounded-2xl p-3">
+                            Contact US</button></a>
+                    <a href="./help-now.html">
+                        <button class="self-stretch p-3 uppercase bg-[#FF4F19] rounded-xl anton focus:underline active:underline
+                active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+                            need help now?</button>
+                    </a>
+                    <a href="./volunteer.html">
+                        <button
+                            class="uppercase basis-auto anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+                            volunteer WITH US</button>
+                    </a>
+                    <div class="flex flex-wrap gap-7 my-auto max-md:max-w-full">
+                        <a href="./partner.html">
+                            <button
+                                class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">
+                                PARTNER with us</button></a>
+                        <a href="./support-us.html">
+                            <button
+                                class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">
+                                SUPPORT US</button></a>
                     </div>
-                    <div
-                        class="uppercase basis-auto anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
-                        volunteer WITH US</div>
-                </div>
-                <div class="flex flex-wrap gap-7 my-auto max-md:max-w-full">
-                    <div
-                        class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">
-                        PARTNER with us</div>
-                    <div
-                        class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">
-                        SUPPORT US</div>
                 </div>
             </div>
         </div>
