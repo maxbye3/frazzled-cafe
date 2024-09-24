@@ -7,26 +7,6 @@ body,
   /* Approx. 12pt */
 }
 
-h1 {
-  font-size: 35px !important;
-  /* Approx. 35pt */
-  line-height: 1.1em;
-}
-
-h2 {
-  font-size: 25px !important;
-  /* Approx. 25pt */
-}
-
-h3,
-.h3 {
-  /* font-size: 19px !important; */
-  /* Approx. 17pt */
-}
-
-
-
-
 .anton {
   font-family: "Anton", sans-serif;
 }

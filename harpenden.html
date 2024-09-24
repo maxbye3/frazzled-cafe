@@ -23,9 +23,10 @@
     <div class="flex overflow-hidden flex-col items-center pt-9 bg-orange-50">
         <div
             class="flex flex-wrap gap-5 justify-between self-center w-full text-base tracking-wide text-center text-black max-md:max-w-full max-md:max-w-full px-14 max-md:px-4">
-            <img loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/1efb2fe7e781ff98fcba494d68362ad5491f3b31b47dffe41e47d085c171f50a?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
-                class="object-contain shrink-0 max-w-full aspect-[2.22] w-[215px]" />
+            <a href="./index.html">
+                <img loading="lazy" id="logo" src="img/frazzled-logo.svg"
+                    class="object-contain shrink-0 max-w-full aspect-[2.22] w-[215px]" alt="frazzled logo" />
+            </a>
             <!-- Burger Menu -->
             <div class="xl:hidden relative">
                 <button class="p-2" id="dropdown-button">
@@ -36,24 +37,34 @@
                     </svg>
                 </button>
                 <div id="dropdown-menu"
-                    class="z-20 hidden origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+                    class="z-40 hidden origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
                     role="menu" aria-orientation="vertical" aria-labelledby="dropdown-button">
                     <div class="py-1" role="none">
-                        <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
-                            role="menuitem">ABOUT
-                            FRAZZLED</a>
-                        <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                        <a href="./about.html"
+                            class="pointer uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                            role="menuitem">
+                            <button>
+                                ABOUT
+                                FRAZZLED
+                            </button></a>
+                        <a href="./sessions.html"
+                            class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
                             role="menuitem">Sessions</a>
-                        <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                        <a href="./contact.html"
+                            class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
                             role="menuitem">Contact US</a>
-                        <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                        <a href="./help-now.html"
+                            class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
                             role="menuitem">need
                             help right now</a>
-                        <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                        <a href="./volunteer.html"
+                            class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
                             role="menuitem">volunteer with us</a>
-                        <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                        <a href="./partner.html"
+                            class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
                             role="menuitem">PARTNER with us</a>
-                        <a href="#" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                        <a href="./support-us.html"
+                            class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
                             role="menuitem">support us</a>
                     </div>
                 </div>
@@ -61,42 +72,55 @@
             <!-- Navigation -->
             <div class="flex flex-wrap gap-7 my-auto max-md:max-w-full max-xl:hidden">
                 <div class="flex flex-auto gap-4 items-start">
-                    <div
-                        class="uppercase grow anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
-                        ABOUT FRAZZLED</div>
-                    <div
-                        class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
-                        Sessions</div>
-                    <div
-                        class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
-                        Contact US</div>
-                    <div
-                        class="self-stretch p-3 uppercase bg-[#FF4F19] rounded-xl anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
-                        need help now?
+                    <a href="./about.html">
+                        <button
+                            class="uppercase grow anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+                            ABOUT FRAZZLED</button>
+                    </a>
+                    <a href="./sessions.html">
+                        <button
+                            class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+                            Sessions</button>
+                    </a>
+                    <a href="./contact.html">
+                        <button class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF]
+                    rounded-2xl p-3">
+                            Contact US</button></a>
+                    <a href="./help-now.html">
+                        <button class="self-stretch p-3 uppercase bg-[#FF4F19] rounded-xl anton focus:underline active:underline
+                    active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+                            need help now?</button>
+                    </a>
+                    <a href="./volunteer.html">
+                        <button
+                            class="uppercase basis-auto anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+                            volunteer WITH US</button>
+                    </a>
+                    <div class="flex flex-wrap gap-7 my-auto max-md:max-w-full">
+                        <a href="./partner.html">
+                            <button
+                                class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">
+                                PARTNER with us</button></a>
+                        <a href="./support-us.html">
+                            <button
+                                class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">
+                                SUPPORT US</button></a>
                     </div>
-                    <div
-                        class="uppercase basis-auto anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
-                        volunteer WITH US</div>
-                </div>
-                <div class="flex flex-wrap gap-7 my-auto max-md:max-w-full">
-                    <div
-                        class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">
-                        PARTNER with us</div>
-                    <div
-                        class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">
-                        SUPPORT US</div>
                 </div>
             </div>
         </div>
+
         <!-- navigation -->
         <div class="mt-28 text-6xl leading-[80px] text-center text-black max-md:mt-10 anton">
             Frazzled in partnership</br>
             with Harpenden Trust
         </div>
-        <button
-            class="mb-[50px] sm:mb-0 anton px-8 py-4 mt-24 max-w-full text-3xl tracking-wider text-center text-black bg-orange-600 rounded-xl w-[263px] max-md:px-5 max-md:mt-10">
-            JOIN A SESSION
-        </button>
+        <a href="./sessions.html" target="_blank">
+            <button
+                class="mb-[50px] sm:mb-0 anton px-8 py-4 mt-24 max-w-full text-3xl tracking-wider text-center text-black bg-orange-600 rounded-xl w-[263px] max-md:px-5 max-md:mt-10  focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+                JOIN A SESSION
+            </button>
+        </a>
 
         <img class="md:mt-[-220px] mt-[-100px] md:ml-[-660px] ml-[-460px]"
             src="img/_REV1262_FRAZZLED_EMOJI_MASTER_NO_TEXT_JG_WASHING.png" alt="washing machine">
@@ -105,9 +129,9 @@
             <img class="w-[200px] mt-[-165px] ml-[60%] sm:ml-[70%]"
                 src="img/_REV1262_FRAZZLED_EMOJI_MASTER_NO_TEXT_JG_MIRROR.png" alt="mirror">
             <div class="flex flex-col items-center max-w-full w-[969px]">
-                <div class="anton text-5xl text-center text-black max-md:max-w-full max-md:text-4xl">
+                <h2 class="anton text-5xl text-center text-black max-md:max-w-full max-md:text-4xl">
                     Frazzled at Harpenden
-                </div>
+                </h2>
                 <div
                     class="self-stretch mt-10 text-2xl font-medium leading-7 text-center text-black max-md:mt-10 max-md:max-w-full">
                     <p>
@@ -128,9 +152,9 @@
                         for refreshments in the Well Bean Cafe before we move to the lounge for the meeting.
                     </p>
                 </div>
-                <div class="anton mt-14 ml-5 text-4xl leading-none text-center text-black max-md:mt-10">
+                <h3 class="anton mt-14 ml-5 text-4xl leading-none text-center text-black max-md:mt-10">
                     How can I attend?
-                </div>
+                </h3>
                 <div
                     class="self-stretch mt-12 text-2xl font-medium leading-7 text-center text-black max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
                     <p>
@@ -155,10 +179,12 @@
                         meetings via the main ‘Meetings’ page.
                     </p>
                 </div>
-                <button
-                    class="anton px-8 py-4 mt-24 max-w-full text-3xl tracking-wider text-center text-black bg-orange-600 rounded-xl w-[263px] max-md:px-5 max-md:mt-10">
-                    JOIN A SESSION
-                </button>
+                <a href="./sessions.html" target="_blank">
+                    <button
+                        class="anton px-8 py-4 mt-24 max-w-full text-3xl tracking-wider text-center text-black bg-orange-600 rounded-xl w-[263px] max-md:px-5 max-md:mt-10  focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+                        JOIN A SESSION
+                    </button>
+                </a>
                 <div class="flex gap-5 justify-between mt-24 ml-8 max-w-full w-[597px] max-md:mt-10">
                     <img loading="lazy"
                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/0761a8fbe1a2825a71709462b5863c21bee1da950bce87ac101a0f779841b8dc?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
@@ -176,7 +202,7 @@
                 class="relative px-5 mt-12 pb-32 w-full max-md:mt-10 max-md:max-w-full items-center mx-auto flex justify-center">
                 <div class="max-w-[90%]">
                     <div>
-                        <p class="anton text-5xl w-full text-center">Session guidelines</p>
+                        <h2 class="anton text-5xl w-full text-center">Session guidelines</h2>
                     </div>
                     <div class="grid grid-cols-2 gap-10 max-md:grid-cols-1 mt-14">
                         <div class="flex items-start">
@@ -223,40 +249,98 @@
 
         <img class="ml-[-250px] sm:ml-[-350px] mb-[-80px] mt-[-100px]"
             src="img/_REV1262_FRAZZLED_EMOJI_MASTER_NO_TEXT_JG_SIGNPOST.png" alt="sign post">
-        <div class="mt-14 text-5xl leading-none text-center text-black max-md:mt-10 max-md:text-4xl anton">
+        <h2 class="mt-14 text-5xl leading-none text-center text-black max-md:mt-10 max-md:text-4xl anton">
             FAQs
-        </div>
-        <div
-            class="flex flex-wrap gap-5 justify-between py-5 pr-14 pl-6 mt-11 max-w-full text-4xl leading-none text-black bg-[#7DCB7F] rounded-xl w-[1015px] max-md:px-5 max-md:mt-10">
+        </h2>
+        <div onclick="toggleFaq(1)"
+            class="pointer flex flex-wrap gap-5 justify-between py-5 pr-14 pl-6 mt-11 max-w-full text-4xl leading-none text-black bg-[#7DCB7F] rounded-xl w-[1015px] max-md:px-5 max-md:mt-10">
             <div class="max-md:max-w-full anton">Who are the Harpenden Trust?</div>
-            <img loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/e79376d3c9a9a32c81bcb4c64427cf842a9799327d0cc853440ee22122bf4bb5?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+            <img id="toggle-icon-1" loading="lazy" alt="hide or unhide faq" src="./img/down-arrow.svg"
                 class="object-contain shrink-0 aspect-[0.71] w-[34px]" />
+            <div id="faq-content-1" class="text-2xl font-medium leading-7 max-md:max-w-full" hidden>
+                <p>
+                    The Harpenden Trust supports individuals, families and young people in need, providing financial
+                    assistance for community projects in Harpenden (<a href="https://www.theharpendentrust.org.uk/"
+                        target="_blank">https://www.theharpendentrust.org.uk/</a>).
+                    <br>
+                    <br>
+                    The Trust partners with MIND in Mid Herts and the local PCN (the Primary Care Network of 3 GP
+                    surgeries) to run the Harpenden Wellbeing Hub. It supports Harpenden residents who have concerns
+                    about their mental wellbeing at an early stage before they become unwell and need secondary
+                    interventions such as counselling or cognitive behavioural therapy.
+                    <br>
+                    <br>
+                    An in-person Frazzled Cafe is therefore a fantastic part of the Hub; it gives people of all ages and
+                    backgrounds a regular opportunity to be heard by a supportive group of peers.
+                </p>
+            </div>
         </div>
-        <div
+        <div onclick="toggleFaq(2)"
             class="flex flex-wrap gap-5 justify-between py-5 pr-14 pl-6 mt-5 max-w-full text-4xl leading-none text-black bg-[#7DCB7F] rounded-xl w-[1015px] max-md:px-5">
             <div class="my-auto max-md:max-w-full anton">
                 What can I expect from a face to face meeting?
             </div>
-            <img loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/bb2745a04809f17f4432435e261369a4358506eea71bb76ee5309465b14e77c3?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+            <img id="toggle-icon-2" loading="lazy" alt="hide or unhide faq" src="./img/down-arrow.svg"
                 class="object-contain shrink-0 aspect-[0.71] w-[34px]" />
+            <div id="faq-content-2" class="text-2xl font-medium leading-7 max-md:max-w-full" hidden>
+                <p>
+                    Harpenden Trust/Frazzled Cafe Facilitated meetings last for one hour and start with a run-through of
+                    our guidelines. This is to ensure confidentiality is respected and that there is a safe environment
+                    for those that would like to share.
+                    <br><br>
+                    Each meeting opens and closes with a short mindfulness exercise. You don’t need to ever have tried
+                    mindfulness before, and your participation in these exercises is completely optional. After the
+                    mindfulness exercise, if you would like to speak, all attendees are encouraged to talk about how
+                    they are feeling, or to borrow one of Ruby’s expressions, ‘explain what the weather conditions are
+                    like in your head’.
+                    <br><br>
+
+                    Attendees usually speak for a few minutes to ensure everyone that would like to have the opportunity
+                    to speak. You can of course speak more than once, don’t worry about these timings, the facilitator
+                    is there to make sure all who want to speak can and that there is room for all voices to be heard.
+                    Speaking is optional. If you would just like to listen, that is perfectly OK. In all meetings, and
+                    in between people speaking, we expect some silences and those are normal.
+                    <br><br>
+
+                    The Facilitator’s role is to ensure everyone that would like to speak gets a chance to, that the
+                    topics of conversation are appropriate for the space and that attendees are both present and
+                    respectful of the space and one another. After the closing mindfulness exercise and the end of the
+                    meeting, we recommend attendees take a few minutes to reflect and decompress before returning to
+                    their usual routine.
+                </p>
+            </div>
         </div>
-        <div
+        <div onclick="toggleFaq(3)"
             class="flex flex-wrap gap-5 justify-between py-5 pr-14 pl-6 mt-5 max-w-full text-4xl leading-none text-black bg-[#7DCB7F] rounded-xl w-[1015px] max-md:px-5">
             <div class="my-auto max-md:max-w-full anton">How can I get to the meetings?</div>
-            <img loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/324025a61cca10c6dd5d2a777f2bb18b992818f7f9fc03c72bb1940c3fd01703?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+            <img id="toggle-icon-3" loading="lazy" alt="hide or unhide faq" src="./img/down-arrow.svg"
                 class="object-contain shrink-0 aspect-[0.71] w-[34px]" />
+            <div id="faq-content-3" class="text-2xl font-medium leading-7 max-md:max-w-full" hidden>
+                <p>
+                    Meetings are held at 130A Southdown Road, Harpenden, AL5 1PU.
+                    <br><br>
+                    Parking is available in the co-op car park. Entrance is via main doors and up the stairs on
+                    Southdown Rd or via the rear doors from the car park where there is lift access.
+                    <br><br>
+                    There is wheelchair accessibility at this location.
+                </p>
+            </div>
         </div>
-        <div
+        <div onclick="toggleFaq(4)"
             class="flex flex-wrap gap-5 justify-between py-5 pr-14 pl-6 mt-5 max-w-full text-4xl leading-none text-black bg-[#7DCB7F] rounded-xl w-[1015px] max-md:px-5">
             <div class="my-auto max-md:max-w-full anton">
                 Is there further information about Harpenden Hall?
             </div>
-            <img loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/159635dd5a04f2e730ae4679ee2e05b02cab5664b2afd4cc01db5368f0811533?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+            <img id="toggle-icon-4" loading="lazy" alt="hide or unhide faq" src="./img/down-arrow.svg"
                 class="object-contain shrink-0 aspect-[0.71] w-[34px]" />
+            <div id="faq-content-4" class="text-2xl font-medium leading-7 max-md:max-w-full" hidden>
+                <p>
+                    There is a policy in place regarding the building used for our meetings and the CCTV that is in
+                    place there. You can read more about it here <a
+                        href="https://www.frazzledcafe.org/wp-content/uploads/2024/02/HARPENDEN-TRUST-CCTV-POLICY-January-2024.pdf"
+                        target="_blank">View the Policy on CCTV</a>.
+                </p>
+            </div>
         </div>
         <!-- FOOTER -->
         <div class="flex flex-col rounded-none xl:pt-0 mt-32">
@@ -308,5 +392,6 @@
 <script src="js/index.js"></script>
 <script src="js/video.js"></script>
 <script src="js/dropdown.js"></script>
+<script src="js/faq.js"></script>
 
 </html>
