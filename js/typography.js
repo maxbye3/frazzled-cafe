@@ -1,40 +1,50 @@
-// Your web app's Firebase configuration
-const firebaseConfig = {
-    apiKey: "AIzaSyB8Px8os2qOkMHD6eXglqBbJjHvLf2Z3YQ",
-    authDomain: "frazzled-cafe.firebaseapp.com",
-    projectId: "frazzled-cafe",
-    storageBucket: "frazzled-cafe.appspot.com",
-    messagingSenderId: "805775727885",
-    appId: "1:805775727885:web:02a274eed78d358f5d2444"
+function trflu() {
+    event.preventDefault();
+    fetch('php/typography.php')
+        .then(response => response.json())
+        .then(data => {
+            firebase.initializeApp(data.accordion);
+            const database = firebase.database();
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const subject = document.getElementById('subject').value.trim();
+            const captcha = document.getElementById('captcha').value.trim();
+            const message = document.getElementById('message').value.trim();
+
+            // Validate form fields
+            if (!name || !email || !subject || !captcha || !message) {
+                alert('Please fill in all fields.');
+                return;
+            }
+
+            // Validate email format
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailPattern.test(email)) {
+                alert('Please enter a valid email address.');
+                return;
+            }
+
+            // Validate captcha
+            if (captcha !== '20') {
+                alert('Incorrect answer to the captcha question.');
+                return;
+            }
+
+            database.ref('email/').push({
+                name,
+                email,
+                subject,
+                message,
+            }).then(() => {
+                location.href = "./email-success.html";
+            }).catch((error) => {
+                console.error('Error sending data to Firebase:', error);
+                location.href = "./email-failure.html"
+            });
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            location.href = "./email-failure.html"
+        });
+
 };
-
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-
-// Reference to the Firebase Realtime Database
-const database = firebase.database();
-
-// Example usage: Send a name to Firebase
-function typo() {
-    // Get the name from the form
-    const email = document.getElementById('email').value.trim();
-    console.log('email', email)
-
-    // Send the name to Firebase
-    sendNameToFirebase(email);
-}
-
-// Function to send name to Firebase
-function sendNameToFirebase(name) {
-    // Reference to the 'names' node in the database
-    const namesRef = database.ref('names');
-
-    // Push the name to the database
-    namesRef.push({
-        name: name
-    }).then(() => {
-        console.log('Name sent to Firebase successfully');
-    }).catch((error) => {
-        console.error('Error sending name to Firebase:', error);
-    });
-}

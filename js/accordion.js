@@ -8,7 +8,7 @@ function myFunction() {
             .then(data => {
                 firebase.initializeApp(data.accordion);
                 const database = firebase.database();
-                database.ref('users/').push({
+                database.ref('newsletter/').push({
                     name: cool,
                 });
                 document.getElementById('newsletter-input-wrapper').hidden = true;
