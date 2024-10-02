@@ -174,16 +174,24 @@
           <div class="flex flex-col">
             <img loading="lazy" src="img/_REV1262_FRAZZLED_EMOJI_MASTER_WITH_TEXT_Battery.png"
               class="mt-[-350px] lg:mt-[-188px] w-[204px] mb-[40px] ml-[-20px]  z-20 absolute" />
-            <div class="self-start text-2xl tracking-wider text-white uppercase anton">
-              SIGN UP TO OUR NEWSLETTER
-            </div>
-            <div
-              class="flex gap-5 justify-between items-center pl-4 pr-4 py-2.5 mt-9 text-lg bg-orange-50 rounded-2xl text-black text-opacity-50 flex-nowrap md:w-[320px]">
-              <input class="anton min-w-[250px]" placeholder="ENTER YOUR EMAIL ADDRESS HERE..." />
-              <img loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/470b23cbeed3486c4bb7f705292b8322b4f060ccc66e4a5486aa070f78418b07?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
-                class="object-contain shrink-0 aspect-[1.45] w-[26px]" />
-            </div>
+            <section id="newsletter-thanks-wrapper" hidden>
+              <div class="self-start text-2xl tracking-wider text-white uppercase anton">
+                Thanks so much!
+              </div>
+            </section>
+            <section id="newsletter-input-wrapper">
+              <div class="self-start text-2xl tracking-wider text-white uppercase anton">
+                SIGN UP TO OUR NEWSLETTER
+              </div>
+              <div
+                class="flex gap-5 justify-between items-center pl-4 pr-4 py-2.5 mt-9 text-lg bg-orange-50 rounded-2xl text-black text-opacity-50 flex-nowrap md:w-[320px]">
+                <input class="anton min-w-[250px]" id="email-newsletter"
+                  placeholder="ENTER YOUR EMAIL ADDRESS HERE..." />
+                <img loading="lazy" onclick="myFunction()"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/470b23cbeed3486c4bb7f705292b8322b4f060ccc66e4a5486aa070f78418b07?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                  class="pointer object-contain shrink-0 aspect-[1.45] w-[26px]" />
+              </div>
+            </section>
           </div>
           <div class="flex flex-col items-start text-lg text-white whitespace-nowrap">
             <a href="https://www.facebook.com/FrazzledCafeUK/" target="_blank">
@@ -222,5 +230,8 @@
 <script src="js/index.js"></script>
 <script src="js/video.js"></script>
 <script src="js/dropdown.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+<script src="js/accordion.js"></script>
 
 </html>
