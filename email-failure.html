@@ -51,7 +51,7 @@
               role="menuitem">Contact US</a>
             <a href="./help-now.html" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
               role="menuitem">need
-              help right now</a>
+              help</a>
             <a href="./volunteer.html" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
               role="menuitem">volunteer with us</a>
             <a href="./partner.html" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
@@ -106,7 +106,7 @@
     <div class="flex flex-col">
 
       <div
-        class="anton self-center mt-4 mb-12 text-7xl leading-none text-center text-black max-md:mt-10 max-md:max-w-full">
+        class="hidden md:block anton self-center mt-4 mb-12 text-7xl leading-none text-center text-black max-md:mt-10 max-md:max-w-full">
         <img src="img/_REV1262_FRAZZLED_EMOJI_MASTER_NO_TEXT_JG_GREEN-SIGNPOST.png" alt="sign post"
           class="ml-[340px] sm:ml-[411px] mb-[-120px]">
         Contact
@@ -122,21 +122,21 @@
         <div
           class="text-center mx-auto flex flex-wrap gap-5 justify-between mt-20 max-w-full text-2xl leading-loose text-black w-[964px] max-md:mt-10">
           <input id="name"
-            class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 min-w-[450px] text-left placeholder-bg-none"
+            class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 md:min-w-[450px] text-left placeholder-bg-none"
             placeholder="Your name" name="name" required />
 
           <input id="email"
-            class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 min-w-[450px] text-left placeholder-bg-none"
+            class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 md:min-w-[450px] text-left placeholder-bg-none"
             placeholder="Email address" name="email" type="email" required />
         </div>
         <div
           class="text-center mx-auto flex flex-wrap gap-5 justify-between mt-11 max-w-full text-2xl leading-loose text-black w-[964px] max-md:mt-10">
           <input id="subject" name="subject"
-            class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 min-w-[450px] text-left placeholder-bg-none"
+            class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 md:min-w-[450px] text-left placeholder-bg-none"
             placeholder="Subject" name="subject" required />
 
           <input id="captcha"
-            class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 min-w-[450px] text-left placeholder-bg-none"
+            class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 md:min-w-[450px] text-left placeholder-bg-none"
             placeholder="What is 10+10?" name="captcha" required />
         </div>
         <textarea id="message"
@@ -226,6 +226,7 @@
 <script src="js/dropdown.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+<script src="js/accordion.js"></script>
 <script src="js/accordion.js"></script>
 
 </html>

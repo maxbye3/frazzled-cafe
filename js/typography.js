@@ -39,7 +39,7 @@ function trflu() {
                 location.href = "./email-success.html";
             }).catch((error) => {
                 console.error('Error sending data to Firebase:', error);
-                location.href = "./email-failure.html"
+                // location.href = "./email-failure.html"
             });
         })
         .catch(error => {

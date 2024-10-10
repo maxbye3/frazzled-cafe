@@ -18,5 +18,7 @@ function myFunction() {
                 console.error('Error:', error);
             });
 
+    } else {
+        document.getElementById('valid-email').hidden = false;
     }
 };
