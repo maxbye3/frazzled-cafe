@@ -75,17 +75,17 @@
               Sessions</button>
           </a>
           <a href="./contact.html">
-            <button class="underline uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF]
-                rounded-2xl p-3">
+            <button class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF]
+            rounded-2xl p-3">
               Contact US</button></a>
           <a href="./help-now.html">
             <button class="self-stretch p-3 uppercase bg-[#FF4F19] rounded-xl anton focus:underline active:underline
-                active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
               need help now?</button>
           </a>
           <a href="./volunteer.html">
             <button
-              class="uppercase basis-auto anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+              class="underline uppercase basis-auto anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
               volunteer WITH US</button>
           </a>
           <div class="flex flex-wrap gap-7 my-auto max-md:max-w-full">
@@ -102,62 +102,38 @@
       </div>
     </div>
 
-
     <div class="flex flex-col">
 
-      <div
-        class="hidden md:block anton self-center mt-4 mb-12 text-7xl leading-none text-center text-black max-md:mt-10 max-md:max-w-full">
-        <img src="img/_REV1262_FRAZZLED_EMOJI_MASTER_NO_TEXT_JG_GREEN-SIGNPOST.png" alt="sign post"
-          class="ml-[340px] sm:ml-[411px] mb-[-120px]">
-        Contact
-      </div>
+      <h1
+        class="anton self-center mt-20 mb-12 text-7xl leading-none text-center text-black max-md:mt-10 max-md:max-w-full">
+        Volunteer with Frazzled
+      </h1>
 
       <div
         class="mt-16 text-2xl font-medium leading-7 text-center text-black max-md:mt-10 max-w-[1000px] text-center mx-auto">
-        Something seems to have gone wrong please contact: <a
-          href="mailto:team@frazzledcafe.org">team@frazzledcafe.org</a>
+        <img src="img/_REV1262_FRAZZLED_EMOJI_MASTER_NO_TEXT_JG_0609014-206-PINK-SWITCH.png" alt="pink switch"
+          class="absolute right-0 hidden xl:flex">
+        <img src="img/_REV1262_FRAZZLED_EMOJI_MASTER_NO_TEXT_JG_0609014-ORANGE-SPIRAL.png" alt="orange spiral"
+          class="absolute left-0 mt-[220px] hidden xl:flex">
+        We are always on the look out for compassionate communicators with natural leadership and listening skills -
+        people who love to work with and support others, and do so without judgement. <br><br>
+        All of our facilitators at
+        Frazzled are handpicked by Ruby and the team, and are essential to the running of the charity. <br><br>
+        If you're looking
+        for an opportunity to grow your skills as part of an enthusiastic, diverse and supportive team, and work in a
+        remarkably rewarding role - this could be for you.<br><br>
+        Before applying or expressing an interest in volunteering with
+        us, we ask all applicants to attend at least two Facilitator-led sessions as a participant, to start to
+        understand the role and the importance of it not being an advisory or therapeutic support service.
       </div>
 
-      <!-- Your form and other content here -->
-      <form id="contact-form" class="flex flex-col items-center" action="send_email.php" method="POST">
-        <div
-          class="text-center mx-auto flex flex-wrap gap-5 justify-between mt-20 max-w-full text-2xl leading-loose text-black w-[964px] max-md:mt-10">
-          <input id="name"
-            class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 md:min-w-[450px] text-left placeholder-bg-none"
-            placeholder="Your name" name="name" required />
-
-          <input id="email"
-            class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 md:min-w-[450px] text-left placeholder-bg-none"
-            placeholder="Email address" name="email" type="email" required />
-        </div>
-        <div
-          class="text-center mx-auto flex flex-wrap gap-5 justify-between mt-11 max-w-full text-2xl leading-loose text-black w-[964px] max-md:mt-10">
-          <input id="subject" name="subject"
-            class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 md:min-w-[450px] text-left placeholder-bg-none"
-            placeholder="Subject" name="subject" required />
-
-          <input id="captcha"
-            class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 md:min-w-[450px] text-left placeholder-bg-none"
-            placeholder="What is 10+10?" name="captcha" required />
-        </div>
-        <textarea id="message"
-          class="anton text-left mx-auto px-5 pt-1 pb-56 mt-11 max-w-full text-2xl leading-loose text-black whitespace-nowrap rounded-md border-2 border-black border-solid w-[965px] max-md:pr-5 max-md:pb-28 max-md:mt-10"
-          placeholder="Message..." name="message" required></textarea>
-
-        <button
-          class="text-center mx-auto md:bottom-10 bottom-0 anton px-8 py-4 mt-12 max-w-full tracking-wider bg-[#FF4F19] rounded-xl w-[205px] max-md:px-5 max-md:mt-10 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl text-2xl"
-          type="submit">
-          SUBMIT
+      <a href="https://docs.google.com/forms/d/1IEppyukW1lidRsI0fMqwPtrU3op7JkIXdyuv2r8j3So/edit#responses"
+        target="_blank"
+        class="text-center mx-auto md:bottom-10 bottom-0 anton px-8 py-4 mt-12 max-w-full tracking-wider bg-[#EA488E] rounded-xl w-[205px] max-md:px-5 max-md:mt-10  focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl text-2xl">
+        <button>
+          APPLY HERE
         </button>
-      </form>
-
-
-      <!-- <label>Name</label>
-      <input type="text" name="user_name">
-      <label>Email</label>
-      <input type="email" name="user_email">
-      <label>Message</label>
-      <textarea name="message"></textarea> -->
+      </a>
 
 
       <!-- FOOTER -->
@@ -187,6 +163,7 @@
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/470b23cbeed3486c4bb7f705292b8322b4f060ccc66e4a5486aa070f78418b07?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
                   class="pointer object-contain shrink-0 aspect-[1.45] w-[26px]" />
               </div>
+              <p id='valid-email' hidden class="text-white mt-2 underline">Please enter valid email...</p>
             </section>
           </div>
           <div class="flex flex-col items-start text-lg text-white whitespace-nowrap">
@@ -223,11 +200,14 @@
     </div>
 
 </body>
-<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/video.js"></script>
 <script src="js/dropdown.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
 <script src="js/accordion.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
 <script src="js/accordion.js"></script>
 
 </html>

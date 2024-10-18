@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Frazzled</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/general-sans" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+
+</head>
+
+<body>
+    <video id="video-element" class="object-cover inset-0 size-full" autoplay muted poster="img/frazzled.png">
+        <source src="video/video-short.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <!-- <img id="poster-image" class="poster-image" src="img/frazzled.png" alt="Poster Image"> -->
+    <div class="flex flex-col bg-orange-50">
+        <div
+            class="pt-9 flex flex-wrap gap-5 justify-between self-center w-full text-base tracking-wide text-center text-black max-md:max-w-full max-md:max-w-full px-14 max-md:px-4">
+            <a href="./index.html">
+                <img loading="lazy" id="logo" src="img/frazzled-logo.svg"
+                    class="object-contain shrink-0 max-w-full aspect-[2.22] w-[215px]" alt="frazzled logo" />
+            </a>
+            <!-- Burger Menu -->
+            <div class="xl:hidden relative">
+                <button class="p-2" id="dropdown-button">
+                    <svg class="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+                <div id="dropdown-menu"
+                    class="z-40 hidden origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+                    role="menu" aria-orientation="vertical" aria-labelledby="dropdown-button">
+                    <div class="py-1" role="none">
+                        <a href="./about.html"
+                            class="pointer uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                            role="menuitem">
+                            <button>
+                                ABOUT
+                                FRAZZLED
+                            </button></a>
+                        <a href="./sessions.html"
+                            class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                            role="menuitem">Sessions</a>
+                        <a href="./contact.html"
+                            class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                            role="menuitem">Contact US</a>
+                        <a href="./help-now.html"
+                            class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                            role="menuitem">need
+                            help now</a>
+                        <a href="./volunteer.html"
+                            class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                            role="menuitem">volunteer with us</a>
+                        <a href="./partner.html"
+                            class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                            role="menuitem">PARTNER with us</a>
+                        <a href="./support-us.html"
+                            class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
+                            role="menuitem">support us</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Navigation -->
+            <div class="flex flex-wrap gap-7 my-auto max-md:max-w-full max-xl:hidden">
+                <div class="flex flex-auto gap-4 items-start">
+                    <a href="./about.html">
+                        <button
+                            class="uppercase grow anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+                            ABOUT FRAZZLED</button>
+                    </a>
+                    <a href="./sessions.html">
+                        <button
+                            class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+                            Sessions</button>
+                    </a>
+                    <a href="./contact.html">
+                        <button class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF]
+                        rounded-2xl p-3">
+                            Contact US</button></a>
+                    <a href="./help-now.html">
+                        <button class="self-stretch p-3 uppercase bg-[#FF4F19] rounded-xl anton focus:underline active:underline
+                        active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+                            need help now?</button>
+                    </a>
+                    <a href="./volunteer.html">
+                        <button
+                            class="uppercase basis-auto anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+                            volunteer WITH US</button>
+                    </a>
+                    <div class="flex flex-wrap gap-7 my-auto max-md:max-w-full">
+                        <a href="./partner.html">
+                            <button
+                                class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">
+                                PARTNER with us</button></a>
+                        <a href="./support-us.html">
+                            <button
+                                class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">
+                                SUPPORT US</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="self-center mt-28 text-center text-black max-md:mt-10 max-md:max-w-full">
+            <img src="img/FRAZZLED_RUBY_EMOJI.png" alt="ruby face"
+                class="w-[90px] mb-[-60px] mt-0 mr-[-100px] md:w-[148px] md:mr-[-160px] md:mt-[-70px] md:mb-[-75px] ml-auto sm:flex custom-hidden">
+            <img src="img/_REV1262_FRAZZLED_EMOJI_WITHOUTTEXT_TEA.png" alt="tea cup"
+                class="absolute z-20 w-[120px] mt-[5px] ml-[-64px] md:w-[148px] md:mt-[30px] md:mb-[-75px]">
+            <img src="img/_REV1262_FRAZZLED_EMOJI_WITHOUTTEXT_EGG.png" alt="sleeping egg"
+                class="absolute z-20 w-[120px] mt-[55px] ml-[194px] md:ml-[394px] md:w-[160px] md:mt-[120px] md:mb-[-75px] sm:flex custom-hidden">
+            <h1 class="text-7xl leading-[90px] max-md:text-4xl max-md:leading-[53px] anton">Feeling Frazzled?
+                <br>
+                Come on in.
+                <br>
+                Let it out.
+
+        </div>
+        <a href=" ./sessions.html" class="self-center">
+
+            <button href=" /sessions.html" class="self-center px-6 py-4 mt-20 max-w-full text-3xl tracking-wider text-center text-black bg-[#FF4F19]
+            rounded-xl w-[267px] max-md:px-5 max-md:mt-10 anton focus:underline active:underline
+            active:bg-transparent hover:bg-[#B987FF]">
+                JOIN A SESSION
+            </button>
+        </a>
+        <div class="flex flex-col mt-20 max-md:mt-10 max-md:max-w-full max-w-full mx-auto mb-0 xl:mb-32">
+            <div class="pr-14 bg-[#EFA9D6] max-md:pr-5 max-md:max-w-full">
+                <div class="flex gap-5 max-md:flex-col">
+                    <div class="flex flex-col w-[56%] max-md:ml-2 max-md:w-full">
+                        <img loading="lazy" alt="crowd of people" src="img/crowd-group.png"
+                            class="object-contain grow w-full aspect-[1.42] max-md:mt-6 max-md:max-w-full md:ml-4 xl:ml-0" />
+                    </div>
+                    <div class="flex flex-col ml-5 w-[44%] max-md:ml-0 max-md:w-full">
+                        <div
+                            class="flex flex-col items-start self-stretch my-12 text-2xl text-black max-md:mt-10 max-md:max-w-full ml-2 md:ml-0">
+                            <div class="text-5xl max-md:text-4xl anton md:mt-[50px]">What we do
+                            </div>
+                            <div class="self-stretch mt-5 font-medium leading-7 max-md:max-w-full">
+                                <p>
+                                    Frazzled is a community based on the power of emotional
+                                    openness.
+                                    Founded by Ruby Wax in 2017, it's a space where anyone can come
+                                    and be listened to, or simply listen, without judgment or
+                                    solutions. <br><br> The simple act of opening up has the power
+                                    to
+                                    help
+                                    not just the person sharing, but those we share with. This is a
+                                    place where you can simply exhale and feel less alone in your
+                                    feelings.
+                                </p>
+                            </div>
+                            <a href="./sessions.html">
+                                <button
+                                    class="px-5 py-4 mt-14 tracking-wider text-center bg-[#FAE160] rounded-xl max-md:mt-10 anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+                                    MORE ABOUT OUR SESSIONS
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="self-center w-full max-w-[1625px] max-lg:max-w-full mt-28 pt-12">
+                <div class="flex gap-12 max-lg:flex-col justify-center px-4 lg:px-0">
+                    <div
+                        class="max-w-[30%] grow flex flex-col items-center px-12 pt-20 pb-12 w-full text-4xl tracking-wider leading-10 text-center text-black bg-[#7DCB7F] rounded-3xl max-lg:px-5 max-lg:mt-6 max-lg:max-w-full anton">
+                        <img loading="lazy"
+                            srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/c35fb9068e9a0dabc583aa095ac6cbcd5c734fd93669f75a6b1e187aa5ed01f3?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/c35fb9068e9a0dabc583aa095ac6cbcd5c734fd93669f75a6b1e187aa5ed01f3?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c35fb9068e9a0dabc583aa095ac6cbcd5c734fd93669f75a6b1e187aa5ed01f3?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/c35fb9068e9a0dabc583aa095ac6cbcd5c734fd93669f75a6b1e187aa5ed01f3?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/c35fb9068e9a0dabc583aa095ac6cbcd5c734fd93669f75a6b1e187aa5ed01f3?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c35fb9068e9a0dabc583aa095ac6cbcd5c734fd93669f75a6b1e187aa5ed01f3?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/c35fb9068e9a0dabc583aa095ac6cbcd5c734fd93669f75a6b1e187aa5ed01f3?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/c35fb9068e9a0dabc583aa095ac6cbcd5c734fd93669f75a6b1e187aa5ed01f3?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                            class="w-[182px] mt-[-175px]" />
+                        <p class="flex-grow flex items-center justify-center">
+                            “I find it remarkable that this support is on offer and for free?! It's
+                            a
+                            unique,
+                            friendly,
+                            safe place, allowing me to feel less alone with my anxieties”
+                        </p>
+                    </div>
+                    <div
+                        class="max-w-[30%] grow flex flex-col items-center px-12 pt-20 pb-12 w-full text-4xl tracking-wider leading-10 text-center text-black bg-[#79C2F2] rounded-3xl max-lg:px-5 max-lg:mt-6 max-lg:max-w-full anton">
+                        <img loading="lazy"
+                            srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/96546beafb3bf588b81a730003b8224ee11932d1a88c109fa654bd22821d78d6?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/96546beafb3bf588b81a730003b8224ee11932d1a88c109fa654bd22821d78d6?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/96546beafb3bf588b81a730003b8224ee11932d1a88c109fa654bd22821d78d6?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/96546beafb3bf588b81a730003b8224ee11932d1a88c109fa654bd22821d78d6?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/96546beafb3bf588b81a730003b8224ee11932d1a88c109fa654bd22821d78d6?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/96546beafb3bf588b81a730003b8224ee11932d1a88c109fa654bd22821d78d6?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/96546beafb3bf588b81a730003b8224ee11932d1a88c109fa654bd22821d78d6?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/96546beafb3bf588b81a730003b8224ee11932d1a88c109fa654bd22821d78d6?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                            class="w-[182px] mt-[-175px]" />
+                        <p class="flex-grow flex items-center justify-center">
+                            “Thanks for all you are doing - it’s making me happy and calming the
+                            chaos in my mind. Frazzled is a safe place filled with open ears,
+                            compassion, and healing.”
+                        </p>
+                    </div>
+                    <div
+                        class="max-w-[30%] grow flex flex-col items-center px-12 pt-20 pb-12 w-full text-4xl tracking-wider leading-10 text-center text-black bg-[#FAE160] rounded-3xl max-lg:px-5 max-lg:mt-6 max-lg:max-w-full anton">
+                        <img loading="lazy" srcset="img/_REV1262_FRAZZLED_EMOJI_WITHOUTTEXT_SWITCH.png"
+                            class="w-[182px] mt-[-175px]">
+                        <p class="flex-grow flex items-center justify-center">
+                            “In Frazzled sessions you get that instant raw human connection that
+                            brings out the true essence of what it means to be human.”
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <div class="flex flex-col rounded-none xl:pt-0 mt-32">
+            <div
+                class="flex flex-col gap-20 items-start px-14 py-24 w-full bg-black max-md:px-5 max-md:max-w-full lg:flex-row">
+                <a href="./index.html"><img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/9c2fae638cb4a82125e96b0b9d5b271339599e9e55d548c29e8b4d3b6240c3c6?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                        class="object-contain shrink-0 mt-1.5 max-w-full aspect-[2.23] w-[154px]" /></a>
+                <div class="flex flex-col">
+                    <img loading="lazy" src="img/_REV1262_FRAZZLED_EMOJI_MASTER_WITH_TEXT_Battery.png"
+                        class="mt-[-350px] lg:mt-[-188px] w-[204px] mb-[40px] ml-[-20px]  z-20 absolute" />
+                    <section id="newsletter-thanks-wrapper" hidden>
+                        <div class="self-start text-2xl tracking-wider text-white uppercase anton">
+                            Thanks so much!
+                        </div>
+                    </section>
+                    <section id="newsletter-input-wrapper">
+                        <div class="self-start text-2xl tracking-wider text-white uppercase anton">
+                            SIGN UP TO OUR NEWSLETTER
+                        </div>
+                        <div
+                            class="flex gap-3 justify-between items-center pl-4 pr-4 py-2.5 mt-9 text-lg bg-orange-50 rounded-2xl text-black text-opacity-50 flex-nowrap md:w-[320px]">
+                            <input class="anton min-w-[225px]" id="email-newsletter"
+                                placeholder="ENTER YOUR EMAIL ADDRESS HERE..." />
+                            <img loading="lazy" onclick="myFunction()"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/470b23cbeed3486c4bb7f705292b8322b4f060ccc66e4a5486aa070f78418b07?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
+                                class="pointer object-contain shrink-0 aspect-[1.45] w-[26px]" />
+                        </div>
+                        <p id='valid-email' hidden class="text-white mt-2 underline">Please enter valid email...</p>
+                    </section>
+                </div>
+                <div class="flex flex-col items-start text-lg text-white whitespace-nowrap">
+                    <a href="https://www.facebook.com/FrazzledCafeUK/" target="_blank">
+                        <div class="tracking-wider uppercase anton">Facebook</div>
+                    </a>
+                    <a href="https://twitter.com/FrazzledCafe" target="_blank">
+                        <div class="mt-[19px] uppercase anton">X</div>
+                    </a>
+                    <a href="https://www.instagram.com/frazzled_cafe/" target="_blank">
+                        <div class="self-stretch mt-[19px] tracking-wider anton">INSTAGRAM</div>
+                    </a>
+                </div>
+                <div class="grow shrink self-stretch w-100 text-xs text-white">
+                    © 2023 Frazzled Cafe. All Rights Reserved. Frazzled Cafe is a registered
+                    charity in England and Wales (#1173064) and Scotland (#SC048841).
+                    <br />
+                    <br />
+                    <a href="./session-guidelines.html" class="underline" target="_blank">
+                        Guidelines
+                    </a>
+                      
+                    <a href="./t&c.html" class="underline" target="_blank">
+                        Terms and Conditions
+                    </a>
+                     
+                    <a href="./privacy.html" class="underline" target="_blank">
+                        Privacy Policy
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER -->
+    </div>
+
+</body>
+<script src="js/iphone.js"></script>
+<script src="js/dropdown.js"></script>
+<script src="js/faq.js"></script>
+<script src="js/video-home.js"></script>
+
+</html>

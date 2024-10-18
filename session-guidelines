@@ -75,7 +75,7 @@
               Sessions</button>
           </a>
           <a href="./contact.html">
-            <button class="underline uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF]
+            <button class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF]
                 rounded-2xl p-3">
               Contact US</button></a>
           <a href="./help-now.html">
@@ -105,59 +105,58 @@
 
     <div class="flex flex-col">
 
-      <div
-        class="hidden md:block anton self-center mt-4 mb-12 text-7xl leading-none text-center text-black max-md:mt-10 max-md:max-w-full">
-        <img src="img/_REV1262_FRAZZLED_EMOJI_MASTER_NO_TEXT_JG_GREEN-SIGNPOST.png" alt="sign post"
-          class="ml-[340px] sm:ml-[411px] mb-[-120px]">
-        Contact
-      </div>
+      <h1
+        class="anton self-center mt-20 mb-12 text-7xl leading-none text-center text-black max-md:mt-10 max-md:max-w-full">
+        Session guidelines
+      </h1>
 
-      <div
-        class="mt-16 text-2xl font-medium leading-7 text-center text-black max-md:mt-10 max-w-[1000px] text-center mx-auto">
-        Something seems to have gone wrong please contact: <a
-          href="mailto:team@frazzledcafe.org">team@frazzledcafe.org</a>
-      </div>
-
-      <!-- Your form and other content here -->
-      <form id="contact-form" class="flex flex-col items-center" action="send_email.php" method="POST">
+      <div class="bg-[#C3EBB7] w-full mt-32">
         <div
-          class="text-center mx-auto flex flex-wrap gap-5 justify-between mt-20 max-w-full text-2xl leading-loose text-black w-[964px] max-md:mt-10">
-          <input id="name"
-            class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 md:min-w-[450px] text-left placeholder-bg-none"
-            placeholder="Your name" name="name" required />
-
-          <input id="email"
-            class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 md:min-w-[450px] text-left placeholder-bg-none"
-            placeholder="Email address" name="email" type="email" required />
+          class="relative px-5 mt-12 pb-32  w-full max-md:mt-10 max-md:max-w-full items-center mx-auto flex justify-center">
+          <div class="max-w-full md:max-w-[90%]">
+            <div class="grid grid-cols-2 gap-10 max-md:grid-cols-1 mt-14">
+              <div class="md:flex items-start">
+                <p class="text-center ml-auto mb-[20px] md:mb-0 anton text-[40px] mt-[10px]">01</p>
+                <p class="ml-[20px]">To act with integrity. Please respect one another’s confidentiality and
+                  anonymity. Please do not name anyone or discuss anything you may hear in a meeting with
+                  others who have not attended.</p>
+              </div>
+              <div class="md:flex items-start">
+                <p class="text-center ml-auto mb-[20px] md:mb-0 anton text-[40px] mt-[10px]">02</p>
+                <p class="ml-[20px]">To let everyone have a voice. Please respect one another by giving
+                  everybody the chance to contribute without interruption and by not dominating or
+                  disrupting the conversation. The facilitator may show a white card after 3 minutes to
+                  signal the end of a speaker’s turn.</p>
+              </div>
+              <div class="md:flex items-start">
+                <p class="text-center ml-auto mb-[20px] md:mb-0 anton text-[40px] mt-[10px]">03</p>
+                <p class="ml-[20px]">To listen without offering solutions. Please focus your contribution on
+                  personal experiences and not political/thematic concepts. When speaking please focus on
+                  what resonates with you personally, not on providing answers or solutions to others.</p>
+              </div>
+              <div class="md:flex items-start">
+                <p class="text-center ml-auto mb-[20px] md:mb-0 anton text-[40px] mt-[10px]">04</p>
+                <p class="ml-[20px]">To be kind to ourselves and each other. This is NOT group therapy and
+                  no-one should feel under pressure to say anything. We do hope that in hearing others’
+                  experiences you will feel encouraged to share your own. Whether you speak or not, please
+                  treat each other in a supportive and considerate way.</p>
+              </div>
+              <div class="md:flex items-start">
+                <p class="text-center ml-auto mb-[20px] md:mb-0 anton text-[40px] mt-[10px]">05</p>
+                <p class="ml-[20px]">To welcome people from all backgrounds and points of view. We have no religious,
+                  political or commercial affiliations and ask that participants refrain from promoting any that they
+                  might have.
+                </p>
+              </div>
+              <div class="md:flex items-start">
+                <p class="text-center ml-auto mb-[20px] md:mb-0 anton text-[40px] mt-[10px]">06</p>
+                <p class="ml-[20px]">To be present. To benefit fully from the session and stay present in
+                  the room, please try to avoid distractions from phones or other devices.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div
-          class="text-center mx-auto flex flex-wrap gap-5 justify-between mt-11 max-w-full text-2xl leading-loose text-black w-[964px] max-md:mt-10">
-          <input id="subject" name="subject"
-            class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 md:min-w-[450px] text-left placeholder-bg-none"
-            placeholder="Subject" name="subject" required />
-
-          <input id="captcha"
-            class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 md:min-w-[450px] text-left placeholder-bg-none"
-            placeholder="What is 10+10?" name="captcha" required />
-        </div>
-        <textarea id="message"
-          class="anton text-left mx-auto px-5 pt-1 pb-56 mt-11 max-w-full text-2xl leading-loose text-black whitespace-nowrap rounded-md border-2 border-black border-solid w-[965px] max-md:pr-5 max-md:pb-28 max-md:mt-10"
-          placeholder="Message..." name="message" required></textarea>
-
-        <button
-          class="text-center mx-auto md:bottom-10 bottom-0 anton px-8 py-4 mt-12 max-w-full tracking-wider bg-[#FF4F19] rounded-xl w-[205px] max-md:px-5 max-md:mt-10 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl text-2xl"
-          type="submit">
-          SUBMIT
-        </button>
-      </form>
-
-
-      <!-- <label>Name</label>
-      <input type="text" name="user_name">
-      <label>Email</label>
-      <input type="email" name="user_email">
-      <label>Message</label>
-      <textarea name="message"></textarea> -->
+      </div>
 
 
       <!-- FOOTER -->
@@ -223,11 +222,11 @@
     </div>
 
 </body>
-<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/video.js"></script>
 <script src="js/dropdown.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
-<script src="js/accordion.js"></script>
 <script src="js/accordion.js"></script>
 
 </html>

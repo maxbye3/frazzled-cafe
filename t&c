@@ -75,12 +75,12 @@
               Sessions</button>
           </a>
           <a href="./contact.html">
-            <button class="underline uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF]
-                rounded-2xl p-3">
+            <button class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF]
+                    rounded-2xl p-3">
               Contact US</button></a>
           <a href="./help-now.html">
             <button class="self-stretch p-3 uppercase bg-[#FF4F19] rounded-xl anton focus:underline active:underline
-                active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+                    active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
               need help now?</button>
           </a>
           <a href="./volunteer.html">
@@ -102,63 +102,111 @@
       </div>
     </div>
 
-
     <div class="flex flex-col">
 
-      <div
-        class="hidden md:block anton self-center mt-4 mb-12 text-7xl leading-none text-center text-black max-md:mt-10 max-md:max-w-full">
-        <img src="img/_REV1262_FRAZZLED_EMOJI_MASTER_NO_TEXT_JG_GREEN-SIGNPOST.png" alt="sign post"
-          class="ml-[340px] sm:ml-[411px] mb-[-120px]">
-        Contact
+      <h1
+        class="anton self-center mt-20 mb-12 text-7xl leading-none text-center text-black max-md:mt-10 max-md:max-w-full">
+        Terms and conditions
+      </h1>
+
+      <div class="px-4 md:px-11 pt-0 w-full text-2xl font-medium leading-7 text-black max-md:max-w-full">
+        By registering to attend a Frazzled Cafe you are hereby also agreeing to the
+        following Terms & Conditions:
+        <br />
+        <br />
+        1. You agree to adhere to the the 
+        <a href="./session-guidelines.html" class="underline" target="_blank">
+          Frazzled Cafe Guidelines
+        </a>
+        .
+        <br />
+        <br />
+        2. You commit to showing respect and courtesy at all times to other Attendees.
+        <br />
+        <br />
+        3. You certify that you and anyone you may bring with you are 18 years of age
+        or older
+        <br />
+        <br />
+        4. You may not disclose (save with the prior consent of the Attendee(s)
+        concerned), any names or personal details of Frazzled Cafe Attendees, or the
+        specifics of any Conversations that take place during a Frazzled Cafe session.
+        <br />
+        <br />
+        5. You accept that Frazzled Cafe, its Organisers or its affiliates are not
+        responsible for any distress or discomfort any Conversations you take part in
+        or overhear during Frazzled Cafe Events may cause you.
+        <br />
+        <br />
+        6. Frazzled Cafes are run on a not-for-profit basis and you therefore agree
+        that you will not be remunerated for any organisational or other
+        responsibilities you may partake in unless otherwise agreed in writing with
+        Frazzled Cafe management.
+        <br />
+        <br />
+        7. You will not make any postings which are unrelated to the Frazzled Cafe to
+        the Frazzled Cafe Website or social media accounts, or use Frazzled Cafe
+        Events to distribute any material (oral or in writing) that would constitute
+        an advertisement, chain letter, pyramid scheme or any other form of
+        solicitation.
+        <br />
+        <br />
+        8. Neither the Frazzled Cafe nor its Affiliates are responsible for the
+        content, accuracy or validity of the views and opinions which are shared by
+        Attendees of Frazzled Cafe Events. [These reflect solely the views of the
+        individual from whom they are expressed.]
+        <br />
+        <br />
+        9. You agree that you will not, nor will you cause others to:
+        <br />
+        <ul>
+          <li>
+            Create websites, message groups, blogs or social media accounts with
+            Frazzled Cafe in the title or representing the Frazzled Cafe brand. [It is
+            fine to include a link to the official Frazzled Cafe website and/or social
+            media on your personal blog, Facebook or Twitter]
+          </li>
+          <li>
+            Use the name ‘Frazzled Cafe’ for events that are not organised by Frazzled
+            Cafe or it’s affiliates without express written consent
+          </li>
+          <li>Speak to the Media as a representative of Frazzled Cafe.</li>
+          <li>
+            Produce materials or merchandise using the name “Frazzled Cafe” or
+            purporting to represent Frazzled Cafe without express written consent.
+          </li>
+        </ul>
+        <br />
+        10. Frazzled Cafe accepts no responsibility for content or conversations that
+        happen outside of Frazzled Cafe meetings or between attendees (including, but
+        limited to, email conversations, social media chat forums, or WhatsApp
+        groups).
+        <br />
+        <br />
+        11. You agree that you will not carry out or encourage conduct that (i)
+        constitutes a criminal offence under any criminal statute in the UK or in any
+        other jurisdiction (ii) gives rise to civil liability of any kind, (iii) is
+        otherwise contrary to the law of any jurisdiction or (iv) infringes the rights
+        of third parties.
+        <br />
+        <br />
+        13. You agree that you will not use a Frazzled Cafe Event  to intentionally
+        make comments that are or are likely to be, discriminatory, hateful, false,
+        inaccurate, threatening, defamatory, abusive, obscene, indecent, seditious,
+        offensive, pornographic, harassing, profane, sexually oriented, invasive of a
+        person’s privacy, liable to incite racial hatred, menacing, scandalous,
+        inflammatory, blasphemous, in breach of confidence, or which otherwise
+        constitute a breach of any relevant law.
+        <br />
+        <br />
+        14. We reserve the right to refuse entry to any Frazzled Cafe Event, and to
+        ask anyone at any time and for any reason to not attend or return to our
+        meetings or services either for a set time or in perpetuity. 
+        <br />
+        13. You agree to indemnify the Frazzled Cafe and its Affiliates for any Loss
+        it suffers [and hold Frazzled Cafe harmless] from any breach of these terms
+        and conditions.
       </div>
-
-      <div
-        class="mt-16 text-2xl font-medium leading-7 text-center text-black max-md:mt-10 max-w-[1000px] text-center mx-auto">
-        Something seems to have gone wrong please contact: <a
-          href="mailto:team@frazzledcafe.org">team@frazzledcafe.org</a>
-      </div>
-
-      <!-- Your form and other content here -->
-      <form id="contact-form" class="flex flex-col items-center" action="send_email.php" method="POST">
-        <div
-          class="text-center mx-auto flex flex-wrap gap-5 justify-between mt-20 max-w-full text-2xl leading-loose text-black w-[964px] max-md:mt-10">
-          <input id="name"
-            class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 md:min-w-[450px] text-left placeholder-bg-none"
-            placeholder="Your name" name="name" required />
-
-          <input id="email"
-            class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 md:min-w-[450px] text-left placeholder-bg-none"
-            placeholder="Email address" name="email" type="email" required />
-        </div>
-        <div
-          class="text-center mx-auto flex flex-wrap gap-5 justify-between mt-11 max-w-full text-2xl leading-loose text-black w-[964px] max-md:mt-10">
-          <input id="subject" name="subject"
-            class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 md:min-w-[450px] text-left placeholder-bg-none"
-            placeholder="Subject" name="subject" required />
-
-          <input id="captcha"
-            class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 md:min-w-[450px] text-left placeholder-bg-none"
-            placeholder="What is 10+10?" name="captcha" required />
-        </div>
-        <textarea id="message"
-          class="anton text-left mx-auto px-5 pt-1 pb-56 mt-11 max-w-full text-2xl leading-loose text-black whitespace-nowrap rounded-md border-2 border-black border-solid w-[965px] max-md:pr-5 max-md:pb-28 max-md:mt-10"
-          placeholder="Message..." name="message" required></textarea>
-
-        <button
-          class="text-center mx-auto md:bottom-10 bottom-0 anton px-8 py-4 mt-12 max-w-full tracking-wider bg-[#FF4F19] rounded-xl w-[205px] max-md:px-5 max-md:mt-10 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl text-2xl"
-          type="submit">
-          SUBMIT
-        </button>
-      </form>
-
-
-      <!-- <label>Name</label>
-      <input type="text" name="user_name">
-      <label>Email</label>
-      <input type="email" name="user_email">
-      <label>Message</label>
-      <textarea name="message"></textarea> -->
-
 
       <!-- FOOTER -->
       <div class="flex flex-col rounded-none xl:pt-0 mt-32">
@@ -187,6 +235,7 @@
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/470b23cbeed3486c4bb7f705292b8322b4f060ccc66e4a5486aa070f78418b07?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
                   class="pointer object-contain shrink-0 aspect-[1.45] w-[26px]" />
               </div>
+              <p id='valid-email' hidden class="text-white mt-2 underline">Please enter valid email...</p>
             </section>
           </div>
           <div class="flex flex-col items-start text-lg text-white whitespace-nowrap">
@@ -223,11 +272,11 @@
     </div>
 
 </body>
-<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/video.js"></script>
 <script src="js/dropdown.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
-<script src="js/accordion.js"></script>
 <script src="js/accordion.js"></script>
 
 </html>

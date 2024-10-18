@@ -7,6 +7,7 @@
   <title>Frazzled</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="./css/donate-button.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
@@ -18,6 +19,13 @@
   <link rel="manifest" href="./favicon/site.webmanifest">
 
 </head>
+<style>
+  .size-full-custom {
+    width: 70% !important;
+    height: 70% !important;
+    margin: 15% !important;
+  }
+</style>
 
 <body>
   <div class="flex overflow-hidden flex-col pt-9 bg-orange-50">
@@ -75,12 +83,12 @@
               Sessions</button>
           </a>
           <a href="./contact.html">
-            <button class="underline uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF]
-                rounded-2xl p-3">
+            <button class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF]
+            rounded-2xl p-3">
               Contact US</button></a>
           <a href="./help-now.html">
             <button class="self-stretch p-3 uppercase bg-[#FF4F19] rounded-xl anton focus:underline active:underline
-                active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+            active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
               need help now?</button>
           </a>
           <a href="./volunteer.html">
@@ -95,71 +103,67 @@
                 PARTNER with us</button></a>
             <a href="./support-us.html">
               <button
-                class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">
+                class="underline uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">
                 SUPPORT US</button></a>
           </div>
         </div>
       </div>
     </div>
 
-
     <div class="flex flex-col">
 
-      <div
-        class="hidden md:block anton self-center mt-4 mb-12 text-7xl leading-none text-center text-black max-md:mt-10 max-md:max-w-full">
-        <img src="img/_REV1262_FRAZZLED_EMOJI_MASTER_NO_TEXT_JG_GREEN-SIGNPOST.png" alt="sign post"
-          class="ml-[340px] sm:ml-[411px] mb-[-120px]">
-        Contact
+      <div class="self-center mt-20 mb-12 text-center  max-md:mt-10 max-md:max-w-full">
+        <h1 class="anton text-7xl leading-none text-black">
+          Support us
+        </h1>
+        <img src="img/_REV1262_FRAZZLED_EMOJI_MASTER_NO_TEXT_JG_PURPLE_FLAG.png" alt="pink switch"
+          class="w-[140px] mt-[-110px] lg:ml-[-150px] ml-[-140px] hidden sm:flex">
       </div>
 
-      <div
-        class="mt-16 text-2xl font-medium leading-7 text-center text-black max-md:mt-10 max-w-[1000px] text-center mx-auto">
-        Something seems to have gone wrong please contact: <a
-          href="mailto:team@frazzledcafe.org">team@frazzledcafe.org</a>
+
+      <div class="flex flex-col items-center">
+        <h2
+          class="anton mt-0 text-5xl text-center text-black leading-[60px] w-[986px] max-md:max-w-full max-md:text-4xl max-md:leading-[53px]">
+          How can you support Frazzled, so we can remain a free service and continue
+          our essential work?
+          <br />
+          <br />
+          Frazzled runs solely on donations, so your contribution really makes a
+          difference in helping support the charity.
+        </h2>
+        <div class="flex gap-5 max-lg:flex-col px-12 mt-4 lg:mt-24">
+          <div class="flex flex-col w-[33%] max-lg:ml-0 max-lg:w-full">
+            <div
+              class="flex flex-col self-stretch my-auto text-5xl tracking-widest text-center text-black rounded-xl leading-[55px] max-lg:mt-10 max-lg:max-w-full max-lg:text-4xl max-lg:leading-[54px]">
+              <a href="./partner.html">
+                <div
+                  class="anton px-16 py-12 bg-[#EFA9D6] rounded-xl max-lg:px-5 max-lg:max-w-full max-lg:text-4xl max-lg:leading-[54px] focus:underline active:underline active:bg-transparent hover:bg-[#B987FF]">
+                  PARTNER WITH FRAZZLED
+                </div>
+              </a>
+            </div>
+          </div>
+          <a href="https://donate.kindlink.com/frazzled-cafe/1085" target="_blank"
+            class="flex flex-col ml-5 w-[33%] max-lg:ml-0 max-lg:w-full">
+            <div
+              class="flex overflow-hidden relative flex-col items-center justify-center px-16 pt-40 pb-40 w-full aspect-[0.989] fill-[#FF501A] max-lg:px-5 max-lg:pt-24 max-lg:pb-28">
+              <img loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/9db69506e7bd0d5f3868ae464627baaf4a3ab87a036af046ada0845b1298aeaa?placeholderIfAbsent=true&amp;apiKey=f2493124652b497ab521fbc809f44def"
+                class="object-cover absolute inset-0 size-full-custom animate-pulster">
+              <p class="text-5xl z-20 anton donateTxt tracking-0">DONATE</p>
+            </div>
+          </a>
+          <div class="flex flex-col ml-5 w-[33%] max-lg:ml-0 max-lg:w-full">
+            <div
+              class="flex flex-col self-stretch my-auto text-5xl tracking-widest text-center text-black rounded-xl leading-[55px] max-lg:mt-10 max-lg:max-w-full max-lg:text-4xl max-lg:leading-[54px]">
+              <a href="https://www.instagram.com/frazzledcafeuk/"
+                class="anton  px-16 py-12 bg-[#7DCB7F] rounded-xl max-lg:px-5 max-lg:max-w-full max-lg:text-4xl max-lg:leading-[54px] focus:underline active:underline active:bg-transparent hover:bg-[#B987FF]">
+                TELL PEOPLE ABOUT FRAZZLED
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <!-- Your form and other content here -->
-      <form id="contact-form" class="flex flex-col items-center" action="send_email.php" method="POST">
-        <div
-          class="text-center mx-auto flex flex-wrap gap-5 justify-between mt-20 max-w-full text-2xl leading-loose text-black w-[964px] max-md:mt-10">
-          <input id="name"
-            class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 md:min-w-[450px] text-left placeholder-bg-none"
-            placeholder="Your name" name="name" required />
-
-          <input id="email"
-            class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 md:min-w-[450px] text-left placeholder-bg-none"
-            placeholder="Email address" name="email" type="email" required />
-        </div>
-        <div
-          class="text-center mx-auto flex flex-wrap gap-5 justify-between mt-11 max-w-full text-2xl leading-loose text-black w-[964px] max-md:mt-10">
-          <input id="subject" name="subject"
-            class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 md:min-w-[450px] text-left placeholder-bg-none"
-            placeholder="Subject" name="subject" required />
-
-          <input id="captcha"
-            class="anton px-5 pt-1 rounded-md border-2 border-black border-solid max-md:pr-5 md:min-w-[450px] text-left placeholder-bg-none"
-            placeholder="What is 10+10?" name="captcha" required />
-        </div>
-        <textarea id="message"
-          class="anton text-left mx-auto px-5 pt-1 pb-56 mt-11 max-w-full text-2xl leading-loose text-black whitespace-nowrap rounded-md border-2 border-black border-solid w-[965px] max-md:pr-5 max-md:pb-28 max-md:mt-10"
-          placeholder="Message..." name="message" required></textarea>
-
-        <button
-          class="text-center mx-auto md:bottom-10 bottom-0 anton px-8 py-4 mt-12 max-w-full tracking-wider bg-[#FF4F19] rounded-xl w-[205px] max-md:px-5 max-md:mt-10 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl text-2xl"
-          type="submit">
-          SUBMIT
-        </button>
-      </form>
-
-
-      <!-- <label>Name</label>
-      <input type="text" name="user_name">
-      <label>Email</label>
-      <input type="email" name="user_email">
-      <label>Message</label>
-      <textarea name="message"></textarea> -->
-
-
       <!-- FOOTER -->
       <div class="flex flex-col rounded-none xl:pt-0 mt-32">
         <div
@@ -196,7 +200,7 @@
             <a href="https://twitter.com/FrazzledCafe" target="_blank">
               <div class="mt-[19px] uppercase anton">X</div>
             </a>
-            <a href="https://www.instagram.com/frazzled_cafe/" target="_blank">
+            <a href="https://www.instagram.com/frazzledcafeuk/" target="_blank">
               <div class="self-stretch mt-[19px] tracking-wider anton">INSTAGRAM</div>
             </a>
           </div>
@@ -223,11 +227,11 @@
     </div>
 
 </body>
-<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/video.js"></script>
 <script src="js/dropdown.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
-<script src="js/accordion.js"></script>
 <script src="js/accordion.js"></script>
 
 </html>
