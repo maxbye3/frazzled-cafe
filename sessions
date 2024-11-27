@@ -121,8 +121,10 @@
             class="mx-5 md:mx-0 mt-24 text-2xl font-medium leading-7 text-center text-black max-md:mt-10 max-w-[1000px]">
             <p>
                 We provide a seven-day a week online community that offers
-                <span class="font-bold">three types of sessions.</span>
+                <span class="font-bold">three types of sessions.</span> as well as some <span class="font-bold">face to
+                    face</span> sessions hosted with our partners.
             </p>
+            <br>
             <p>
                 <span class="">All of our sessions</span>
                 provide the same safe space to share, talk and listen. We suggest trying
@@ -204,18 +206,17 @@
                     </h2>
                     <div class="md:flex">
 
-                        <p class="text-2xl leading-9 md:mr-4">We run friendly one-hour Frazzled sessions ran by
+                        <p class="text-2xl leading-9 md:mr-4">We run friendly one-hour Frazzled sessions delivered by
                             specially
                             trained Frazzled Facilitators in <a class="underline" href="./harpenden.html"
                                 target="_blank">Harpenden</a>, <a class="underline" href="./wimborne.html"
                                 target="_blank">Wimborne</a>
-                            and <a class="underline" href="./merseyside.html" target="_blank">Merseyside</a>
+                            and <a class="underline" href="./merseyside.html" target="_blank">Merseyside</a>.
                         </p>
                         <a href="https://bookwhen.com/harpendentrustxfrazzledcafe"
-                            class="object-contain shrink-0 self-start aspect-[1.41] w-[89px] mx-auto lg:mx-0">
-                            <img loading="lazy"
-                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/f125042bbd6ec657b1c42b73c12d010c612b6fda5b9ed63e9ee9835f43c496e4?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
-                                class="mt-6 md:mt-0 object-contain shrink-0 self-start aspect-[1.41] w-[89px] mx-auto lg:mx-0" />
+                            class="object-contain shrink-0 self-start aspect-[1.41] mx-auto lg:mx-0">
+                            <img loading="lazy" src="./img/_REV1262_FRAZZLED_EMOJI_WITHOUTTEXT_TEA.png"
+                                class="mt-6 md:mt-0 lg:mt-[-30px]  object-contain shrink-0 self-start aspect-[1.41] w-[189px] mx-auto lg:mx-0" />
                         </a>
                     </div>
                 </div>
