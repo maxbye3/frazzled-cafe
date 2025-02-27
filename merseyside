@@ -19,8 +19,8 @@
 
 </head>
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-73W43578N1"></script>
-<script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-73W43578N1'); </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MHLZEB2W30"></script>
+<script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-MHLZEB2W30'); </script>
 
 <body>
     <div class="flex overflow-hidden flex-col items-center pt-9 bg-orange-50">
@@ -285,24 +285,17 @@
                 <div class="flex flex-col">
                     <img loading="lazy" src="img/_REV1262_FRAZZLED_EMOJI_MASTER_WITH_TEXT_Battery.png"
                         class="mt-[-350px] lg:mt-[-188px] w-[204px] mb-[40px] ml-[-20px]  z-20 absolute" />
-                    <section id="newsletter-thanks-wrapper" hidden>
-                        <div class="self-start text-2xl tracking-wider text-white uppercase anton">
-                            Thanks so much!
-                        </div>
-                    </section>
+                    
+                        
                     <section id="newsletter-input-wrapper">
-                        <div class="self-start text-2xl tracking-wider text-white uppercase anton">
-                            SIGN UP TO OUR NEWSLETTER
-                        </div>
-                        <div
-                            class="flex gap-3 justify-between items-center pl-4 pr-4 py-2.5 mt-9 text-lg bg-orange-50 rounded-2xl text-black text-opacity-50 flex-nowrap md:w-[320px]">
-                            <input class="anton min-w-[225px]" id="email-newsletter"
-                                placeholder="ENTER YOUR EMAIL ADDRESS HERE..." />
-                            <img loading="lazy" onclick="myFunction()"
-                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/470b23cbeed3486c4bb7f705292b8322b4f060ccc66e4a5486aa070f78418b07?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
-                                class="pointer object-contain shrink-0 aspect-[1.45] w-[26px]" />
-                        </div>
-                        <p id='valid-email' hidden class="text-white mt-2 underline">Please enter valid email...</p>
+                        <a href="http://eepurl.com/dn0Ktj" target="_blank">
+
+                            <button class="self-center px-6 py-4 max-w-full text-3xl tracking-wider text-center text-black bg-[#FF4F19]
+                            rounded-xl w-[267px] max-md:px-5 max-md:mt-10 anton focus:underline active:underline
+                            hover:bg-[#B987FF]">
+                                CLICK HERE TO SIGN UP TO OUR NEWSLETTER
+                            </button>
+                        </a>
                     </section>
                 </div>
                 <div class="flex flex-col items-start text-lg text-white whitespace-nowrap">

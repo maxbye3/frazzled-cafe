@@ -11,8 +11,8 @@ function myFunction() {
                 database.ref('newsletter/').push({
                     name: cool,
                 });
-                document.getElementById('newsletter-input-wrapper').hidden = true;
-                document.getElementById('newsletter-thanks-wrapper').hidden = false;
+                // document.getElementById('newsletter-input-wrapper').hidden = true;
+                // document.getElementById('newsletter-thanks-wrapper').hidden = false;
             })
             .catch(error => {
                 console.error('Error:', error);
