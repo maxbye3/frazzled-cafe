@@ -383,8 +383,11 @@
                 </div>
                 <div class="grow shrink self-stretch w-100 text-xs text-white">
                     © 2023 Frazzled Cafe. All Rights Reserved. Frazzled Cafe is a registered
-                    charity in England and Wales (#1173064) and Scotland (#SC048841).
-                    <br />
+                    charity in England and Wales (#1173064) and Scotland <a href="https://www.fundraisingregulator.org.uk/validate?registrant=FRAZZLED+CAFE"
+                        class="fr-digital-badge" style="width: 150px; text-decoration: none;"><img
+                            src="https://www.fundraisingregulator.org.uk/fr-badge/33364454-093b-4eaa-9410-c4ae8abced61/en/white"
+                            width="25%" alt="Fundraising Regulator badge with validation link" loading="lazy"
+                            class="mt-2"></a>
                     <br />
                     <a href="./session-guidelines.html" class="underline" target="_blank">
                         Guidelines
