@@ -61,6 +61,12 @@
               role="menuitem">PARTNER with us</a>
             <a href="./support-us.html" class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
               role="menuitem">support us</a>
+               <a href="https://donate.kindlink.com/frazzled-cafe/1085" target="_blank">
+              <button
+                class="underline self-stretch p-3 uppercase bg-[#EFA9D6] rounded-xl anton focus:underline active:underline
+                      active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+                DONATE</button></a>
+
           </div>
         </div>
       </div>
@@ -96,10 +102,11 @@
               <button
                 class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">
                 PARTNER with us</button></a>
-            <a href="./support-us.html">
+             <a href="https://donate.kindlink.com/frazzled-cafe/1085" target="_blank">
               <button
-                class="uppercase anton focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3 focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl">
-                SUPPORT US</button></a>
+                class="self-stretch p-3 uppercase bg-[#EFA9D6] rounded-xl anton focus:underline active:underline
+                      active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+                DONATE</button></a>
           </div>
         </div>
       </div>
@@ -198,7 +205,7 @@
             </a>
           </div>
           <div class="grow shrink self-stretch w-100 text-xs text-white">
-            © 2023 Frazzled Cafe. All Rights Reserved. Frazzled Cafe is a registered
+            © 2026 Frazzled Cafe. All Rights Reserved. Frazzled Cafe is a registered
             charity in England and Wales (#1173064) and Scotland (#SC048841).
             <br />
             <br />
