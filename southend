@@ -58,6 +58,7 @@ src="https://www.facebook.com/tr?id=1568179651106648&ev=PageView
 </noscript>
 
 <!-- End Facebook Pixel Code -->
+
 <body>
     <div class="flex overflow-hidden flex-col items-center pt-9 bg-orange-50">
         <div
@@ -105,12 +106,6 @@ src="https://www.facebook.com/tr?id=1568179651106648&ev=PageView
                         <a href="./support-us.html"
                             class="uppercase text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100"
                             role="menuitem">support us</a>
-                          <a href="https://donate.kindlink.com/frazzled-cafe/1085" target="_blank">
-              <button
-                class="underline self-stretch p-3 uppercase bg-[#EFA9D6] rounded-xl anton focus:underline active:underline
-                      active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
-                DONATE</button></a>
-
                     </div>
                 </div>
             </div>
@@ -157,17 +152,18 @@ src="https://www.facebook.com/tr?id=1568179651106648&ev=PageView
 
         <!-- navigation -->
         <div class="mt-28 text-6xl leading-[80px] text-center text-black max-md:mt-10 anton">
-            Frazzled in partnership</br>
-            with Harpenden Trust
+            Frazzled Cafe in Southend </br>
+            Face to Face Sessions
         </div>
-        <a href="https://bookwhen.com/harpendentrustxfrazzled" target="_blank">
+        <a href="
+https://bookwhen.com/frazzledatsouthend" target="_blank">
             <button
                 class="mb-[50px] sm:mb-0 anton px-8 py-4 mt-24 max-w-full text-3xl tracking-wider text-center text-black bg-orange-600 rounded-xl w-[263px] max-md:px-5 max-md:mt-10  focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
                 JOIN A SESSION
             </button>
         </a>
 
-        <img class="md:mt-[-220px] mt-[-100px] md:ml-[-660px] ml-[-460px]"
+        <img class="md:mt-[-180px] mt-[-100px] md:ml-[-660px] ml-[-460px]"
             src="img/_REV1262_FRAZZLED_EMOJI_MASTER_NO_TEXT_JG_WASHING.png" alt="washing machine">
         <div
             class="flex flex-col items-center md:mt-[100px]  px-20 pt-12 pb-24 sm:mt-38 max-w-full bg-[#EFA9D6] rounded-xl w-[90%] max-md:px-5 max-md:mt-10">
@@ -175,71 +171,80 @@ src="https://www.facebook.com/tr?id=1568179651106648&ev=PageView
                 src="img/_REV1262_FRAZZLED_EMOJI_MASTER_NO_TEXT_JG_MIRROR.png" alt="mirror">
             <div class="flex flex-col items-center max-w-full w-[969px]">
                 <h2 class="anton text-5xl text-center text-black max-md:max-w-full max-md:text-4xl">
-                    Frazzled at Harpenden
+                    Frazzled Cafe in Southend
                 </h2>
                 <div
-                    class="self-stretch mt-10 text-2xl font-medium leading-7 text-center text-black max-md:mt-10 max-md:max-w-full">
-                    <p>
-                        In partnership with The Harpenden Trust, we are delighted to offer face-to-face Frazzled Cafe
-                        meetings to the people of Harpenden. The Harpenden Trust has supported its local area since
-                        1948, and has over 500 volunteers working together throughout the year delivering community
-                        projects for families and individuals in the town. Please contact harpenden@frazzledcafe.org if
-                        you have any questions about the work of The Harpenden Trust and their face to face sessions.
-                        <br />
-                        <br />
-                        Just like our online sessions, these meetings are a supportive, non-judgemental and confidential
-                        space where people who are feeling overwhelmed or frazzled can talk openly and feel heard.
-                        Speaking is optional, anyone is welcome to just come along and listen.
-                        <br />
-                        <br />
-                        Our face-to-face meetings in Harpenden last for 1 hour and are run by local volunteers who have
-                        all completed full Frazzled Cafe facilitator training. Doors open 15 minutes before the start
-                        for refreshments in the Well Bean Cafe before we move to the lounge for the meeting.
-                    </p>
-                </div>
-                <h3 class="anton mt-14 ml-5 text-4xl leading-none text-center text-black max-md:mt-10">
-                    How can I attend?
-                </h3>
-                <div
                     class="self-stretch mt-12 text-2xl font-medium leading-7 text-center text-black max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
-                    <p>
-                        Meetings take place weekly (except Bank Holidays) at: The Harpenden Trust Halls, 130a Southdown
-                        Road, AL5 1PU. Parking is available in the co-op car park. Entrance is via the main doors and up
-                        the stairs on Southdown Rd or via rear doors from the Co-Op car park where there is lift access.
-                        <br />
-                        <br />
-                        Walking into a new place can be daunting, so one of our friendly Frazzled Cafe team will be
-                        there to welcome you and offer you a cuppa. Please be sure to arrive on time, 7-8pm (doors open
-                        for refreshments from 6.45) as the doors are
-                        locked at 7pm.
-                        <br />
-                        <br />
-                        As there are limited spaces per meeting, please sign up via the booking page to attend, and
-                        cancel your place either using the booking instructions or by emailing team@frazzledcafe.org if
-                        you can no longer come so that someone on the waiting list can take your space. For any
-                        questions please email harpenden@frazzledcafe.org
-                        <br />
-                        <br />
-                        You can see the Harpenden at Frazzled Cafe meetings schedule and book to attend below. If you
-                        would like to attend a meeting on a Bank Holiday, please feel free to join one of our online
-                        meetings via the main ‘Meetings’ page.
+                    <p class="p2 text-center">
+                        Frazzled Cafe is excited to announce an expansion of our successful face to face meetings for
+                        people in the Southend-on-Sea area.
+                        Led by our amazing Volunteer Team, we are now running sessions every Monday, where local
+                        residents can share, listen and be supported in a confidential space.</p>
+                    <br>
+                    <p class="p2 text-center">Similar to our online sessions, these face to face meetings are a
+                        non-judgemental and confidential space where people who are feeling frazzled have the chance to
+                        be heard. Speaking is optional, and silences can often be welcome.</p>
+                    <br>
+                    <p class="p2 text-center">Meetings take place every Monday at:
+                        <strong>Attic Cafe, 48 Eastern Esplanade, Southend-on-Sea SS1 2ES</strong>
+                    </p>
+                    <br>
+                    <p class="p2 text-center">
+                        Join us for a coffee at 6:45 arrival for a cup of tea / coffee, 7pm start.
                     </p>
                 </div>
-                <a href="https://bookwhen.com/harpendentrustxfrazzled" target="_blank">
+                <a href="https://bookwhen.com/frazzledatsouthend" target="_blank">
                     <button
                         class="anton px-8 py-4 mt-24 max-w-full text-3xl tracking-wider text-center text-black bg-orange-600 rounded-xl w-[263px] max-md:px-5 max-md:mt-10  focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
                         JOIN A SESSION
                     </button>
                 </a>
-                <div class=" md:flex gap-5 justify-between mt-24 ml-8 max-w-full w-[597px] max-md:mt-10">
-                    <img loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/0761a8fbe1a2825a71709462b5863c21bee1da950bce87ac101a0f779841b8dc?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
-                        class="mx-auto md:mx-0  object-contain shrink-0 my-auto max-w-full aspect-[2.22] w-[215px]" />
-                    <div class="hidden md:flex shrink-0 w-0.5 border-2 border-black border-solid h-[113px]"></div>
-                    <img loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/fa33530ff6674aaa32fe527d319789027df84c67e48d7a4c34e628f84527c7c0?placeholderIfAbsent=true&apiKey=f2493124652b497ab521fbc809f44def"
-                        class="mx-auto mt-10 md:mt-0 md:mx-0 object-contain shrink-0 my-auto max-w-full aspect-[2.35] w-[215px]" />
+            </div>
+        </div>
+
+        <div
+            class="flex flex-col items-center md:mt-[100px]  px-20 pt-12 pb-24 sm:mt-38 max-w-full bg-[#99CCFF] rounded-xl w-[90%] max-md:px-5 max-md:mt-10">
+            <img class="w-[200px] mt-[-165px] ml-[60%] sm:ml-[70%]"
+                src="img/_REV1262_FRAZZLED_EMOJI_MASTER_NO_TEXT_JG_0609014-60.png" alt="mirror">
+            <div class="flex flex-col items-center max-w-full w-[969px]">
+                <h2 class="anton text-5xl text-center text-black max-md:max-w-full max-md:text-4xl">
+                    Meetings
+                </h2>
+                <div
+                    class="self-stretch mt-12 text-2xl font-medium leading-7 text-center text-black max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
+                    <p class="p2 text-center">
+                        Free parking is available on Victoria Road, Shaftesbury Avenue, and Eastern Esplanade past the
+                        Premier Inn.
+                    </p>
+                    <br>
+                    <p class="p2 text-center">
+                        If you're travelling into Southend on the train the nearest C2C line station is Southend East
+                        and the nearest Great Western line is Southend Victoria.
+                    </p>
+                    <br>
+                    <p class="p2 text-center">
+                        Walking into a new place for the first time can be tricky, so one of our friendly Frazzled Cafe
+                        team will be there to welcome you and help you feel comfortable.
+                    </p>
+                    <br>
+                    <p class="p2 text-center">
+                        As there are limited spaces per meeting, please sign up via the booking page to attend, and
+                        cancel your place either using the booking instructions or by emailing
+                        <strong><a href="mailto:team@frazzledcafe.org">team@frazzledcafe.org</a></strong> if you can no
+                        longer come so that someone on the waiting list can take your space.
+                    </p>
+                    <br>
+                    <p class="p2 text-center">
+                        For any questions please email <strong><a
+                                href="mailto:team@frazzledcafe.org">team@frazzledcafe.org</a></strong>
+                    </p>
                 </div>
+                <a href="https://bookwhen.com/frazzledatsouthend" target="_blank">
+                    <button
+                        class="anton px-8 py-4 mt-24 max-w-full text-3xl tracking-wider text-center text-black bg-orange-600 rounded-xl w-[263px] max-md:px-5 max-md:mt-10  focus:underline active:underline active:bg-transparent hover:bg-[#B987FF] rounded-2xl p-3">
+                        JOIN A SESSION
+                    </button>
+                </a>
             </div>
         </div>
 
@@ -247,9 +252,7 @@ src="https://www.facebook.com/tr?id=1568179651106648&ev=PageView
             <div
                 class="relative px-5 mt-12 pb-32 w-full max-md:mt-10 max-md:max-w-full items-center mx-auto flex justify-center">
                 <div class="max-w-[90%]">
-                    <div>
-                        <h2 class="anton text-5xl w-full text-center">Session guidelines</h2>
-                    </div>
+                    <h2 class="anton text-5xl w-full text-center">Session guidelines</h2>
                     <div class="grid grid-cols-2 gap-10 max-md:grid-cols-1 mt-14">
                         <div class="flex items-start">
                             <p class="anton text-[40px] mt-[10px]">01</p>
@@ -294,101 +297,6 @@ src="https://www.facebook.com/tr?id=1568179651106648&ev=PageView
             </div>
         </div>
 
-        <img class="ml-[-250px] sm:ml-[-350px] mb-[-80px] mt-[-100px]"
-            src="img/_REV1262_FRAZZLED_EMOJI_MASTER_NO_TEXT_JG_SIGNPOST.png" alt="sign post">
-        <h2 class="mt-14 text-5xl leading-none text-center text-black max-md:mt-10 max-md:text-4xl anton">
-            FAQs
-        </h2>
-        <div onclick="toggleFaq(1)"
-            class="pointer flex flex-wrap gap-5 justify-between py-5 pr-14 pl-6 mt-11 max-w-full text-4xl leading-none text-black bg-[#7DCB7F] rounded-xl w-[1015px] max-md:px-5 max-md:mt-10">
-            <div class="max-md:max-w-full anton">Who are the Harpenden Trust?</div>
-            <img id="toggle-icon-1" loading="lazy" alt="hide or unhide faq" src="./img/down-arrow.svg"
-                class="object-contain shrink-0 aspect-[0.71] w-[34px]" />
-            <div id="faq-content-1" class="text-2xl font-medium leading-7 max-md:max-w-full" hidden>
-                <p>
-                    The Harpenden Trust supports individuals, families and young people in need, providing financial
-                    assistance for community projects in Harpenden (<a href="https://www.theharpendentrust.org.uk/"
-                        target="_blank">https://www.theharpendentrust.org.uk/</a>).
-                    <br>
-                    <br>
-                    The Trust partners with MIND in Mid Herts and the local PCN (the Primary Care Network of 3 GP
-                    surgeries) to run the Harpenden Wellbeing Hub. It supports Harpenden residents who have concerns
-                    about their mental wellbeing at an early stage before they become unwell and need secondary
-                    interventions such as counselling or cognitive behavioural therapy.
-                    <br>
-                    <br>
-                    An in-person Frazzled Cafe is therefore a fantastic part of the Hub; it gives people of all ages and
-                    backgrounds a regular opportunity to be heard by a supportive group of peers.
-                </p>
-            </div>
-        </div>
-        <div onclick="toggleFaq(2)"
-            class="flex flex-wrap gap-5 justify-between py-5 pr-14 pl-6 mt-5 max-w-full text-4xl leading-none text-black bg-[#7DCB7F] rounded-xl w-[1015px] max-md:px-5">
-            <div class="my-auto max-md:max-w-full anton">
-                What can I expect from a face to face meeting?
-            </div>
-            <img id="toggle-icon-2" loading="lazy" alt="hide or unhide faq" src="./img/down-arrow.svg"
-                class="object-contain shrink-0 aspect-[0.71] w-[34px]" />
-            <div id="faq-content-2" class="text-2xl font-medium leading-7 max-md:max-w-full" hidden>
-                <p>
-                    Harpenden Trust/Frazzled Cafe Facilitated meetings last for one hour and start with a run-through of
-                    our guidelines. This is to ensure confidentiality is respected and that there is a safe environment
-                    for those that would like to share.
-                    <br><br>
-                    Each meeting opens and closes with a short mindfulness exercise. You don’t need to ever have tried
-                    mindfulness before, and your participation in these exercises is completely optional. After the
-                    mindfulness exercise, if you would like to speak, all attendees are encouraged to talk about how
-                    they are feeling, or to borrow one of Ruby’s expressions, ‘explain what the weather conditions are
-                    like in your head’.
-                    <br><br>
-
-                    Attendees usually speak for a few minutes to ensure everyone that would like to have the opportunity
-                    to speak. You can of course speak more than once, don’t worry about these timings, the facilitator
-                    is there to make sure all who want to speak can and that there is room for all voices to be heard.
-                    Speaking is optional. If you would just like to listen, that is perfectly OK. In all meetings, and
-                    in between people speaking, we expect some silences and those are normal.
-                    <br><br>
-
-                    The Facilitator’s role is to ensure everyone that would like to speak gets a chance to, that the
-                    topics of conversation are appropriate for the space and that attendees are both present and
-                    respectful of the space and one another. After the closing mindfulness exercise and the end of the
-                    meeting, we recommend attendees take a few minutes to reflect and decompress before returning to
-                    their usual routine.
-                </p>
-            </div>
-        </div>
-        <div onclick="toggleFaq(3)"
-            class="flex flex-wrap gap-5 justify-between py-5 pr-14 pl-6 mt-5 max-w-full text-4xl leading-none text-black bg-[#7DCB7F] rounded-xl w-[1015px] max-md:px-5">
-            <div class="my-auto max-md:max-w-full anton">How can I get to the meetings?</div>
-            <img id="toggle-icon-3" loading="lazy" alt="hide or unhide faq" src="./img/down-arrow.svg"
-                class="object-contain shrink-0 aspect-[0.71] w-[34px]" />
-            <div id="faq-content-3" class="text-2xl font-medium leading-7 max-md:max-w-full" hidden>
-                <p>
-                    Meetings are held at 130A Southdown Road, Harpenden, AL5 1PU.
-                    <br><br>
-                    Parking is available in the co-op car park. Entrance is via main doors and up the stairs on
-                    Southdown Rd or via the rear doors from the car park where there is lift access.
-                    <br><br>
-                    There is wheelchair accessibility at this location.
-                </p>
-            </div>
-        </div>
-        <div onclick="toggleFaq(4)"
-            class="flex flex-wrap gap-5 justify-between py-5 pr-14 pl-6 mt-5 max-w-full text-4xl leading-none text-black bg-[#7DCB7F] rounded-xl w-[1015px] max-md:px-5">
-            <div class="my-auto max-md:max-w-full anton">
-                Is there further information about Harpenden Hall?
-            </div>
-            <img id="toggle-icon-4" loading="lazy" alt="hide or unhide faq" src="./img/down-arrow.svg"
-                class="object-contain shrink-0 aspect-[0.71] w-[34px]" />
-            <div id="faq-content-4" class="text-2xl font-medium leading-7 max-md:max-w-full" hidden>
-                <p>
-                    There is a policy in place regarding the building used for our meetings and the CCTV that is in
-                    place there. You can read more about it here <a
-                        href="https://www.frazzledcafe.org/wp-content/uploads/2024/02/HARPENDEN-TRUST-CCTV-POLICY-January-2024.pdf"
-                        target="_blank">View the Policy on CCTV</a>.
-                </p>
-            </div>
-        </div>
         <!-- FOOTER -->
         <div class="flex flex-col rounded-none xl:pt-0 mt-32">
             <div
@@ -425,13 +333,9 @@ src="https://www.facebook.com/tr?id=1568179651106648&ev=PageView
                 </div>
                 <div class="grow shrink self-stretch w-100 text-xs text-white">
                     © 2026 Frazzled Cafe. All Rights Reserved. Frazzled Cafe is a registered
-                    charity in England and Wales (#1173064) and Scotland <a
-                        href="https://www.fundraisingregulator.org.uk/validate?registrant=FRAZZLED+CAFE"
-                        class="fr-digital-badge" style="width: 150px; text-decoration: none;"><img
-                            src="https://www.fundraisingregulator.org.uk/fr-badge/33364454-093b-4eaa-9410-c4ae8abced61/en/white"
-                            width="25%" alt="Fundraising Regulator badge with validation link" loading="lazy"
-                            class="mt-2"></a>
-                    <br />
+                    charity in England and Wales (#1173064) and Scotland (#SC048841).
+                    <br>
+                    <br>
                     <a href="./session-guidelines.html" class="underline" target="_blank">
                         Guidelines
                     </a>
@@ -451,7 +355,6 @@ src="https://www.facebook.com/tr?id=1568179651106648&ev=PageView
 <script src="js/index.js"></script>
 <script src="js/video.js"></script>
 <script src="js/dropdown.js"></script>
-<script src="js/faq.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
 <script src="js/accordion.js"></script>

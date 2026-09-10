@@ -1,0 +1,250 @@
+[29-Sep-2024 12:27:21 Europe/London] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/frazzledcafe/public_html/new/send_email.php on line 5
+[29-Sep-2024 12:27:21 Europe/London] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/frazzledcafe/public_html/new/send_email.php on line 5
+[29-Sep-2024 12:27:29 Europe/London] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/frazzledcafe/public_html/new/send_email.php on line 5
+[29-Sep-2024 12:27:29 Europe/London] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/frazzledcafe/public_html/new/send_email.php on line 5
+[09-Oct-2024 12:31:25 Europe/London] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[09-Oct-2024 12:31:25 Europe/London] PHP Fatal error:  Unknown: Failed opening required '/home/frazzledcafe/public_html/wordfence-waf.php' (include_path='.:/opt/alt/php74/usr/share/pear') in Unknown on line 0
+[09-Oct-2024 12:31:26 Europe/London] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[09-Oct-2024 12:31:26 Europe/London] PHP Fatal error:  Unknown: Failed opening required '/home/frazzledcafe/public_html/wordfence-waf.php' (include_path='.:/opt/alt/php74/usr/share/pear') in Unknown on line 0
+[09-Oct-2024 12:31:27 Europe/London] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[09-Oct-2024 12:31:27 Europe/London] PHP Fatal error:  Unknown: Failed opening required '/home/frazzledcafe/public_html/wordfence-waf.php' (include_path='.:/opt/alt/php74/usr/share/pear') in Unknown on line 0
+[09-Oct-2024 12:32:20 Europe/London] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[09-Oct-2024 12:32:20 Europe/London] PHP Fatal error:  Unknown: Failed opening required '/home/frazzledcafe/public_html/wordfence-waf.php' (include_path='.:/opt/alt/php74/usr/share/pear') in Unknown on line 0
+[09-Oct-2024 12:32:22 Europe/London] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[09-Oct-2024 12:32:22 Europe/London] PHP Fatal error:  Unknown: Failed opening required '/home/frazzledcafe/public_html/wordfence-waf.php' (include_path='.:/opt/alt/php74/usr/share/pear') in Unknown on line 0
+[09-Oct-2024 12:34:11 Europe/London] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[09-Oct-2024 12:34:11 Europe/London] PHP Fatal error:  Unknown: Failed opening required '/home/frazzledcafe/public_html/wordfence-waf.php' (include_path='.:/opt/alt/php74/usr/share/pear') in Unknown on line 0
+[09-Oct-2024 12:34:11 Europe/London] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[09-Oct-2024 12:34:11 Europe/London] PHP Fatal error:  Unknown: Failed opening required '/home/frazzledcafe/public_html/wordfence-waf.php' (include_path='.:/opt/alt/php74/usr/share/pear') in Unknown on line 0
+[09-Oct-2024 12:34:13 Europe/London] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[09-Oct-2024 12:34:13 Europe/London] PHP Fatal error:  Unknown: Failed opening required '/home/frazzledcafe/public_html/wordfence-waf.php' (include_path='.:/opt/alt/php74/usr/share/pear') in Unknown on line 0
+[09-Oct-2024 12:34:16 Europe/London] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[09-Oct-2024 12:34:16 Europe/London] PHP Fatal error:  Unknown: Failed opening required '/home/frazzledcafe/public_html/wordfence-waf.php' (include_path='.:/opt/alt/php74/usr/share/pear') in Unknown on line 0
+[15-Oct-2024 11:55:02 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[15-Oct-2024 11:55:02 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[15-Oct-2024 11:55:02 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[15-Oct-2024 11:55:02 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[15-Oct-2024 11:55:02 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[15-Oct-2024 11:55:02 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[15-Oct-2024 21:35:01 UTC] PHP Warning:  Class 'Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractAddressSchema' not found in /home/frazzledcafe/public_html/wp-content/plugins/woocommerce/src/StoreApi/deprecated.php on line 73
+[15-Oct-2024 21:35:01 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/frazzledcafe/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AbstractAddressSchema.php on line 106
+[24-Oct-2024 09:41:32 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[24-Oct-2024 09:41:32 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[24-Oct-2024 09:41:32 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[24-Oct-2024 09:41:32 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[24-Oct-2024 09:41:32 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[24-Oct-2024 09:41:32 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[27-Oct-2024 14:19:55 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[27-Oct-2024 14:19:56 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[27-Oct-2024 14:19:56 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[27-Oct-2024 14:19:56 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[27-Oct-2024 14:19:56 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[27-Oct-2024 14:19:56 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[01-Nov-2024 16:17:08 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[01-Nov-2024 16:17:10 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[01-Nov-2024 16:17:10 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[01-Nov-2024 16:17:10 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[01-Nov-2024 16:17:10 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[01-Nov-2024 16:17:10 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[01-Nov-2024 17:25:04 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[01-Nov-2024 17:25:05 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[01-Nov-2024 17:25:05 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[01-Nov-2024 17:25:05 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[01-Nov-2024 17:25:05 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[01-Nov-2024 17:25:05 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[05-Nov-2024 05:26:34 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[05-Nov-2024 05:26:35 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[05-Nov-2024 05:26:35 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[05-Nov-2024 05:26:35 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[05-Nov-2024 05:26:35 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[05-Nov-2024 05:26:35 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[07-Nov-2024 06:49:35 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[07-Nov-2024 06:49:36 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[07-Nov-2024 06:49:36 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[07-Nov-2024 06:49:36 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[07-Nov-2024 06:49:36 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[07-Nov-2024 06:49:36 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[08-Nov-2024 12:22:07 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[08-Nov-2024 12:22:07 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[08-Nov-2024 12:22:07 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[08-Nov-2024 12:22:07 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[08-Nov-2024 12:22:07 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[10-Nov-2024 03:26:08 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[10-Nov-2024 03:26:09 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[10-Nov-2024 03:26:09 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[10-Nov-2024 03:26:09 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[10-Nov-2024 03:26:09 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[10-Nov-2024 03:26:09 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[14-Nov-2024 06:25:17 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[14-Nov-2024 06:25:18 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[14-Nov-2024 06:25:18 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[14-Nov-2024 06:25:18 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[14-Nov-2024 06:25:18 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[14-Nov-2024 06:25:18 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[23-Nov-2024 10:23:17 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[23-Nov-2024 10:23:18 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[23-Nov-2024 10:23:18 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[23-Nov-2024 10:23:18 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[23-Nov-2024 10:23:18 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[23-Nov-2024 10:23:18 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[26-Nov-2024 05:10:32 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[26-Nov-2024 05:10:34 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[26-Nov-2024 05:10:34 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[26-Nov-2024 05:10:34 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[26-Nov-2024 05:10:34 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[26-Nov-2024 05:10:34 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[27-Nov-2024 03:32:25 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[27-Nov-2024 03:32:26 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[27-Nov-2024 03:32:26 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[27-Nov-2024 03:32:26 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[27-Nov-2024 03:32:26 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[27-Nov-2024 03:32:26 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[02-Dec-2024 01:05:12 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[02-Dec-2024 01:05:13 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[02-Dec-2024 01:05:13 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[02-Dec-2024 01:05:13 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[02-Dec-2024 01:05:13 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[02-Dec-2024 01:05:13 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[07-Dec-2024 06:17:08 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[07-Dec-2024 06:17:10 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[07-Dec-2024 06:17:10 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[07-Dec-2024 06:17:10 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[07-Dec-2024 06:17:10 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[07-Dec-2024 06:17:10 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[10-Dec-2024 14:12:23 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[10-Dec-2024 14:12:24 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[10-Dec-2024 14:12:24 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[10-Dec-2024 14:12:24 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[10-Dec-2024 14:12:24 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[10-Dec-2024 14:12:24 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[14-Dec-2024 01:20:12 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[14-Dec-2024 01:20:14 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[14-Dec-2024 01:20:14 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[14-Dec-2024 01:20:14 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[14-Dec-2024 01:20:14 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[14-Dec-2024 01:20:14 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[16-Dec-2024 19:38:38 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[16-Dec-2024 19:38:39 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[16-Dec-2024 19:38:39 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[16-Dec-2024 19:38:39 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[16-Dec-2024 19:38:39 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[16-Dec-2024 19:38:39 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[25-Dec-2024 09:26:08 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[25-Dec-2024 09:26:10 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[25-Dec-2024 09:26:10 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[25-Dec-2024 09:26:10 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[25-Dec-2024 09:26:10 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[25-Dec-2024 09:26:10 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[29-Dec-2024 23:10:26 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[29-Dec-2024 23:10:27 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[29-Dec-2024 23:10:27 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[29-Dec-2024 23:10:27 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[29-Dec-2024 23:10:27 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[29-Dec-2024 23:10:27 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[30-Dec-2024 20:56:30 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[30-Dec-2024 20:56:32 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[30-Dec-2024 20:56:32 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[30-Dec-2024 20:56:32 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[30-Dec-2024 20:56:32 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[30-Dec-2024 20:56:32 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[02-Jan-2025 22:12:06 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[08-Jan-2025 04:40:59 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[08-Jan-2025 04:41:00 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[08-Jan-2025 04:41:00 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[08-Jan-2025 04:41:00 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[08-Jan-2025 04:41:00 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[08-Jan-2025 04:41:00 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[09-Jan-2025 08:11:21 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[09-Jan-2025 08:11:22 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[09-Jan-2025 08:11:22 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[09-Jan-2025 08:11:22 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[09-Jan-2025 08:11:22 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[09-Jan-2025 08:11:22 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[11-Jan-2025 05:47:07 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[11-Jan-2025 05:47:07 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[11-Jan-2025 05:47:07 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[11-Jan-2025 05:47:07 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[11-Jan-2025 05:47:07 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[12-Jan-2025 04:46:05 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[12-Jan-2025 04:46:07 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[12-Jan-2025 04:46:07 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[12-Jan-2025 04:46:07 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[12-Jan-2025 04:46:07 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[12-Jan-2025 04:46:07 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[14-Jan-2025 21:39:50 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[14-Jan-2025 21:39:51 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[14-Jan-2025 21:39:51 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[14-Jan-2025 21:39:51 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[14-Jan-2025 21:39:51 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[14-Jan-2025 21:39:51 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[16-Jan-2025 09:19:28 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[16-Jan-2025 09:19:32 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[16-Jan-2025 09:19:32 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[16-Jan-2025 09:19:32 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[16-Jan-2025 09:19:32 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[16-Jan-2025 09:19:32 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[22-Jan-2025 02:18:45 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[22-Jan-2025 02:18:47 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[22-Jan-2025 02:18:47 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[22-Jan-2025 02:18:47 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[22-Jan-2025 02:18:47 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[22-Jan-2025 02:18:47 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[25-Jan-2025 01:53:37 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[25-Jan-2025 01:53:39 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[25-Jan-2025 01:53:39 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[25-Jan-2025 01:53:39 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[25-Jan-2025 01:53:39 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[25-Jan-2025 01:53:39 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[01-Feb-2025 03:35:52 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[01-Feb-2025 03:35:54 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[01-Feb-2025 03:35:54 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[01-Feb-2025 03:35:54 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[01-Feb-2025 03:35:54 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[01-Feb-2025 03:35:54 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[02-Feb-2025 02:22:44 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[02-Feb-2025 02:22:46 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[02-Feb-2025 02:22:46 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[02-Feb-2025 02:22:46 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[02-Feb-2025 02:22:46 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[02-Feb-2025 02:22:46 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[05-Feb-2025 01:57:58 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[05-Feb-2025 01:58:00 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[05-Feb-2025 01:58:00 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[05-Feb-2025 01:58:00 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[05-Feb-2025 01:58:00 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[05-Feb-2025 01:58:00 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[08-Feb-2025 10:09:00 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[08-Feb-2025 10:09:01 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[08-Feb-2025 10:09:01 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[08-Feb-2025 10:09:01 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[08-Feb-2025 10:09:01 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[08-Feb-2025 10:09:01 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[15-Feb-2025 17:02:28 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[15-Feb-2025 17:02:30 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[15-Feb-2025 17:02:30 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[15-Feb-2025 17:02:30 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[15-Feb-2025 17:02:30 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[15-Feb-2025 17:02:30 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[16-Feb-2025 08:48:14 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[16-Feb-2025 08:48:15 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[16-Feb-2025 08:48:15 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[16-Feb-2025 08:48:15 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[16-Feb-2025 08:48:15 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[16-Feb-2025 08:48:15 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[17-Feb-2025 01:17:50 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[17-Feb-2025 01:17:51 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[17-Feb-2025 01:17:51 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[17-Feb-2025 01:17:51 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[17-Feb-2025 01:17:51 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[17-Feb-2025 01:17:51 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[18-Feb-2025 03:41:50 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[18-Feb-2025 03:41:50 Europe/London] PHP Notice:  Undefined index: name in /home/frazzledcafe/public_html/send_email.php on line 8
+[18-Feb-2025 03:41:50 Europe/London] PHP Notice:  Undefined index: email in /home/frazzledcafe/public_html/send_email.php on line 9
+[18-Feb-2025 03:41:50 Europe/London] PHP Notice:  Undefined index: subject in /home/frazzledcafe/public_html/send_email.php on line 10
+[18-Feb-2025 03:41:50 Europe/London] PHP Notice:  Undefined index: captcha in /home/frazzledcafe/public_html/send_email.php on line 11
+[18-Feb-2025 03:41:50 Europe/London] PHP Notice:  Undefined index: message in /home/frazzledcafe/public_html/send_email.php on line 12
+[12-May-2026 02:10:03 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 10485760 bytes) in /home/frazzledcafe/public_html/wp-content/plugins/litespeed-cache/src/data.cls.php on line 578
+[12-May-2026 02:15:03 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 10485760 bytes) in /home/frazzledcafe/public_html/wp-content/plugins/litespeed-cache/src/data.cls.php on line 578
+[12-May-2026 02:20:03 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 10485760 bytes) in /home/frazzledcafe/public_html/wp-content/plugins/litespeed-cache/src/data.cls.php on line 578
+[12-May-2026 02:25:04 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 10485760 bytes) in /home/frazzledcafe/public_html/wp-content/plugins/litespeed-cache/src/data.cls.php on line 578
+[12-May-2026 02:30:04 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 10485760 bytes) in /home/frazzledcafe/public_html/wp-content/plugins/litespeed-cache/src/data.cls.php on line 578
